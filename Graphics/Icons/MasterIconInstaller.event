@@ -1,0 +1,14 @@
+// found in devvy's filebuild
+
+#ifndef SetIcon
+    #define SetIcon(ID) "ORG NewIconTable + ID * 128"
+#endif
+
+//#define ItemIconSlot(slot,path) "ORG 0x5926F4+(0x80*slot); #incext Png2Dmp path"
+#define ItemIconSlot(slot,path) "ORG NewIconTable+(0x80*slot); #incext Png2Dmp path"
+
+//#include "ExternalIconSheets/ExternalSheetInstaller.event"
+
+PUSH
+//ItemIconSlot(0x1,"png/SwiftSword_Beansy.png") // slim sword
+POP

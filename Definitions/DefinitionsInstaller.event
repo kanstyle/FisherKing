@@ -1,0 +1,8 @@
+#include TableEntryDefinitions.event
+#include GraphicsDefinitions.event
+#include ChapterDefinitions.event
+
+/*#include MacroDefinitions.event
+#include MusicDefinitions.event
+#include ExtraSkillDefinitions.event
+#include FlagDefinitions.event*/ //should include these probably

@@ -1,0 +1,5 @@
+## BombName
+Bomb[X]
+
+## BombDesc
+Standard bomb. Fixed attack power. Hits Res.[X]

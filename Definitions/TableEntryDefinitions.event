@@ -1,0 +1,32 @@
+// Mugs
+#define HeroMug 0x2
+#define FHeroMug 0x3
+#define TeacherMug 0x4
+#define PillowMug 0x5
+#define DragonMug 0x6
+#define YoungTeacherMug 0x7
+#define YoungHeroMug 0x8
+#define PrinceMug 0x9
+#define YoungPrinceMug 0xA
+#define BrotherMug 0xB
+#define PigeonMug 0xC
+#define StormMug 0xD
+#define OldPrinceMug 0xE
+#define SkullMug 0xF
+#define HunterMug 0x10
+
+// Items
+#define LowTalon PoisonSword
+#define LowClaw ToxinLance
+#define LowTusk BrightLance
+
+#define Bomb 0xC1
+#define LongFuse 0xC2
+#define HeavyBomb 0xC3
+#define StickyBomb 0xC4
+#define Firebomb 0xC5
+#define PowderShell 0xC6
+#define ClusterBomb 0xC7
+#define PowderKeg 0xC8
+#define RedHornet 0xC9
+#define GoldHornet 0xD0

@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\EngineHacks",
+    "\\EngineHacks\\ExternalHacks",
+    "\\EngineHacks\\ExternalHacks\\CustomCrits",
+    "\\EngineHacks\\ExternalHacks\\CustomCrits\\BattleProcCalcLoop",
+    "\\EngineHacks\\Necessary",
+    "\\EngineHacks\\Necessary\\CalcLoops",
+    "\\EngineHacks\\Necessary\\CalcLoops\\BattleProcCalcLoop",
+    "\\EngineHacks\\Necessary\\CalcLoops\\BattleProcCalcLoop\\ProcStart",
+    "\\Events"
+  ],
+  "SelectedNode": "\\EngineHacks\\Necessary\\CalcLoops\\BattleProcCalcLoop\\BattleProcCalcLoop.event",
+  "PreviewInSolutionExplorer": false
+}

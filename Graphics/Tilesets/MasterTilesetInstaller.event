@@ -1,0 +1,9 @@
+// This only covers palettes
+
+FlasubanFieldsPalette:
+#incext Png2Dmp "Flasuban_fields/Flasuban_Peer_Fields.png" --palette-only
+EventPointerTable(0x2,FlasubanFieldsPalette)
+
+RWVillagePalette:
+#incext Png2Dmp "FERDOP_Village/FERDOP_Village3_0E_EA_10_12_00.png" --palette-only
+EventPointerTable(0xEA,RWVillagePalette)

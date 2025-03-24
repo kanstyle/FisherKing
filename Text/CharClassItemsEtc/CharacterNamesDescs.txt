@@ -1,0 +1,23 @@
+## HeroName
+Hero[X]
+
+## HeroDesc
+Placeholder.[X]
+
+## TeacherName
+Teacher[X]
+
+## TeacherDesc
+Placeholder.[X]
+
+## DragonName
+Dragon.[X]
+
+## DragonDesc
+Placeholder.[X]
+
+## PillowName
+Pillow.[X]
+
+## PillowDesc
+Big pillows.[X]

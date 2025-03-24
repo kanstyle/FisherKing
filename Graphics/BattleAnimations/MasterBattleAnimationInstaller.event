@@ -1,0 +1,117 @@
+#ifndef ClassAnimTable
+  #define ClassAnimTable (0xc00008-0x20)
+#endif
+
+#define AnimTableEntry(index) "ORG ClassAnimTable + (index * 0x20)"
+
+#define SwordAnim(Animation) "BYTE Swords 0x01 ; SHORT Animation"
+#define SpearAnim(Animation) "BYTE Lances 0x01 ; SHORT Animation"
+#define AxeAnim(Animation) "BYTE Axes 0x01 ; SHORT Animation"
+//#define HandAxeAnim(Animation) "BYTE HandAxe 0x00 ; SHORT Animation ; BYTE Tomahawk 0x00 ; SHORT Animation"
+#define HandAxeAnim(Animation) "BYTE HandAxe 0x00 ; SHORT Animation ; BYTE Tomahawk 0x00 ; SHORT Animation ; BYTE Hatchet 0x00 ; SHORT Animation"
+#define BowAnim(Animation) "BYTE Bows 0x01 ; SHORT Animation"
+#define StaffAnim(Animation) "BYTE Staves 0x01 ; SHORT Animation"
+#define AnimaAnim(Animation) "BYTE Anima 0x01 ; SHORT Animation"
+#define LightAnim(Animation) "BYTE Light 0x01 ; SHORT Animation"
+#define DarkAnim(Animation) "BYTE Dark 0x01 ; SHORT Animation"
+#define UnarmedAnim(Animation) "BYTE Disarmed 0x01 ; SHORT Animation"
+#define SpecialAnim(Animation,Weapon) "BYTE Weapon 0x00 ; SHORT Animation"
+
+/*// Credit: Vyland
+#include "Animations/thomas_magic Installer.event"
+ALIGN 4
+ThomasAnim:
+DarkAnim(0xb5)
+UnarmedAnim(0xb5)
+WORD 0x0 // Seperator
+ALIGN 4
+// Credit: Nuramon
+#include "Animations/lord_lance.event"
+#include "Animations/lord_unarmed.event"
+
+// Credit: Alusq
+#include "Animations/soldier_lance Installer.event"
+#include "Animations/soldier_unarmed Installer.event"
+
+// Credit: Yangfly Master
+#include "Animations/cleric_staff Installer.event"
+#include "Animations/cleric_unarmed Installer.event"
+
+// Credit: Eldritch Abomination
+#include "Animations/thief_f_sword Installer.event"
+#include "Animations/thief_f_unarmed Installer.event"
+
+ThiefFAnim:
+SwordAnim(0xA2)
+UnarmedAnim(0xA4)
+WORD 0x0 // Seperator
+
+// Credit: Temp, Black Mage, Wan
+#include "Animations/rogue_f_sword Installer.event"
+#include "Animations/rogue_f_unarmed Installer.event"
+
+RogueFAnim:
+SwordAnim(0xA7)
+UnarmedAnim(0xA9)
+WORD 0x0 // Seperator
+
+// Credit: TBA, Orihara_Saki
+#include "Animations/knight_axe Installer.event"
+#include "Animations/knight_handaxe Installer.event"
+
+ArmorKnightAnim:
+AxeAnim(0xB3)
+HandAxeAnim(0xB4)
+UnarmedAnim(0x41)
+WORD 0x0 // Seperator
+
+// Credit: TBA
+#include "Animations/knight_sword Installer.event"
+
+SwordArmorKnightAnim:
+SwordAnim(0xA3)
+UnarmedAnim(0x41)
+WORD 0x0 // Seperator
+
+// Credit: Mikey Seregon, Alfred Kamon
+#include "Animations/wr_axe.event"
+#include "Animations/wr_handaxe.event"
+#include "Animations/wr_unarmed.event"
+
+WyvernRiderAnim:
+AxeAnim(0xAE)
+HandAxeAnim(0xAF)
+UnarmedAnim(0x59)
+WORD 0x0 // Seperator
+
+// Credit: TBA
+#include "Animations/wl_axe Installer.event"
+#include "Animations/wl_handaxe Installer.event"
+
+WyvernLordAnim:
+SpearAnim(0x60)
+AxeAnim(0xA5)
+HandAxeAnim(0xA6)
+UnarmedAnim(0x71)
+WORD 0x0 // Seperator
+
+// Credit: TBA
+#include "Animations/halb_lance Installer.event"
+#include "Animations/halb_unarmed Installer.event"
+
+HalbAnim:
+SpearAnim(0x96)
+UnarmedAnim(0x97)
+WORD 0x0 // Seperator
+
+// Credit: TyTheBub
+//#include "Animations/arcanist_magic Installer.event"
+
+// Credit: L95, Shtick, repalette by Rexacuse
+#include "Animations/arcanist_magic2 Installer.event"
+
+ArcanistAnim:
+AnimaAnim(0x95)
+UnarmedAnim(0x95)
+WORD 0x0 // Seperator
+*/

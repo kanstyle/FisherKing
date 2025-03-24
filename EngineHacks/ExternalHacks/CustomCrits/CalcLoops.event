@@ -1,0 +1,47 @@
+#define ValueToCrit 50 //if crit is equal or greater than this number, crit happens
+
+#include "EXPCalcLoop/EXPCalcLoop.event"
+
+#include "MugLoadingCalcLoop/MugLoadingCalcLoop.event"
+
+#include "PostActionCalcLoop/PostActionCalcLoop.event"
+
+#include "PostBattleCalcLoop/PostBattleCalcLoop.event"
+
+#include "PreBattleCalcLoop/PreBattleCalcLoop.event"
+
+#include "WeaponUsabilityCalcLoop/WeaponUsabilityCalcLoop.event"
+
+#include "WTACalcLoop/WTACalcLoop.event"
+
+#include "BattleProcCalcLoop/BattleProcCalcLoop.event"
+
+#include "CanUnitDoubleCalcLoop/CanUnitDoubleCalcLoop.event"
+
+#include "SkillActivationChanceCalcLoop/SkillActivationChanceCalcLoop.event"
+
+#include "HPRestorationCalcLoop/HPRestorationCalcLoop.event"
+
+
+ALIGN 4
+CustomCritBonuses:
+#incbin "CustomCritBonuses.dmp"
+ALIGN 4
+WORD ValueToCrit
+
+PUSH
+	ORG 0x3692C
+	jumpToHack(ChangeColorIfFoeCanCrit)
+	ORG 0x369E0
+	jumpToHack(ChangeColorIfPlayerCanCrit)
+POP
+
+ChangeColorIfFoeCanCrit:
+#incbin "ChangeColorIfFoeCanCrit.dmp"
+ALIGN 4
+WORD ValueToCrit
+
+ChangeColorIfPlayerCanCrit:
+#incbin "ChangeColorIfPlayerCanCrit.dmp"
+ALIGN 4
+WORD ValueToCrit

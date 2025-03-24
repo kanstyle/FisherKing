@@ -1,0 +1,7 @@
+#include "256color_title_bg/titlebackgroundinstaller.event" // Leonarth
+
+PUSH
+ORG $AACEDC
+//#incext Png2Dmp "Subtitle2.png" --lz77
+POP
+

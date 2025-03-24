@@ -1,0 +1,39 @@
+
+#define ClassCard NextLocation
+#define setCardEntry(cardEntry,cardLocation,cardPaletteLocation) "PUSH; ORG PortraitTable+cardEntry*0x1C; POIN 0 0 cardPaletteLocation 0 cardLocation; POP"
+
+KnightPortrait:
+#incext Png2Dmp "Cards/axe_knight_der_epicer2.png" --lz77
+KnightPortraitPalette:
+#incext Png2Dmp "Cards/axe_knight_der_epicer2.png" --palette-only
+
+SwordKnightPortrait:
+#incext Png2Dmp "Cards/sword_knight_der_epicer.png" --lz77
+SwordPortraitPalette:
+#incext Png2Dmp "Cards/sword_knight_der_epicer.png" --palette-only
+
+#define KnightCard 0x76
+setCardEntry(KnightCard,KnightPortrait,KnightPortraitPalette)
+
+#define SwordKnightCard 0x99
+setCardEntry(SwordKnightCard,SwordKnightPortrait,SwordPortraitPalette)
+
+BallistaPortrait:
+#incext Png2Dmp "Cards/ballistician_arch.png" --lz77
+BallistaPortraitPalette:
+#incext Png2Dmp "Cards/ballistician_arch.png" --palette-only
+
+//#define BallistaCard 0x92
+#define BallistaCard 0x9b
+setCardEntry(BallistaCard,BallistaPortrait,BallistaPortraitPalette)
+
+HalbPortrait:
+#incext Png2Dmp "Cards/halberdier_tba.png" --lz77
+HalbPortraitPalette:
+#incext Png2Dmp "Cards/halberdier_tba.png" --palette-only
+
+//#define HalbCard 0x9b
+#define HalbCard 0x9c
+setCardEntry(HalbCard,HalbPortrait,HalbPortraitPalette)
+
+

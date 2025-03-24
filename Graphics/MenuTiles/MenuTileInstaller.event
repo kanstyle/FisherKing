@@ -1,0 +1,14 @@
+// Copied from JP Hack (Pikmin1211)
+
+ALIGN 4
+MenuTiles:
+#incext Png2Dmp "MenuTiles.png" --lz77
+
+PUSH
+ORG 0x5B6470
+// For each color style
+POIN MenuTiles
+POIN MenuTiles
+POIN MenuTiles
+POIN MenuTiles
+POP

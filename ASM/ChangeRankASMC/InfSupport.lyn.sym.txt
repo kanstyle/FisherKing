@@ -1,0 +1,7 @@
+SkillIcons=$B600F8
+ASMC_Draw=$B41200
+MagCharTable=$B2A740
+MagClassTable=$B2A940
+CanUnitSupportNow=$B9F37D
+sub_80A0F6C=$B9F3F9
+DisplaySupportList=$B9F499
