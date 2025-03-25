@@ -1,0 +1,23 @@
+## UpstartMName
+Upstart[X]
+
+## UpstartMDesc
+Placeholder.[X]
+
+## UpstartFName
+Upstart[X]
+
+## UpstartFDesc
+Placeholder.[X]
+
+## LowVoiceName
+Low-Voice[X]
+
+## LowVoiceDesc
+Placeholder.[X]
+
+## HeadsmanName
+Headsman[X]
+
+## HeadsmanDesc
+Placeholder.[X]

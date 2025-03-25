@@ -15,6 +15,12 @@
 #define SkullMug 0xF
 #define HunterMug 0x10
 
+// Classes
+#define UpstartM EirikaLord
+#define UpstartF EphraimLord
+#define LowVoice Knight_F
+#define Headsman General_F
+
 // Items
 #define LowTalon PoisonSword
 #define LowClaw ToxinLance

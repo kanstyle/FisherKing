@@ -16,6 +16,8 @@ Learned  [X]
 
 #include "CharClassItemsEtc/CharacterNamesDescs.txt"
 
+#include "CharClassItemsEtc/ClassNamesDescs.txt"
+
 #include "CharClassItemsEtc/ItemNamesDescs.txt"
 
 #0xd4c LikesText
