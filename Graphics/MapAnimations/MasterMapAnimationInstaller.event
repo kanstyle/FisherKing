@@ -27,6 +27,8 @@ MovingMapSprite(WyvernRider, 0x81D403C, WyvernMv)
 StandingMapSprite(0x41, MapSprite16x32, BallistaSt)
 MovingMapSprite(Fleet, 0x81EEC84, BallistaMv)
 */
+
+
 StandingMapSprite(0x46, MapSprite16x32, BallistaSt)
 MovingMapSprite(Ballistician, 0x81F1A54, BallistaMv)
 
@@ -41,7 +43,7 @@ MovingMapSprite(Druid_F, 0x81E2088, DruidFMv)
 
 StandingMapSprite(0x4B, MapSprite16x16, ArcanistSt)
 MovingMapSprite(Arcanist, 0x81E2088, ArcanistMv)
-
+/*
 // FE6
 ALIGN 4
 ThiefFSt:
