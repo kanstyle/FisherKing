@@ -8,9 +8,10 @@
     "\\EngineHacks\\Necessary",
     "\\EngineHacks\\Necessary\\CalcLoops",
     "\\EngineHacks\\Necessary\\CalcLoops\\BattleProcCalcLoop",
+    "\\EngineHacks\\Necessary\\CalcLoops\\BattleProcCalcLoop\\ProcLoop",
     "\\EngineHacks\\Necessary\\CalcLoops\\BattleProcCalcLoop\\ProcStart",
     "\\Events"
   ],
-  "SelectedNode": "\\EngineHacks\\Necessary\\CalcLoops\\BattleProcCalcLoop\\BattleProcCalcLoop.event",
+  "SelectedNode": "\\EngineHacks\\Necessary\\CalcLoops\\BattleProcCalcLoop\\ProcStart\\proc_start.s",
   "PreviewInSolutionExplorer": false
 }

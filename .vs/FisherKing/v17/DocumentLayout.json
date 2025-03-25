@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\FisherKing\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\FisherKing\\EngineHacks\\Necessary\\CalcLoops\\CalcLoops.event||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EngineHacks\\Necessary\\CalcLoops\\CalcLoops.event||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\FisherKing\\EngineHacks\\Necessary\\CalcLoops\\BattleProcCalcLoop\\ProcStart\\proc_start.s||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EngineHacks\\Necessary\\CalcLoops\\BattleProcCalcLoop\\ProcStart\\proc_start.s||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\FisherKing\\EngineHacks\\Necessary\\CalcLoops\\BattleProcCalcLoop\\BattleProcCalcLoop.event||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EngineHacks\\Necessary\\CalcLoops\\BattleProcCalcLoop\\BattleProcCalcLoop.event||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\FisherKing\\EngineHacks\\Necessary\\CalcLoops\\BattleProcCalcLoop\\ProcStart\\proc_start.s||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EngineHacks\\Necessary\\CalcLoops\\BattleProcCalcLoop\\ProcStart\\proc_start.s||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\FisherKing\\EngineHacks\\ExternalHacks\\CustomCrits\\BattleProcCalcLoop\\BattleProcCalcLoop.event||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EngineHacks\\ExternalHacks\\CustomCrits\\BattleProcCalcLoop\\BattleProcCalcLoop.event||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\FisherKing\\MAKE_HACK_full.cmd||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MAKE_HACK_full.cmd||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\FisherKing\\EngineHacks\\Necessary\\CalcLoops\\CalcLoops.event||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EngineHacks\\Necessary\\CalcLoops\\CalcLoops.event||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +30,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BattleProcCalcLoop.event",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FisherKing\\EngineHacks\\ExternalHacks\\CustomCrits\\BattleProcCalcLoop\\BattleProcCalcLoop.event",
+              "RelativeDocumentMoniker": "EngineHacks\\ExternalHacks\\CustomCrits\\BattleProcCalcLoop\\BattleProcCalcLoop.event",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FisherKing\\EngineHacks\\ExternalHacks\\CustomCrits\\BattleProcCalcLoop\\BattleProcCalcLoop.event",
+              "RelativeToolTip": "EngineHacks\\ExternalHacks\\CustomCrits\\BattleProcCalcLoop\\BattleProcCalcLoop.event",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-25T03:11:12.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MAKE_HACK_full.cmd",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\FisherKing\\MAKE_HACK_full.cmd",
+              "RelativeDocumentMoniker": "MAKE_HACK_full.cmd",
+              "ToolTip": "C:\\Users\\user\\Desktop\\FisherKing\\MAKE_HACK_full.cmd",
+              "RelativeToolTip": "MAKE_HACK_full.cmd",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFjSURBVDhPY6AI/P//n7G1s\u002Bc/lEsWYILSRANbaysUmgHkgl\u002B/fpGFQXqxuuDkyZMMEydOBNOEAIYBixYvZhARl2QIiohi4BeTYJg\u002BcxZUBjtAMeDSpUsM1rb2DEoKcgwnDx9kUFOQZ7BxcQeL4wIoBuzfv5\u002BBjZOTYe2aNQyRkZEM69auYWBjY2VYv3UHw4otuxl2HzzK8OPHD6hqCEAxwNHRkeHrt28MQcEhDMuXL2cIANLP33xgUPdNYdB3dGN4JajGcPrSVahqCEAxQE9Pj\u002BHE4UMMV\u002B89ZNC1tGW4dOcBw7kzZxn0lYQZLj/5zGCoLMrw9NU7qGoIwAjEhLhYhm9vXjDsWLOC4fe7lwxm\u002BloMl\u002B69ZdCV4WW4cO8Ng4meNlQlBLBAaRRgbm4OxiAA8vOPU2cZLj34xqCnpswgIyYFFocBDBegAw4ODgYXO2uGcB9XBh01JTAfGVCcFwYaMDAAABi9qE6NKlarAAAAAElFTkSuQmCC",
+              "WhenOpened": "2025-03-24T23:15:07.896Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -32,33 +66,33 @@
               "RelativeDocumentMoniker": "EngineHacks\\Necessary\\CalcLoops\\BattleProcCalcLoop\\BattleProcCalcLoop.event",
               "ToolTip": "C:\\Users\\user\\Desktop\\FisherKing\\EngineHacks\\Necessary\\CalcLoops\\BattleProcCalcLoop\\BattleProcCalcLoop.event",
               "RelativeToolTip": "EngineHacks\\Necessary\\CalcLoops\\BattleProcCalcLoop\\BattleProcCalcLoop.event",
-              "ViewState": "AQIAAFcAAAAAAAAAAAAAAHAAAAAQAAAA",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAAAHAAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-03-24T23:03:46.533Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "proc_start.s",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\FisherKing\\EngineHacks\\Necessary\\CalcLoops\\BattleProcCalcLoop\\ProcStart\\proc_start.s",
               "RelativeDocumentMoniker": "EngineHacks\\Necessary\\CalcLoops\\BattleProcCalcLoop\\ProcStart\\proc_start.s",
               "ToolTip": "C:\\Users\\user\\Desktop\\FisherKing\\EngineHacks\\Necessary\\CalcLoops\\BattleProcCalcLoop\\ProcStart\\proc_start.s",
               "RelativeToolTip": "EngineHacks\\Necessary\\CalcLoops\\BattleProcCalcLoop\\ProcStart\\proc_start.s",
-              "ViewState": "AQIAAIkAAAAAAAAAAAAmwKwAAAAAAAAA",
+              "ViewState": "AQIAAJoAAAAAAAAAAAAswLAAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-03-24T23:00:44.83Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "CalcLoops.event",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\FisherKing\\EngineHacks\\Necessary\\CalcLoops\\CalcLoops.event",
               "RelativeDocumentMoniker": "EngineHacks\\Necessary\\CalcLoops\\CalcLoops.event",
               "ToolTip": "C:\\Users\\user\\Desktop\\FisherKing\\EngineHacks\\Necessary\\CalcLoops\\CalcLoops.event",
               "RelativeToolTip": "EngineHacks\\Necessary\\CalcLoops\\CalcLoops.event",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAmwDAAAAAQAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAmwDEAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-03-24T22:58:29.913Z",
               "EditorCaption": ""

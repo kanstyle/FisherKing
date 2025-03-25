@@ -6,14 +6,14 @@
  .short 0xf800
 .endm
 
-.set AdjacencyBonus, 			10//bonus per EACH adjacent ally
+.set AdjacencyBonus, 			20//bonus per EACH adjacent ally
 
-.set InitiatorBonus,			10//bonus if unit's allegiance matches their phase (player unit attacks in player phase for example)
+.set InitiatorBonus,			0//bonus if unit's allegiance matches their phase (player unit attacks in player phase for example)
 .set DoOnlyPlayersGetInitator, 	0//If 0 everyone can get it, if 1, only players
 
-.set TriangleBonus,				10//bonus if unit is at wpn triangle advantage
+.set TriangleBonus,				15//bonus if unit is at wpn triangle advantage
 
-.set DoublingBonus,     		10//bonus if unit can double enemy
+.set DoublingBonus,     		0//bonus if unit can double enemy
 
 .set AttackerBattleStruct,	0x0203A4EC
 .set DefenderBattleStruct,	0x0203A56C

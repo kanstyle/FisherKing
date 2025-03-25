@@ -1,3 +1,4 @@
+#define ValueToCrit 50 //if crit is equal or greater than this number, crit happens
 
 #include "EXPCalcLoop/EXPCalcLoop.event"
 

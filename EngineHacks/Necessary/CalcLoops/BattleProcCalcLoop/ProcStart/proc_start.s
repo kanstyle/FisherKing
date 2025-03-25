@@ -173,6 +173,8 @@ b   	End
 
 
 @now to check for a crit
+@if crit:
+Crit:
 ldrh r0, [r7, #0xc] @crit rate
 mov r1, #0
 blh d100Result
@@ -210,6 +212,55 @@ str     r0,[r6]                @ 0802B43A 6018
 End:
 pop {r4-r7}
 pop {r15}
+
+IsThisFirstCrit:
+push	{r4-r7,r14}
+//r4 has current unit we are checking crits for
+//we check if the attacker landed any hits or crits at all
+ldr     r0,=#0x0203AAC0
+CheckerLoop:
+ldr     r1,[r0]
+cmp     r1,#0x00
+beq     EndPositive//if this happens, we reached the end without a crit
+ldrb    r1,[r0,#0x02]
+mov     r2,#0x40
+ldr     r3,=#0x0203A4EC
+and     r1,r2
+cmp     r3,r4
+beq     CheckingForAttacker
+b       CheckingForDefender
+CheckingForAttacker:
+cmp     r1,#0x40
+beq     LoopSetup//0x40 bit being on means this is a defender attack
+b       ProceedToCrit
+
+CheckingForDefender:
+cmp     r1,#0x40
+beq     ProceedToCrit//0x40 bit being on means this is a defender attack
+b       LoopSetup
+
+ProceedToCrit:
+ldrb    r1,[r0]
+mov     r2,#0x01
+and     r1,r2
+cmp     r1,r2
+beq     EndNegative//We already have a crit!
+b       LoopSetup//We dont have a crit, but we arent over yet
+
+LoopSetup:
+add     r0,#0x08
+b       CheckerLoop
+
+EndNegative:
+mov     r0,#0x00
+b       EndFirstStrikeCheck
+EndPositive:
+mov     r0,#0x01
+
+EndFirstStrikeCheck:
+pop		{r4-r7}
+pop		{r1}
+bx      r1
 
 @.equ ExpertiseID, SkillTester+4
 @.ltorg
