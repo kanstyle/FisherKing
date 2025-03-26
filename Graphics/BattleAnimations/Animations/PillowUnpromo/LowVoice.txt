@@ -1,0 +1,306 @@
+#######################################################
+#CC pillow Sniper Ballista
+#
+#When importing to FEditorAdv delete # and after each line.
+#######################################################
+/// - Mode 1               #Melee Animation
+C03                               #Start attack animation; need 07 right after this.
+C07                               #Start attack animation; need 03 right before this.
+5 p- LowVoice_000.png
+5 p- LowVoice_001.png
+5 p- LowVoice_002.png
+5 p- LowVoice_003.png
+5 p- LowVoice_004.png
+5 p- LowVoice_005.png
+5 p- LowVoice_006.png
+3 p- LowVoice_007.png
+3 p- LowVoice_008.png
+3 p- LowVoice_009.png
+3 p- LowVoice_010.png
+4 p- LowVoice_011.png
+5 p- LowVoice_012.png
+4 p- LowVoice_013.png
+4 p- LowVoice_014.png
+3 p- LowVoice_015.png
+4 p- LowVoice_016.png
+5 p- LowVoice_017.png
+5 p- LowVoice_018.png
+5 p- LowVoice_019.png
+5 p- LowVoice_020.png
+6 p- LowVoice_021.png
+8 p- LowVoice_022.png
+4 p- LowVoice_023.png
+4 p- LowVoice_024.png
+4 p- LowVoice_025.png
+C05                               #Call spell associated with equipped weapon
+L                                 #LOOPSTART {
+3 p- LowVoice_007.png
+3 p- LowVoice_007.png
+3 p- LowVoice_007.png
+C01                               #LOOPEND }  NOP
+5 p- LowVoice_006.png
+5 p- LowVoice_005.png
+5 p- LowVoice_004.png
+5 p- LowVoice_003.png
+5 p- LowVoice_002.png
+5 p- LowVoice_001.png
+C06                               #Begin opponent's turn after hit.next code 0D.
+5 p- LowVoice_000.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 3               #Melee Critical Animation
+C03                               #Start attack animation; need 07 right after this.
+C07                               #Start attack animation; need 03 right before this.
+5 p- LowVoice_000.png
+5 p- LowVoice_001.png
+5 p- LowVoice_002.png
+5 p- LowVoice_003.png
+5 p- LowVoice_004.png
+5 p- LowVoice_005.png
+5 p- LowVoice_006.png
+3 p- LowVoice_007.png
+5 p- LowVoice_026.png
+5 p- LowVoice_027.png
+5 p- LowVoice_028.png
+5 p- LowVoice_029.png
+5 p- LowVoice_030.png
+5 p- LowVoice_031.png
+4 p- LowVoice_032.png
+4 p- LowVoice_033.png
+5 p- LowVoice_034.png
+5 p- LowVoice_035.png
+5 p- LowVoice_036.png
+5 p- LowVoice_037.png
+5 p- LowVoice_038.png
+5 p- LowVoice_039.png
+5 p- LowVoice_040.png
+5 p- LowVoice_041.png
+5 p- LowVoice_042.png
+4 p- LowVoice_043.png
+4 p- LowVoice_044.png
+5 p- LowVoice_045.png
+5 p- LowVoice_046.png
+5 p- LowVoice_047.png
+5 p- LowVoice_048.png
+5 p- LowVoice_049.png
+5 p- LowVoice_050.png
+5 p- LowVoice_051.png
+5 p- LowVoice_052.png
+5 p- LowVoice_053.png
+4 p- LowVoice_054.png
+4 p- LowVoice_055.png
+3 p- LowVoice_056.png
+3 p- LowVoice_057.png
+2 p- LowVoice_058.png
+C05                               #Call spell associated with equipped weapon
+L                                 #LOOPSTART {
+5 p- LowVoice_059.png
+5 p- LowVoice_060.png
+5 p- LowVoice_061.png
+5 p- LowVoice_062.png
+C01                               #LOOPEND }  NOP
+5 p- LowVoice_063.png
+4 p- LowVoice_064.png
+3 p- LowVoice_065.png
+5 p- LowVoice_007.png
+5 p- LowVoice_006.png
+5 p- LowVoice_005.png
+5 p- LowVoice_004.png
+5 p- LowVoice_003.png
+5 p- LowVoice_002.png
+5 p- LowVoice_001.png
+C06                               #Begin opponent's turn after hit.next code 0D.
+5 p- LowVoice_000.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 5               #Ranged Animation 
+C03                               #Start attack animation; need 07 right after this.
+C07                               #Start attack animation; need 03 right before this.
+5 p- LowVoice_000.png
+5 p- LowVoice_001.png
+5 p- LowVoice_002.png
+5 p- LowVoice_003.png
+5 p- LowVoice_004.png
+5 p- LowVoice_005.png
+5 p- LowVoice_006.png
+3 p- LowVoice_007.png
+3 p- LowVoice_008.png
+3 p- LowVoice_009.png
+3 p- LowVoice_010.png
+4 p- LowVoice_011.png
+5 p- LowVoice_012.png
+4 p- LowVoice_013.png
+4 p- LowVoice_014.png
+3 p- LowVoice_015.png
+4 p- LowVoice_016.png
+5 p- LowVoice_017.png
+5 p- LowVoice_018.png
+5 p- LowVoice_019.png
+5 p- LowVoice_020.png
+6 p- LowVoice_021.png
+8 p- LowVoice_022.png
+4 p- LowVoice_023.png
+4 p- LowVoice_024.png
+4 p- LowVoice_025.png
+C05                               #Call spell associated with equipped weapon
+L                                 #LOOPSTART {
+3 p- LowVoice_007.png
+3 p- LowVoice_007.png
+3 p- LowVoice_007.png
+C01                               #LOOPEND }  NOP
+5 p- LowVoice_006.png
+5 p- LowVoice_005.png
+5 p- LowVoice_004.png
+5 p- LowVoice_003.png
+5 p- LowVoice_002.png
+5 p- LowVoice_001.png
+C06                               #Begin opponent's turn after hit.next code 0D.
+5 p- LowVoice_000.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 6               #Ranged Critical Animation
+C03                               #Start attack animation; need 07 right after this.
+C07                               #Start attack animation; need 03 right before this.
+5 p- LowVoice_000.png
+5 p- LowVoice_001.png
+5 p- LowVoice_002.png
+5 p- LowVoice_003.png
+5 p- LowVoice_004.png
+5 p- LowVoice_005.png
+5 p- LowVoice_006.png
+3 p- LowVoice_007.png
+5 p- LowVoice_026.png
+5 p- LowVoice_027.png
+5 p- LowVoice_028.png
+5 p- LowVoice_029.png
+5 p- LowVoice_030.png
+5 p- LowVoice_031.png
+4 p- LowVoice_032.png
+4 p- LowVoice_033.png
+5 p- LowVoice_034.png
+5 p- LowVoice_035.png
+5 p- LowVoice_036.png
+5 p- LowVoice_037.png
+5 p- LowVoice_038.png
+5 p- LowVoice_039.png
+5 p- LowVoice_040.png
+5 p- LowVoice_041.png
+5 p- LowVoice_042.png
+4 p- LowVoice_043.png
+4 p- LowVoice_044.png
+5 p- LowVoice_045.png
+5 p- LowVoice_046.png
+5 p- LowVoice_047.png
+5 p- LowVoice_048.png
+5 p- LowVoice_049.png
+5 p- LowVoice_050.png
+5 p- LowVoice_051.png
+5 p- LowVoice_052.png
+5 p- LowVoice_053.png
+4 p- LowVoice_054.png
+4 p- LowVoice_055.png
+3 p- LowVoice_056.png
+3 p- LowVoice_057.png
+2 p- LowVoice_058.png
+C05                               #Call spell associated with equipped weapon
+L                                 #LOOPSTART {
+5 p- LowVoice_059.png
+5 p- LowVoice_060.png
+5 p- LowVoice_061.png
+5 p- LowVoice_062.png
+C01                               #LOOPEND }  NOP
+5 p- LowVoice_063.png
+4 p- LowVoice_064.png
+3 p- LowVoice_065.png
+5 p- LowVoice_007.png
+5 p- LowVoice_006.png
+5 p- LowVoice_005.png
+5 p- LowVoice_004.png
+5 p- LowVoice_003.png
+5 p- LowVoice_002.png
+5 p- LowVoice_001.png
+C06                               #Begin opponent's turn after hit.next code 0D.
+5 p- LowVoice_000.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 7               #Dodge Melee Attack
+C02                               #Start of dodge
+1 p- LowVoice_000.png
+C0E                               #Start of dodging frames (should go after standing frame and before dodging animation)
+3 p- LowVoice_066.png
+1 p- LowVoice_067.png
+C01                               #NOP
+3 p- LowVoice_066.png
+1 p- LowVoice_000.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 8               #Dodge Ranged Attack
+C02                               #Start of dodge
+1 p- LowVoice_000.png
+C0E                               #Start of dodging frames (should go after standing frame and before dodging animation)
+3 p- LowVoice_066.png
+1 p- LowVoice_067.png
+C01                               #NOP
+3 p- LowVoice_066.png
+1 p- LowVoice_000.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 9               #Equiped with Melee Weapon
+1 p- LowVoice_000.png
+C01                               #NOP
+~~~
+/// - Mode 10               #Standing motions
+1 p- LowVoice_000.png
+C01                               #NOP
+~~~
+/// - Mode 11               #Equiped with Ranged weapon
+1 p- LowVoice_000.png
+C01                               #NOP
+~~~
+/// - Mode 12               #Attack Missed Animation
+C03                               #Start attack animation; need 07 right after this.
+C07                               #Start attack animation; need 03 right before this.
+5 p- LowVoice_000.png
+5 p- LowVoice_001.png
+5 p- LowVoice_002.png
+5 p- LowVoice_003.png
+5 p- LowVoice_004.png
+5 p- LowVoice_005.png
+5 p- LowVoice_006.png
+3 p- LowVoice_007.png
+3 p- LowVoice_008.png
+3 p- LowVoice_009.png
+3 p- LowVoice_010.png
+4 p- LowVoice_011.png
+5 p- LowVoice_012.png
+4 p- LowVoice_013.png
+4 p- LowVoice_014.png
+3 p- LowVoice_015.png
+4 p- LowVoice_016.png
+5 p- LowVoice_017.png
+5 p- LowVoice_018.png
+5 p- LowVoice_019.png
+5 p- LowVoice_020.png
+6 p- LowVoice_021.png
+8 p- LowVoice_022.png
+4 p- LowVoice_023.png
+4 p- LowVoice_024.png
+4 p- LowVoice_025.png
+5 p- LowVoice_006.png
+C05                               #Call spell associated with equipped weapon
+L                                 #LOOPSTART {
+2 p- LowVoice_006.png
+2 p- LowVoice_006.png
+2 p- LowVoice_006.png
+C01                               #LOOPEND }  NOP
+5 p- LowVoice_006.png
+5 p- LowVoice_005.png
+5 p- LowVoice_004.png
+5 p- LowVoice_003.png
+5 p- LowVoice_002.png
+5 p- LowVoice_001.png
+C06                               #Begin opponent's turn after hit.next code 0D.
+5 p- LowVoice_000.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - End of animation

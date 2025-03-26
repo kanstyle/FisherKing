@@ -17,6 +17,13 @@
 #define UnarmedAnim(Animation) "BYTE Disarmed 0x01 ; SHORT Animation"
 #define SpecialAnim(Animation,Weapon) "BYTE Weapon 0x00 ; SHORT Animation"
 
+#include "Animations/PillowUnpromo/LowVoice Installer.event"
+ALIGN 4
+LowVoiceAnim:
+DarkAnim(0xCC)
+UnarmedAnim(0xCC)
+WORD 0x0 // Seperator
+
 /*// Credit: Vyland
 #include "Animations/thomas_magic Installer.event"
 ALIGN 4

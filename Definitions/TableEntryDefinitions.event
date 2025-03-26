@@ -15,9 +15,15 @@
 #define SkullMug 0xF
 #define HunterMug 0x10
 
+// Characters
+#define HeroChar 0x1
+#define Teacher 0x2
+#define Pillow 0x3
+#define Dragon 0x4
+
 // Classes
-#define UpstartM EirikaLord
-#define UpstartF EphraimLord
+#define UpstartF EirikaLord
+#define UpstartM EphraimLord
 #define LowVoice Knight_F
 #define Headsman General_F
 

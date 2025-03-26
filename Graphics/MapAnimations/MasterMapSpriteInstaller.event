@@ -1,8 +1,10 @@
 #define StandingMapSpriteTable 0x8AF880
 #define MovingMapSpriteTable 0x9A2E00 
 
+#include "Map_Sprite_Installer.event"
+
 #define StandingMapSprite(aId, size, gfxPointer) "PUSH; ORG StandingMapSpriteTable + (aId * 8); SHORT 0 size; POIN gfxPointer; POP"
-#define MovingMapSprite(aId, apPointer, gfxPointer) "PUSH; ORG NewMovingMapSpriteTable + ((aId - 1) * 8); POIN gfxPointer apPointer; POP"
+#define MovingMapSprite(aId, apPointer, gfxPointer) "PUSH; ORG MovingMapSpriteTable + ((aId - 1) * 8); POIN gfxPointer apPointer; POP"
 
 #define MapSprite16x16 0
 #define MapSprite16x32 1
@@ -14,7 +16,19 @@ BYTE 0x13 0x4F 0xA5 0x14 0x8D 0x53 0xF2 0x63 0xC1 0x21 0xE6 0x3A 0xE6 0x3A 0xAA 
 POP
 
 StandingMapSprite(0x0,0,UpstartMStanding)
-MovingMapSprite(0x1,0x81E582C,UpstartMMoving)
+MovingMapSprite(0x1,NormalAP,UpstartMMoving)
+
+StandingMapSprite(0x1,0,UpstartFStanding)
+MovingMapSprite(0x2,NormalAP,UpstartFMoving)
+
+StandingMapSprite(0x70,0,LowVoiceStanding)
+MovingMapSprite(0xA,NormalAP,LowVoiceMoving)
+
+StandingMapSprite(0x71,1,HeadsmanStanding)
+MovingMapSprite(0xC,NormalAP,HeadsmanMoving)
+
+StandingMapSprite(0x72,1,SkyRatStanding)
+MovingMapSprite(0x80,NormalAP,SkyRatMoving)
 
 /*
 StandingMapSprite(0x0,0,BluEliwoodStanding)

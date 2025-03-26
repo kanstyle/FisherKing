@@ -2,9 +2,9 @@
 #include "Icons/MasterIconInstaller.event"
 #include "ClassCards/MasterClassCardInstaller.event"
 #include "BattleAnimations/MasterBattleAnimationInstaller.event"
-#include "MapAnimations/MasterMapAnimationInstaller.event"
+#include "MapAnimations/MasterMapSpriteInstaller.event"
 #include "TitleScreen/MasterTitleScreenInstaller.event"
 #include "Palettes/Palette Setup.event" // Teraspark pal2ea
 #include "Tilesets/MasterTilesetInstaller.event"
 #include "Statscreen/StatscreenInstaller.event"
-#include "MenuTiles/MenuTileInstaller.event"
+#include "Menu Tiles/Installer.event"

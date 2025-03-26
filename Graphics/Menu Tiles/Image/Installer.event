@@ -1,36 +1,36 @@
 ALIGN 4
-BobMenuTiles:
-#incbin "Dmp/BobMenuTiles.dmp"
+MenuTiles:
+#incbin "Dmp/MenuTiles.dmp"
 
 ALIGN 4
-BobMenuTilesPalette:
-#incbin "Dmp/BobMenuTiles.png_pal.dmp"
+MenuTilesPalette:
+#incbin "Dmp/MenuTiles.png_pal.dmp"
 
 ALIGN 4
-BobAnimsOffTiles:
-#incbin "Dmp/BobAnimsOffTiles.dmp"
-#define New_Battle_Anims_Off_Graphics BobAnimsOffTiles
+AnimsOffTiles:
+#incbin "Dmp/AnimsOffTiles.dmp"
+#define New_Battle_Anims_Off_Graphics := AnimsOffTiles
 
 ALIGN 4
 BobPrepMenuItemsUnitHeader:
 #incbin "Dmp/PrepMenuItemsUnitHeader.dmp"
 
 
-#define BobMenuTilesPaletteBlue  BobMenuTilesPalette
-#define BobMenuTilesPaletteRed   BobMenuTilesPalette + 0x20
-#define BobMenuTilesPaletteGreen BobMenuTilesPalette + 0x40
-#define BobMenuTilesPaletteGray  BobMenuTilesPalette + 0x60
+#define MenuTilesPaletteBlue  MenuTilesPalette
+#define MenuTilesPaletteRed   MenuTilesPalette + 0x20
+#define MenuTilesPaletteGreen MenuTilesPalette + 0x40
+#define MenuTilesPaletteGray  MenuTilesPalette + 0x60
 
 PUSH
 
 /*
 ORG 0x5B6C34
-#incbin "Image/Dmp/BobMenuTiles.png_pal.dmp"
+#incbin "Image/Dmp/MenuTiles.png_pal.dmp"
 */
 
 // Dark Palette
 ORG 0xCEF08
-POIN BobMenuTilesPalette
+POIN MenuTilesPalette
 
 //SupportMenu
 ORG 0xA1DD0C
@@ -38,55 +38,55 @@ ORG 0xA1DD0C
 
 ORG 0x5B6450
 // Palletes
-POIN BobMenuTilesPaletteBlue
-POIN BobMenuTilesPaletteRed
-POIN BobMenuTilesPaletteGreen
-POIN BobMenuTilesPaletteGray
+POIN MenuTilesPaletteBlue
+POIN MenuTilesPaletteRed
+POIN MenuTilesPaletteGreen
+POIN MenuTilesPaletteGray
 
 // For the stat screen
-POIN BobMenuTiles
-POIN BobMenuTiles
-POIN BobMenuTiles
-POIN BobMenuTiles
+POIN MenuTiles
+POIN MenuTiles
+POIN MenuTiles
+POIN MenuTiles
 
 // For each color style
-POIN BobMenuTiles
-POIN BobMenuTiles
-POIN BobMenuTiles
-POIN BobMenuTiles
+POIN MenuTiles
+POIN MenuTiles
+POIN MenuTiles
+POIN MenuTiles
 
 // For the Minimug Box
 ORG 0x8C2EC
-POIN BobMenuTilesPaletteBlue
+POIN MenuTilesPaletteBlue
 ORG 0x8C2F4
-POIN BobMenuTilesPaletteRed
+POIN MenuTilesPaletteRed
 ORG 0x8C2FC
-POIN BobMenuTilesPaletteGreen
+POIN MenuTilesPaletteGreen
 
 // Battle Forecast
 ORG 0x36D2C
-POIN BobMenuTilesPaletteBlue
+POIN MenuTilesPaletteBlue
 ORG 0x36D34
-POIN BobMenuTilesPaletteRed
+POIN MenuTilesPaletteRed
 ORG 0x36D3C
-POIN BobMenuTilesPaletteGreen
+POIN MenuTilesPaletteGreen
 ORG 0x36D48
-POIN BobMenuTilesPaletteGray
+POIN MenuTilesPaletteGray
 
 // Battle Stats Anims Off
 ORG 0x7BDF8
-POIN BobMenuTilesPaletteBlue
+POIN MenuTilesPaletteBlue
 ORG 0x7BE00
-POIN BobMenuTilesPaletteRed
+POIN MenuTilesPaletteRed
 ORG 0x7BE08
-POIN BobMenuTilesPaletteGreen
+POIN MenuTilesPaletteGreen
 ORG 0x7BE10
-POIN BobMenuTilesPaletteGray
+POIN MenuTilesPaletteGray
 
 // Prep Menu Items Unit Header
 ORG 0x98468
 POIN BobPrepMenuItemsUnitHeader
 ORG 0x98528
-POIN BobMenuTilesPaletteBlue
+POIN MenuTilesPaletteBlue
 
 POP

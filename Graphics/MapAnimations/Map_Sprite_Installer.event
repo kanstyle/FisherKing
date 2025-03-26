@@ -6,6 +6,38 @@ ALIGN 4
 UpstartMMoving:
 #incbin "Dmp/Archer (M) Improved v1 {Der}-walk.dmp"
 
+ALIGN 4
+HeadsmanStanding:
+#incbin "Dmp/Lord (M) Ephraim Axe {ZoramineFae}-stand.dmp"
+
+ALIGN 4
+HeadsmanMoving:
+#incbin "Dmp/Lord (M) Ephraim Axe {ZoramineFae}-walk.dmp"
+
+ALIGN 4
+LowVoiceStanding:
+#incbin "Dmp/pillow idle.dmp"
+
+ALIGN 4
+LowVoiceMoving:
+#incbin "Dmp/pillow move4.dmp"
+
+ALIGN 4
+UpstartFStanding:
+#incbin "Dmp/Villager (F) v2 Sword {HyperGammaSpaces}-stand.dmp"
+
+ALIGN 4
+UpstartFMoving:
+#incbin "Dmp/Villager (F) v2 Sword {HyperGammaSpaces}-walk.dmp"
+
+ALIGN 4
+SkyRatStanding:
+#incbin "Dmp/Pegasi (F) T1 Helmless Sword {Sephie}-stand.dmp"
+
+ALIGN 4
+SkyRatMoving:
+#incbin "Dmp/Pegasi (F) T1 Helmless Sword {Sephie}-walk.dmp"
+
 /*ALIGN 4
 SwordCavStanding:
 #incbin "Dmp/Cavalier (M) Sword {SALVAGED}-stand.dmp" 

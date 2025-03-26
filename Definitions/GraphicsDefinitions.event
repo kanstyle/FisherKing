@@ -1,1 +1,19 @@
 #define setMugEntryExtend(mugEntry, mugLocation, mouthX, mouthY, eyeX, eyeY, extend1X, extend1Y, extend2X, extend2Y) "PUSH; ORG PortraitTable+mugEntry*0x1C; POIN mugLocation; POIN mugLocation+0x1624; POIN mugLocation+0x1604; POIN mugLocation+0x1004; BYTE extend1X extend1Y extend2X extend2Y; BYTE mouthX mouthY eyeX eyeY; BYTE 1 0 1 0; POP"
+
+#define NormalAP        $81C3D7C
+#define GeneralAP       $81C8A80
+#define RangerAP        $81CA124
+#define ArcherAP        $81D0A7C
+#define M_SageAP        $81D1D48
+#define FemaleSniperAP  $81D2714
+#define WyvernRiderAP   $81D403C
+#define WyvernLordAP    $81D5E58
+#define WyvernKnightAP  $81D7CC8
+#define MageAP          $81D8668
+#define F_SageAP        $81D8668
+#define GreatLordAP     $81C52B4
+#define JournymanAP     $81E173C
+#define DancerAP        $81ED1C8
+#define BardAP          $81E8840
+#define CyclopsAP       $81F49B8
+#define DemonKingAP     $81FD028
