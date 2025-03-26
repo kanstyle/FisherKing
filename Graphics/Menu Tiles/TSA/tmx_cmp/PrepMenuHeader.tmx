@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.1" orientation="orthogonal" renderorder="right-down" width="14" height="4" tilewidth="8" tileheight="8" infinite="0" nextlayerid="2" nextobjectid="1">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="14" height="4" tilewidth="8" tileheight="8" infinite="0" nextlayerid="2" nextobjectid="1">
  <tileset firstgid="1" name="BobMenuTiles" tilewidth="8" tileheight="8" tilecount="128" columns="16">
-  <image source="../../Image/Png/BobMenuTiles.png" width="128" height="64"/>
+  <image source="../../Image/Png/MenuTiles.png" width="128" height="64"/>
  </tileset>
  <layer id="1" name="Tile Layer 1" width="14" height="4">
   <data encoding="csv">
-4,3,3,3,3,3,3,3,3,3,3,3,6,1,
-37,2,2,2,2,2,2,2,2,2,2,2,7,19,
-21,22,2,2,2,2,2,2,2,2,2,2,2,20,
-1,23,24,24,24,24,24,24,24,24,24,24,24,25
+2,3,3,3,3,3,3,3,3,3,3,3,3,6,
+21,65,65,65,65,65,65,65,65,65,65,65,65,11,
+21,65,65,65,65,65,65,65,65,65,65,65,65,11,
+27,29,29,29,29,29,29,29,29,29,29,29,29,32
 </data>
  </layer>
 </map>
