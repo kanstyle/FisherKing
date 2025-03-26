@@ -9,7 +9,7 @@ MenuTilesPalette:
 ALIGN 4
 AnimsOffTiles:
 #incbin "Dmp/AnimsOffTiles.dmp"
-#define New_Battle_Anims_Off_Graphics := AnimsOffTiles
+#define New_Battle_Anims_Off_Graphics AnimsOffTiles
 
 ALIGN 4
 BobPrepMenuItemsUnitHeader:
