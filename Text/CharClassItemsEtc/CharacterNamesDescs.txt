@@ -11,13 +11,13 @@ Teacher[X]
 Placeholder.[X]
 
 ## DragonName
-Dragon.[X]
+Dragon[X]
 
 ## DragonDesc
 Placeholder.[X]
 
 ## PillowName
-Pillow.[X]
+Pillow[X]
 
 ## PillowDesc
-Big pillows.[X]
+Pillowy.[X]
