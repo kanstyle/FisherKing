@@ -34,7 +34,7 @@
 // #define SCROLLING_STATSCREEN_BACKGROUND
 
 //If uncommented, will enable Battle Stats with Animations Off.
-#define BATTLE_STATS
+//#define BATTLE_STATS
 
 //If uncommented, will enable Casual Mode (set by flag 0xB0).
 #define CASUAL_MODE
