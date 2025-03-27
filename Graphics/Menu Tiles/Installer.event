@@ -1,6 +1,7 @@
-#include "Image/Installer.event"
-#include "TSA/Installer.event"
-#include "Mapping/Installer.event"
+//#include "Image/Installer.event"
+//#include "TSA/Installer.event"
+//#include "Mapping/Installer.event"
+MESSAGE "Skipped installing menu tiles, see Menu Tiles/Installer.event"
 
 PUSH
 ORG $73d88
