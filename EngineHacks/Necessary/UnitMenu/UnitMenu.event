@@ -119,6 +119,9 @@ UnitMenuTable:
 
   //Detonate
 	MenuCommand(UM_Detonate, UM_DetonateDesc, NormalText, DetonateUsability, DetonateEffect, $22c31, $22c99)
+	
+  //Genderswap
+	MenuCommand(UM_Genderswap, UM_Genderswap, NormalText, GenderswapUsability, GenderswapEffect, $22c31, $22c99)
 
   #endif // COMBAT_ARTS
 

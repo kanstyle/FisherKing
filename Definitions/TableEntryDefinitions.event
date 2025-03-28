@@ -42,3 +42,6 @@
 #define PowderKeg 0xC8
 #define RedHornet 0xC9
 #define GoldHornet 0xD0
+
+//Flags
+#define HeroGenderswapFlag 0x28

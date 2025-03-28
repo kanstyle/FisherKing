@@ -1,3 +1,10 @@
+## UM_Genderswap
+ Gender[X]
+
+## UM_GenderswapDesc
+Swap Bow/Staff rank with[N]
+Sword/Bomb rank. Heal 25% HP.[X]
+
 ## UM_Rally
  Rally[X]
 

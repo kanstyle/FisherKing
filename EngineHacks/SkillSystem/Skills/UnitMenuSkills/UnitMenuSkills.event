@@ -7,6 +7,8 @@
 
 #include "SacrificeDrawBack/Installer.event" 
 
+#include "Genderswap/Installer.event"
+
 ALIGN 4
 NewDanceUsability:
 #incbin "Dance/NewDanceUsability.dmp"

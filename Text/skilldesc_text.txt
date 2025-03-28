@@ -1,3 +1,7 @@
+## SD_Genderswap
+Genderswap: Switch genders, swapping[N]
+Bow and Staff rank with Sword and Bomb[N]
+rank. Recover 25% HP. Once per turn.[X]
 
 ## SD_Savior
 Savior: Can rescue[N]

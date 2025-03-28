@@ -2,6 +2,10 @@
 //To disable a skill, define it as 255.
 //Skills are categorized broadly by where their effect is applied, in no particular order within each category.
 
+//My Skills
+//Genderswap
+#define GenderswapID 189
+
 //AI Skills
 
 //Provoke: Enemies are more likely to target this unit.
@@ -33,7 +37,7 @@
 
 //Charm: Allies within 2 tiles deal +2 damage.
 //Author Unknown (Initial Commit)
-#define CharmID 189
+#define CharmID 255
 
 //Daunt: -5 Hit and Crit to all enemy units in a 3-tile radius.
 //By Sme
