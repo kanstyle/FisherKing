@@ -192,6 +192,7 @@ VillageEvent:
 	VillageEventItem(VillageText, Village, Boots)
 
 HouseEvent:
+	Text(Ch0OldPrinceBirthday)
 	// Set parameters
 	SVAL r1 NiceThighsID
 	SVAL r2 (-1) // (-1) is active unit

@@ -1,0 +1,250 @@
+## Ch0ButterflyIntro
+
+Imagine a butterfly.[AN]
+Imagine its wings, the purest[n]
+white. The Highlands. A holy place.[AN]
+Now, as it lands upon a flower, you[n]
+see the backs of its wings are a deep[n]
+black. The Lowlands. A feared place.[AN]
+The butterfly can never see the backs[n]
+of its wings. It can only hear of them,[n]
+think of them, and imagine what they[n]
+are.[AN]
+
+
+## Ch0HighlandsLore
+
+Two hundred years ago, I am told,[n]
+the first Highlanders sought refuge[n]
+in these mountains, and made them[n]
+their home.[AN]
+Thus, the Highlands were born.[AN]
+Every generation since fought[n]
+bitterly for our existence in these[n]
+lands. Larger nations besieged us[n]
+in the east, but we would not yield.[AN]
+I served under our sixth ruler.[n]
+As he neared the end of[n]
+his life, a semblance of peace[n]
+had finally come to us.[AN]
+
+
+## Ch0OldPrinceBirthday
+
+[MidRight][LoadOldPrince]
+[MidLeft][LoadYoungTeacher]
+
+[OpenMidRight][ToggleSmile]
+Teacher! Couldn't have asked[N]
+for a better visitor.[AN]
+
+[OpenMidLeft]
+And I brought a present.[....][N]
+Happy birthday, my friend.[AN]
+
+[OpenMidRight]
+Oho![....] Snuck that past the curates,[N]
+did you?[....] How I missed fine wine...[AN]
+
+[OpenMidLeft]
+How do you feel, old dog?[....][N]
+Hanging in there?[AN]
+[ToggleSmile]Your son worries after you.[AN]
+
+[OpenMidRight][ToggleSmile]
+I'm happy.[AN]
+
+[OpenMidLeft][ToggleSmile]
+Your illness--[AN]
+
+[OpenMidRight]
+Yes, yes.[....] I know what you meant.[....][n]
+But this is more important.[AN]
+I may spend half the day in bed, but[n]
+I'm happy.[....] Happier than I've ever been.[AN]
+My lands are in order.[....] The war wanes.[....][n]
+My son makes me prouder each day.[AN]
+The Highlands are grasping at peace.[AN]
+
+[OpenMidLeft]
+How much time is left in you,[n]
+do you think?[AN]
+
+[mr]
+...Hm.[....] Some weeks, perhaps.[AN]
+
+[ml]
+...[AN]
+
+[mr]
+Don't make that face.[AN]
+The illness and the pain may claim me,[n]
+but so what?[AN]
+They claim all men, at the end of things.[AN]
+
+[ml]
+Yes.[....] It's just...[....] weeks.[....][AN]
+I can't imagine my restlessness,[n]
+if it were me.[A]
+
+[mr]
+Restless?[....] You?[....] Hahaha![AN]
+
+[ml]
+What's so funny?[AN]
+
+[mr]
+How long have you served me, fool?[....][n]
+O, Silver General?[....] Thirty years?[AN]
+
+[ml]
+Forty, nearly.[....] Since I was a boy.[....] Why?[AN]
+
+[mr]
+Why haven't you left me, then, if[n]
+you're so restless?[AN]
+
+[ml]
+Why haven't I left you?[....] What's this,[n]
+all of a sudden?[AN]
+Loyalty, milord. I could never desert the[n]
+men.[....] Your son.[....] You.[AN]
+
+[mr]
+Heh.[....] That's a coward's answer.[AN]
+
+[ml]
+Harsh words![AN]
+
+[mr]
+By royal decree, I hereby command you...[n]
+to think on it.[AN]
+Write, even. Start a journal, why don't[n]
+you?[AN]
+
+[ml]
+...I can't tell if I'm meant to laugh or--[AN]
+
+[mr]
+I'm serious![....] You have your orders,[n]
+soldier; off to the study with you![AN][CloseSpeechSlow]
+
+[ml][MoveFarLeft]
+Alright, alright![AN]
+
+[mr]
+Wait![Beat] One last order for you.[AN][CloseSpeechSlow]
+
+[fl][MoveMidLeft][ml]
+What is it?[AN]
+
+[mr]
+In the coming weeks, I want you to take[n]
+me to the Lowlands.[....][n]
+I'd like to see them, at the end of my life.[AN]
+
+[ml]
+What?[....] What's to be seen[n]
+in a place like that?[AN]
+
+[mr]
+I dream about that place.[AN]
+A truth about myself shall be[n]
+revealed, I feel.[A]
+Whatever it is, I want you and my son[n]
+to see it, too.[A]
+
+
+## Ch0LowlandLore
+
+Beside the Highlands, at the corner[n]
+of the earth, lied the Lowlands.[n]
+Two hundred years had taught us[n]
+little about them.[AN]
+Some said they were the last vestige[n]
+of untamed creation, and the great[n]
+beasts remained there as they had[n]
+been at the dawn of time.[AN]
+Some said that the deep valleys were[n]
+passages to the land of the dead.[AN]
+We knew only that the Lowlands were[n]
+an ancient place, inhabited by things[n]
+seen only in dreams. Fearsome things.[AN]
+And humans were not welcome there.[AN]
+
+
+## Ch0LowlandsArrival
+
+[ml][LoadYoungTeacher]
+[mr][LoadOldPrince]
+
+[ml]
+We've arrived, sire.[....] But the fog...[AN]
+There's no telling what manner of[n]
+creatures hide in it.[AN]
+
+[mr]
+Yes, they say these hills crawl with[n]
+all manner of fearsome things.[AN]
+Fear, fear...[AN]
+Never fear, my friend.[....] Our promising[n]
+successors will repel whatever comes.[A]
+That blue-haired boy...[....] Why, he's the[n]
+moppet you plucked from obscurity,[AN]
+isn't he?[AN]
+
+[ml]
+Indeed.[.....] He defeated my brother on[n]
+the chessboard when he was eight.[AN]
+Your son is just as brilliant, but...[AN]
+
+[mr]
+...They're young, sire.[....] Very young.[....][n]
+Is your son prepared, do you think?[AN]
+
+[ml]
+And so was I.[....] So were you.[AN]
+We live in a harsh land, full of children[n]
+raised by children.[AN]
+
+[mr]
+A morbid truth.[AN]
+...We're still young inside, too, aren't we?[AN]
+
+[ml]
+Exactly.[....] And that's why you must go![....][n]
+I won't have you die restless, my friend.[AN]
+I want you to feel how I feel now, when[n]
+the end comes.[AN]
+Let it be the final debt I owe to you.[AN]
+
+
+## Ch0PrinceHeroIntro
+
+[ml][LoadYoungHero]
+[mr][LoadYoungPrince][CloseEyes]
+
+[ml][ToggleSmile]
+Hey.[....] Lost in thought?[AN][CloseSpeechSlow]
+
+[mr][ToggleSmile][OpenEyes][MoveMidRight]
+Ah![AN]
+...Mm.[....] You caught me, I suppose.[AN]
+
+[ml]
+You'll still have us, you know?[....][n]
+Your dad isn't your only family.[AN]
+
+[mr]
+...I'm trying not to let those thoughts[n]
+distract me.[AN]
+We've enough to worry about already,[n]
+being in a place like this.[AN]
+
+[ml]
+Good call.[....] Let's practice a bit while[n]
+we've still got some peace and quiet.[AN]
+
+[mr]
+Hey![....] You two wanna[n]
+give us a hand?[AN]

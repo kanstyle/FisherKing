@@ -56,6 +56,7 @@
 #define HeadsmanDesc $06A
 #define BombName $06B
 #define BombDesc $06C
+#define Ch0OldPrinceBirthday $06D
 #define LikesText $D4C
 #define DislikesText $D4D
 #define HeightText $D4E

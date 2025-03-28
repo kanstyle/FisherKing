@@ -28,6 +28,15 @@
 [FarRight] = [OpenFarRight]
 [FarFarRight] = [OpenFarFarRight]
 
+[ffl] = [OpenFarFarLeft]
+[fl] = [OpenFarLeft]
+[ml] = [OpenMidLeft]
+[l] = [OpenLeft]
+[r] = [OpenRight]
+[mr] = [OpenMidRight]
+[fr] = [OpenFarRight]
+[ffr] = [OpenFarFarRight]
+
 [<-......] = [FarFarLeft]
 [<-] = [FarFarLeft]
 [v.....] = [FarLeft]
@@ -61,7 +70,21 @@
 [LoadGerik] = [LoadFace][0x1b][0x1]
 [LoadSaleh] = [LoadFace][0x20][0x1]
 
-
+[LoadHeroM] = [LoadFace][0x2][0x1]
+[LoadHeroF] = [LoadFace][0x3][0x1]
+[LoadTeacher] = [LoadFace][0x4][0x1]
+[LoadPillow] = [LoadFace][0x5][0x1]
+[LoadDragon] = [LoadFace][0x6][0x1]
+[LoadYoungTeacher] = [LoadFace][0x7][0x1]
+[LoadYoungHero] = [LoadFace][0x8][0x1]
+[LoadPrince] = [LoadFace][0x9][0x1]
+[LoadYoungPrince] = [LoadFace][0xA][0x1]
+[LoadBrother] = [LoadFace][0xB][0x1]
+[LoadPigeon] = [LoadFace][0xC][0x1]
+[LoadStorm] = [LoadFace][0xD][0x1]
+[LoadOldPrince] = [LoadFace][0xE][0x1]
+[LoadSkull] = [LoadFace][0xF][0x1]
+[LoadHunter] = [LoadFace][0x10][0x1]
 
 [period] = [0xDE][0x82]
 [dquote] = [0xDE][0x83]

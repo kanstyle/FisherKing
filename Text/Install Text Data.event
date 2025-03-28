@@ -225,6 +225,10 @@ __TEXTPROCESS06C:
 #incext ParseFile ".TextEntries/text_buildfileBombDesc.fetxt"
 setText($6C, __TEXTPROCESS06C)
 
+__TEXTPROCESS06D:
+#incext ParseFile ".TextEntries/text_buildfileCh0OldPrinceBirthday.fetxt"
+setText($6D, __TEXTPROCESS06D)
+
 __TEXTPROCESSD4C:
 #incext ParseFile ".TextEntries/text_buildfileLikesText.fetxt"
 setText($D4C, __TEXTPROCESSD4C)
