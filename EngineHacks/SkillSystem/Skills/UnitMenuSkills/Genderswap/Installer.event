@@ -4,6 +4,17 @@ ALIGN 4
 GenderswapID_Link: 
 WORD GenderswapID
 
+ALIGN 4 
+UpstartF_Link: 
+WORD UpstartF
+
+ALIGN 4 
+UpstartM_Link: 
+WORD UpstartM
+
+ALIGN 4 
+GenderswapFlag_Link: 
+WORD HeroGenderswapFlag
 
 //s1 Unit
 //s6 HealValue
