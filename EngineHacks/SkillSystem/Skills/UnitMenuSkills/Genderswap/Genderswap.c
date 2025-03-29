@@ -6,7 +6,7 @@ extern int GenderswapID_Link;
 extern int GenderswapFlag_Link;
 extern int UpstartM_Link;
 extern int UpstartF_Link;
-extern void* GenderswapEvent; 
+extern u16* GenderswapEvent; 
  
 int Genderswap_Usability(struct MenuProc* menu) { 
 	if (CheckFlag(GenderswapFlag_Link) == 1) { //if switched genders this turn already 
