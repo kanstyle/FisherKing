@@ -18,7 +18,7 @@ int Genderswap_Usability(struct MenuProc* menu) {
 	if (SkillTester(gActiveUnit, GenderswapID_Link) == 0) { 
 		return 3; // false 
 	}
-	return 3; // not usable 
+	return 1; //usable 
 } 
 
 int GenderswapAction(struct Proc* proc) {	
@@ -64,6 +64,9 @@ int GenderswapAction(struct Proc* proc) {
 	//SMS_UpdateFromGameData();
 	//MU_EndAll();
 	CallEvent(&GenderswapEvent, 1); 
+	
+	gActionData.unitActionType = UNIT_ACTION_TRADED;
+	ProcGoto(procState, 1);
 	return 0; // parent proc yields 
 } 
  
