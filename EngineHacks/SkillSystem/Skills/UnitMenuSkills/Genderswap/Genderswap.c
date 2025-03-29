@@ -66,7 +66,6 @@ int GenderswapAction(struct Proc* proc) {
 	CallEvent(&GenderswapEvent, 1); 
 	
 	gActionData.unitActionType = UNIT_ACTION_TRADED;
-	ProcGoto(procState, 1);
 	return 0; // parent proc yields 
 } 
  
