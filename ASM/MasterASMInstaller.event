@@ -1,3 +1,5 @@
 #include "Hack-mug_exceed_(Pikmin)/EA.event" //credit to pikmin1211
 #include "MMB/Installers/MMBInstallerCatball_1.event" //credit to zane
 #include "DynamicPortraits/DynamicPortraitsInstaller.event" //credit to scraiza
+#include "SetStatus/SetStatusInstaller.event" //credit to vesly
+#include "UNCMv2/UNCMv2Installer.event" //credit to vesly

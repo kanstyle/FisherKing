@@ -21,3 +21,10 @@ Pillow[X]
 
 ## PillowDesc
 Pillowy.[X]
+
+## SigilName
+Sigil[X]
+
+## SigilDesc
+A sigil conjured by Pillow.[N]
+Cannot be attacked.[X]

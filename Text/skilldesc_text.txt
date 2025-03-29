@@ -1,3 +1,7 @@
+## SD_CallPillow
+Call Pillow: Call Pillow to
+this sigil's location.[X]
+
 ## SD_Genderswap
 Genderswap: Switch genders, swapping[N]
 Bow and Staff rank with Sword and Bomb[N]

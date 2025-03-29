@@ -6,6 +6,9 @@
 //Genderswap
 #define GenderswapID 189
 
+//CallPillow
+#define CallPillowID 200
+
 //AI Skills
 
 //Provoke: Enemies are more likely to target this unit.
@@ -45,7 +48,7 @@
 
 //Demoiselle: Male allies within 2 tiles receive -2 damage.
 //Author Unknown (Initial Commit)
-#define DemoiselleID 200
+#define DemoiselleID 255
 
 //Drive Skills: Allies within 2 spaces receive +4 to their respective stat.
 //By Sme

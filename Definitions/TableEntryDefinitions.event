@@ -20,6 +20,7 @@
 #define Teacher 0x2
 #define Pillow 0x3
 #define Dragon 0x4
+#define Sigil 0x3B
 
 // Classes
 #define UpstartF EirikaLord

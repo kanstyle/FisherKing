@@ -1,3 +1,10 @@
+## UM_CallPillow
+ Call[X]
+
+## UM_CallPillowDesc
+Call Pillow to this[N]
+sigil's location.[X]
+
 ## UM_Genderswap
  Gender[X]
 

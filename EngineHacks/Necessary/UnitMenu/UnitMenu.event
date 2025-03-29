@@ -121,7 +121,10 @@ UnitMenuTable:
 	MenuCommand(UM_Detonate, UM_DetonateDesc, NormalText, DetonateUsability, DetonateEffect, $22c31, $22c99)
 	
   //Genderswap
-	MenuCommand(UM_Genderswap, UM_Genderswap, NormalText, Genderswap_Usability, GenderswapAction, $22c31, $22c99)
+	MenuCommand(UM_Genderswap, UM_GenderswapDesc, NormalText, Genderswap_Usability, GenderswapAction, $22c31, $22c99)
+	
+  //CallPillow
+	MenuCommand(UM_CallPillow, UM_CallPillowDesc, NormalText, CallPillow_Usability, CallPillowAction, $22c31, $22c99)
 
   #endif // COMBAT_ARTS
 

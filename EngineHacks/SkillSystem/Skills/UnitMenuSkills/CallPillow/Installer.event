@@ -1,0 +1,31 @@
+#include "CallPillow.lyn.event" 
+
+ALIGN 4 
+CallPillowID_Link: 
+WORD CallPillowID
+
+ALIGN 4 
+PillowID_Link: 
+WORD Pillow
+
+//s7 SigilX
+//s8 SigilY
+//s5 PillowX
+//s6 PillowY
+ALIGN 4  
+CallPillowEvent:
+CAM1 [s5,s6] 				//move camera to Pillow
+DISA 0xFFFF 				//erase sigil
+REMU Pillow 				//hide Pillow
+WARP_OUT 					//display warp out effect on Pillow
+MOVE Pillow 65535 [s7,s8]	//move the hidden Pillow to the sigil's location
+CAM1 [s7,s8]				//move camera to the sigil's location
+WARP_IN						//display warp in effect on Pillow
+REVEAL Pillow				//unhide Pillow
+NoFade 
+ENDA 
+
+
+
+
+

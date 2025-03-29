@@ -9,6 +9,8 @@
 
 #include "Genderswap/Installer.event"
 
+#include "CallPillow/Installer.event"
+
 ALIGN 4
 NewDanceUsability:
 #incbin "Dance/NewDanceUsability.dmp"
