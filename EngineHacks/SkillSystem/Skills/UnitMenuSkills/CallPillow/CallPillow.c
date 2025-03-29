@@ -3,7 +3,6 @@
  // skill sys 
 extern int SkillTester(struct Unit* unit, int id); 
 extern int CallPillowID_Link;
-extern int PillowID_Link;
 extern u16* CallPillowEvent; 
 
 enum MenuEffect {
@@ -30,8 +29,10 @@ int CallPillowAction(struct Proc* proc) {
 	
 	gEventSlots[7] = gActiveUnit->xPos;
 	gEventSlots[8] = gActiveUnit->yPos;
-	gEventSlots[5] = GetUnit(PillowID_Link)->xPos;
-	gEventSlots[6] = GetUnit(PillowID_Link)->yPos;
+	
+	gEventSlots[0xB] = gEventSlots[7] << 16;
+	gEventSlots[0xB] &= gEventSlots[8];
+	
 	CallEvent(&CallPillowEvent, 1); 
 
 	return (ME_DISABLE | ME_END | ME_PLAY_BEEP | ME_CLEAR_GFX); // parent proc yields 
