@@ -21,3 +21,10 @@ Headsman[X]
 
 ## HeadsmanDesc
 Placeholder.[X]
+
+## SigilClassName
+Sigil[X]
+
+## SigilClassDesc
+A sigil conjured by Pillow.[N]
+Cannot be attacked.[X]

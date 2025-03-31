@@ -31,11 +31,25 @@ int CallPillowAction(struct Proc* proc) {
 	gEventSlots[8] = gActiveUnit->yPos;
 	
 	gEventSlots[0xB] = gEventSlots[7] << 16;
-	gEventSlots[0xB] &= gEventSlots[8];
+	gEventSlots[0xB] += gEventSlots[8];
+	
+	gEventSlots[7] = GetUnit(0x3)->xPos;
+	gEventSlots[8] = GetUnit(0x3)->yPos;
+	
+	gEventSlots[0x3] = gEventSlots[7] << 16;
+	gEventSlots[0x3] += gEventSlots[8];
 	
 	CallEvent(&CallPillowEvent, 1); 
 
 	return (ME_DISABLE | ME_END | ME_PLAY_BEEP | ME_CLEAR_GFX); // parent proc yields 
 } 
+
+/*void GetUnitCoords(u8 unitID, u8 slot, struct Proc* proc) {
+	gEventSlots[7] = GetUnit(unitID)->xPos;
+	gEventSlots[8] = GetUnit(unitID)->yPos;
+	
+	gEventSlots[slot] = gEventSlots[7] << 16;
+	gEventSlots[slot] += gEventSlots[8];
+}*/
  
  

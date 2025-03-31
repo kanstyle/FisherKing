@@ -30,6 +30,9 @@ MovingMapSprite(0xC,NormalAP,HeadsmanMoving)
 StandingMapSprite(0x72,1,SkyRatStanding)
 MovingMapSprite(0x80,NormalAP,SkyRatMoving)
 
+StandingMapSprite(0x73,0,SigilStanding)
+MovingMapSprite(SigilClass,NormalAP,SigilMoving)
+
 /*
 StandingMapSprite(0x0,0,BluEliwoodStanding)
 StandingMapSprite(0x2,1,MasterKnight_Standing)

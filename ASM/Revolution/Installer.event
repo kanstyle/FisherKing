@@ -1,0 +1,5 @@
+#include "Revolution.lyn.event" 
+
+ALIGN 4 
+RevolutionID_Link: 
+WORD RevolutionID

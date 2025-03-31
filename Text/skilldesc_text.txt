@@ -1,5 +1,10 @@
+## SD_Revolution
+Revolution: Once per turn, act[N]
+again after killing a full-HP[N]
+unit in one hit.[X]
+
 ## SD_CallPillow
-Call Pillow: Call Pillow to
+Call Pillow: Call Pillow to[N]
 this sigil's location.[X]
 
 ## SD_Genderswap

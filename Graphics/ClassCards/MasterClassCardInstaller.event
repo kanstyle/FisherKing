@@ -2,6 +2,11 @@
 #define ClassCard NextLocation
 #define setCardEntry(cardEntry,cardLocation,cardPaletteLocation) "PUSH; ORG PortraitTable+cardEntry*0x1C; POIN 0 0 cardPaletteLocation 0 cardLocation; POP"
 
+SigilPortrait:
+#incext Png2Dmp "Cards/Sigil.png" --lz77
+SigilPortraitPalette:
+#incext Png2Dmp "Cards/Sigil.png" --palette-only
+
 KnightPortrait:
 #incext Png2Dmp "Cards/axe_knight_der_epicer2.png" --lz77
 KnightPortraitPalette:

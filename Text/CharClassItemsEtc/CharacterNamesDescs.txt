@@ -22,9 +22,9 @@ Pillow[X]
 ## PillowDesc
 Pillowy.[X]
 
-## SigilName
+## SigilCharName
 Sigil[X]
 
-## SigilDesc
-A sigil conjured by Pillow.[N]
-Cannot be attacked.[X]
+## SigilCharDesc
+"Quote about Pillow moving[N]
+via teleportation..."[X]

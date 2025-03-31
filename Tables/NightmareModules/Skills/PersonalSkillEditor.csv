@@ -1,9 +1,9 @@
 INLINE PersonalSkillTable,Skill
 None,0x0
 Hero,GenderswapID
-Seth,0x0
-Gilliam,0x0
-Franz,0x0
+Teacher,0x0
+Pillow,SummonID
+Dragon,RevolutionID
 Moulder,0x0
 Vanessa,CallPillowID
 Ross,0x0

@@ -1,9 +1,9 @@
 INLINE CharLevelUpSkillTable,Skill List Address
 None,0
-Eirika,0
-Seth,0
-Gilliam,0
-Franz,0
+Hero,0
+Teacher,0
+Pillow,PillowSkillList|IsPointer
+Dragon,0
 Moulder,0
 Vanessa,0
 Ross,0

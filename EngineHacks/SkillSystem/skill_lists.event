@@ -1,5 +1,19 @@
 
 ALIGN 4 
+DragonSkillList:
+BYTE 3 RevolutionID
+ALIGN 4 
+
+ALIGN 4 
+PillowSkillList:
+BYTE 3 GaleforceID
+ALIGN 4 
+
+ALIGN 4 
+SigilSkillList:
+BYTE 255 CallPillowID
+BYTE 255 ShadePlusID
+ALIGN 4 
 
 EphraimLordSkillList:
 BYTE 00 00

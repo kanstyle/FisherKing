@@ -27,6 +27,7 @@
 #define UpstartM EphraimLord
 #define LowVoice Knight_F
 #define Headsman General_F
+#define SigilClass 0x77
 
 // Items
 #define LowTalon PoisonSword

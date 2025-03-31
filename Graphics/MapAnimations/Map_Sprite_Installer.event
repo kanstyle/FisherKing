@@ -1,4 +1,12 @@
 ALIGN 4
+SigilStanding:
+#incbin "Dmp/sigil idle.dmp"
+
+ALIGN 4
+SigilMoving:
+#incbin "Dmp/sigil move.dmp"
+
+ALIGN 4
 UpstartMStanding:
 #incbin "Dmp/Archer (M) Improved v1 {Der}-stand.dmp"
 
