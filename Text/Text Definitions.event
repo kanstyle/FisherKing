@@ -68,6 +68,9 @@
 #define Ch0PrinceHeroIntro $076
 #define BaseConvoPillowCat1 $077
 #define BaseConvoPillowCat2 $078
+#define BaseConvoPillowCat3 $079
+#define BaseConvoPillowFlashback $07A
+#define BaseConvoPillowCat4 $07B
 #define LikesText $D4C
 #define DislikesText $D4D
 #define HeightText $D4E

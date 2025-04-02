@@ -2,6 +2,14 @@
 //#define setMugEntryExtend(mugEntry, mugLocation, mouthX, mouthY, eyeX, eyeY, extend1X, extend1Y, extend2X, extend2Y)"PUSH; ORG PortraitTable+mugEntry*0x1C; POIN mugLocation; POIN mugLocation+0x1624; POIN mugLocation+0x1604; POIN mugLocation+0x1004; BYTE extend1X extend1Y extend2X extend2Y; BYTE mouthX mouthY eyeX eyeY; BYTE 1 0 1 0; POP"
 
 ALIGN 16
+PillowCivMugData: // LL
+#incbin "Dmp/PillowCivilian_mug.dmp"
+#incbin "Dmp/PillowCivilian_frames.dmp"
+#incbin "Dmp/PillowCivilian_palette.dmp"
+#incbin "Dmp/PillowCivilian_minimug.dmp"
+setMugEntryExtend(PillowCivMug, PillowCivMugData, 3, 5, 4, 3, 10, 4, 0, 0)
+
+ALIGN 16
 HeroMugData: // LL
 #incbin "Dmp/Hero_mug.dmp"
 #incbin "Dmp/Hero_frames.dmp"

@@ -14,6 +14,7 @@
 #define OldPrinceMug 0xE
 #define SkullMug 0xF
 #define HunterMug 0x10
+#define PillowCivMug 0x11
 
 // Characters
 #define HeroChar 0x1

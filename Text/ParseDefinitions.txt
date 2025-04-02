@@ -89,6 +89,7 @@
 [LoadOldPrince] = [LoadFace][0xE][0x1]
 [LoadSkull] = [LoadFace][0xF][0x1]
 [LoadHunter] = [LoadFace][0x10][0x1]
+[LoadPillowCiv] = [LoadFace][0x11][0x1]
 
 [LoadCivManBald] = [LoadFace][0x58][0x1]
 [LoadCivManOld] = [LoadFace][0x59][0x1]

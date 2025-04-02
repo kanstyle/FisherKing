@@ -273,6 +273,18 @@ __TEXTPROCESS078:
 #incext ParseFile ".TextEntries/text_buildfileBaseConvoPillowCat2.fetxt"
 setText($78, __TEXTPROCESS078)
 
+__TEXTPROCESS079:
+#incext ParseFile ".TextEntries/text_buildfileBaseConvoPillowCat3.fetxt"
+setText($79, __TEXTPROCESS079)
+
+__TEXTPROCESS07A:
+#incext ParseFile ".TextEntries/text_buildfileBaseConvoPillowFlashback.fetxt"
+setText($7A, __TEXTPROCESS07A)
+
+__TEXTPROCESS07B:
+#incext ParseFile ".TextEntries/text_buildfileBaseConvoPillowCat4.fetxt"
+setText($7B, __TEXTPROCESS07B)
+
 __TEXTPROCESSD4C:
 #incext ParseFile ".TextEntries/text_buildfileLikesText.fetxt"
 setText($D4C, __TEXTPROCESSD4C)
