@@ -3,6 +3,7 @@
 [a] = [A]
 [ANL] = [A][NL]
 [AN] = [ANL]
+[an] = [AN]
 [YN] = [Yes]
 [NY] = [No]
 [ToggleInvert] = [ToggleColorInvert]
@@ -15,6 +16,7 @@
 [.6] = [......]
 [.7] = [.......]
 [Beat] = [ToggleMouthMove]...[.4][ToggleMouthMove]
+[b] = [Beat]
 [Event] = [LoadOverworldFaces]
 [OpenQuote] = [0xC2][0x93]
 [CloseQuote] = [0xC2][0x94]
@@ -27,6 +29,8 @@
 [MidRight] = [OpenMidRight]
 [FarRight] = [OpenFarRight]
 [FarFarRight] = [OpenFarFarRight]
+
+[clear] = [ClearFace]
 
 [ffl] = [OpenFarFarLeft]
 [fl] = [OpenFarLeft]
@@ -85,6 +89,23 @@
 [LoadOldPrince] = [LoadFace][0xE][0x1]
 [LoadSkull] = [LoadFace][0xF][0x1]
 [LoadHunter] = [LoadFace][0x10][0x1]
+
+[LoadCivManBald] = [LoadFace][0x58][0x1]
+[LoadCivManOld] = [LoadFace][0x59][0x1]
+[LoadCivWoman] = [LoadFace][0x60][0x1]
+[LoadCivManSquint] = [LoadFace][0x5A][0x1]
+[LoadCivManOldBlonde] = [LoadFace][0x5B][0x1]
+[LoadCivManYoung] = [LoadFace][0x5C][0x1]
+[LoadCivManTeen] = [LoadFace][0x5D][0x1]
+[LoadCivBoy] = [LoadFace][0x5E][0x1]
+[LoadCivWomanOld] = [LoadFace][0x5F][0x1]
+[LoadCivWomanTeen] = [LoadFace][0x61][0x1]
+[LoadCivWomanTeenBlackHair] = [LoadFace][0x62][0x1]
+[LoadCivGirl] = [LoadFace][0x63][0x1]
+
+[tmm] = [ToggleMouthMove]
+[ts] = [ToggleSmile]
+[css] = [CloseSpeechSlow]
 
 [period] = [0xDE][0x82]
 [dquote] = [0xDE][0x83]

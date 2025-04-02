@@ -9,7 +9,7 @@ black. The Lowlands. A feared place.[AN]
 The butterfly can never see the backs[n]
 of its wings. It can only hear of them,[n]
 think of them, and imagine what they[n]
-are.[AN]
+are.[AN][X]
 
 
 ## Ch0HighlandsLore
@@ -26,7 +26,7 @@ in the east, but we would not yield.[AN]
 I served under our sixth ruler.[n]
 As he neared the end of[n]
 his life, a semblance of peace[n]
-had finally come to us.[AN]
+had finally come to us.[AN][X]
 
 
 ## Ch0OldPrinceBirthday
@@ -152,7 +152,7 @@ I dream about that place.[AN]
 A truth about myself shall be[n]
 revealed, I feel.[A]
 Whatever it is, I want you and my son[n]
-to see it, too.[A]
+to see it, too.[A][X]
 
 
 ## Ch0LowlandLore
@@ -170,7 +170,7 @@ passages to the land of the dead.[AN]
 We knew only that the Lowlands were[n]
 an ancient place, inhabited by things[n]
 seen only in dreams. Fearsome things.[AN]
-And humans were not welcome there.[AN]
+And humans were not welcome there.[AN][X]
 
 
 ## Ch0LowlandsArrival
@@ -199,24 +199,27 @@ the chessboard when he was eight.[AN]
 Your son is just as brilliant, but...[AN]
 
 [mr]
+But what?[an]
+
+[ml]
 ...They're young, sire.[....] Very young.[....][n]
 Is your son prepared, do you think?[AN]
 
-[ml]
+[mr]
 And so was I.[....] So were you.[AN]
 We live in a harsh land, full of children[n]
 raised by children.[AN]
 
-[mr]
+[ml]
 A morbid truth.[AN]
 ...We're still young inside, too, aren't we?[AN]
 
-[ml]
+[mr]
 Exactly.[....] And that's why you must go![....][n]
 I won't have you die restless, my friend.[AN]
 I want you to feel how I feel now, when[n]
 the end comes.[AN]
-Let it be the final debt I owe to you.[AN]
+Let it be the final debt I owe to you.[AN][X]
 
 
 ## Ch0PrinceHeroIntro
@@ -247,4 +250,4 @@ we've still got some peace and quiet.[AN]
 
 [mr]
 Hey![....] You two wanna[n]
-give us a hand?[AN]
+give us a hand?[AN][X]

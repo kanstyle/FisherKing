@@ -17,3 +17,5 @@
 #define BardAP          $81E8840
 #define CyclopsAP       $81F49B8
 #define DemonKingAP     $81FD028
+
+#define SigilCard 0x77

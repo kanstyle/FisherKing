@@ -7,6 +7,8 @@ SigilPortrait:
 SigilPortraitPalette:
 #incext Png2Dmp "Cards/Sigil.png" --palette-only
 
+setCardEntry(SigilCard,SigilPortrait,SigilPortraitPalette)
+
 KnightPortrait:
 #incext Png2Dmp "Cards/axe_knight_der_epicer2.png" --lz77
 KnightPortraitPalette:

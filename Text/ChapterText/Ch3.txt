@@ -1,0 +1,163 @@
+## BaseConvoPillowCat1
+
+[mr][LoadPillow]
+[tmm][CloseEyes]
+(Maybe I should put my crown back on...[Beat][N]
+The demons are giving me a headache.)[an][X]
+
+
+## BaseConvoPillowCat2
+
+[ml][LoadCivWoman]
+[MoveMidRight]Ah![Beat]
+Not up there, you furry beast![N]
+
+[ffr]
+Meoowww![an]
+
+[mr][LoadPillow][tmm]
+(Hmm?)[an]
+
+
+## BaseConvoPillowCat3
+
+[ml][LoadCivWoman]
+[r][LoadPillow]
+
+[ml]
+Come on, Barley![Beat] Come down to mama.[an]
+
+[ffr]
+Rrreoww...[an]
+
+[ml]
+Be a good boy![b] Won't you please?[an]
+
+[ffr]
+...[an]
+
+[r][tmm]
+(Poor cat...[n]
+Maybe I could...)[an]
+
+
+## BaseConvoPillowFlashback
+
+Low magic makes your mind real![n]
+Your thoughts are your weapon![an]
+Reach out to the Lowland Demons[n]
+with invisible hands -- twist their[n]
+limbs and break their necks![an]
+
+
+## BaseConvoPillowCat4
+
+[ml][LoadCivWoman]
+[r][LoadPillow]
+
+[tmm][CloseEyes]
+(...)[an]
+(Maybe I shouldn't...[b][n]
+but I do want to pet that cat...)[an][css]
+[OpenEyes]
+(Maybe I could just...)[b][an]
+
+[ffr]
+Mrrp?[an]
+
+[ml]
+Barley?[an]
+
+[r][tmm][CloseEyes]
+(Careful, careful...[n]
+Scritch, scritch...)[an]
+
+[ffr]
+Mrrr...[n]
+Mrrr...[an]
+
+[ml]
+You're looking rather relaxed all[n]
+of a sudden, Barley.[an]
+
+[r][ts]
+Ehehee...[b][n]
+So soft...[b][n]
+What a good boy...[an]
+
+[ml]
+Er...[b] Are you speaking to my cat?[an]
+
+[r][css][OpenEyes][MoveRight]
+Hmm?[b] Oh, er, I was just...[b][n]
+admiring him...[an]
+
+[ml][ts]
+Haha![b] Isn't he a handsome boy?[b][n]
+
+[r]
+Mm-hmm![b] And he's so soft![an]
+
+[ml]
+He-- [b][ts] Wait, what?[an]
+
+[r]
+Um, I mean...[b][n]
+He LOOKS soft![an]
+[tmm]
+(I'd better get him down, but I don't[n]
+want to hurt him!)[an]
+
+[ffr]
+Mmmrrr...[an]
+
+[r]
+(Nudge.)[an]
+
+[ffr]
+Mrr?[an]
+
+[r]
+(Nudge.[b] Nudge.)[an]
+(Nuuuuuuuudge...)[an]
+
+[ffr]
+Meow![an]
+
+[r][css][MoveRight][tmm]
+Eeek![an]
+
+[ml]
+Barley, you silly cat![b][n]
+Don't just jump onto strangers![an]
+
+[r]
+I-It's okay![b][n]
+Just spooked me a little.[an]
+
+[ml][ts]
+He looks quite happy over there[n]
+in your lap.[an]
+Why, you've got enough pillows for[n]
+an army of cats![b] Haha![an]
+Why is that, if you don't mind my
+asking?[an]
+
+[r][ts]
+...Oh, er, magic![b] High magic.[b][n]
+It's...[b] hard to explain...[an]
+Here, you can have Barley back.[an]
+[css][MoveRight]
+
+[ml][MoveMidLeft][ts]
+Thank you, miss.[b] You don't look much[n]
+like a priest or a scholar,[an]
+but you seem like a good sort.[b][n]
+Don't be a stranger, now![an]
+
+[r]
+Bye![b][an]
+[css]
+[ml][clear]
+[r][tmm]
+(Heh... my headache went away.)[an][X]

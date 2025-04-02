@@ -21,6 +21,7 @@ Learned  [X]
 #include "CharClassItemsEtc/ItemNamesDescs.txt"
 
 #include "ChapterText/Ch0.txt"
+#include "ChapterText/Ch3.txt"
 
 #0xd4c LikesText
 //first text ID in the free block
