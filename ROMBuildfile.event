@@ -12,7 +12,9 @@
 
     //CSV tables
     #include "Tables/TableInstaller.event"
+	#include "Tables/EATableInstaller.event"
     MESSAGE Used table space ends at currentOffset
+	
 
     //Engine Hacks
     #include "EngineHacks/_MasterHackInstaller.event"

@@ -25,3 +25,9 @@ POP
 #define SoloEndingTableEntry(charID, textID) "BYTE SoloEnding charID 0 0; SHORT textID 0"
 #define SoloEndingFlagTableEntry(charID, textID, flag) "BYTE SoloEnding charID 0 flag; SHORT textID 0"
 #define EndingTableTerminator "BYTE 0 0 0 0; SHORT 0 0"
+
+NewEndingTitleTable:
+
+NewEndingWithdrawalTable:
+
+NewEndingsTable:

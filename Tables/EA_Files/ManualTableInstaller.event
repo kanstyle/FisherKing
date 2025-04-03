@@ -3,7 +3,6 @@
 #include "PromotionItemClassPointersTable.event"
 #include "WTEditor.event"
 #include "BossMusicTable.event"
-#include "InterludeUnitsTable.event"
 #include "SoundRoomInstaller.event"
 #include "Guide.event"
 #include "EndingsTables.event"

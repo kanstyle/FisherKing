@@ -4,4 +4,15 @@
 #define DeathQuote(Character,Chapter,EventID,TextID,Pointer) "SHORT Character; BYTE 0xFF Chapter; SHORT EventID TextID ; POIN Pointer"
 // Bosses
 
+// Player Units
+DeathQuote(Teacher,0xFF,TeacherDeathQuoteEvent,0x0)
+
 DeathQuote(0xFFFF,0,0,0) // terminator
+
+
+// Death Quote Events
+ALIGN 4
+TeacherDeathQuoteEvent:
+Text(TeacherDQ)
+NoFade
+ENDA

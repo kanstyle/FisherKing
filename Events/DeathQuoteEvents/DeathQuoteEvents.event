@@ -1,0 +1,5 @@
+ALIGN 4
+TeacherDeathQuoteEvent:
+text(TeacherDQ)
+NoFade
+ENDA

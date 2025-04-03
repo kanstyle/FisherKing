@@ -14,6 +14,8 @@ Learned  [X]
 
 #include "statscreen_text.txt"
 
+#include "DeathQuotesText.txt"
+
 #include "CharClassItemsEtc/CharacterNamesDescs.txt"
 
 #include "CharClassItemsEtc/ClassNamesDescs.txt"
