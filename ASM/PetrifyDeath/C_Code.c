@@ -1,4 +1,5 @@
 #include "C_Code.h" // headers 
+extern void* KillEvent; 
 
 void TryAddUnitToHealTargetList(struct Unit* unit) {
 
@@ -93,8 +94,7 @@ void CullPetrifiedUnits(ProcPtr proc) {
 
 void PetrifyDeathQuote(int unitID, ProcPtr proc) {
 	if (GetUnit(unitID)->statusIndex == 0xB) {
-		//death quote
-		//kill for real
+		CallEvent(&KillEvent, 1);
 	}
 	else {
 		ReviveAndSetPetrify(proc);

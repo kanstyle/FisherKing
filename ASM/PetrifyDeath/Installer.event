@@ -6,12 +6,20 @@ ASMC_SelfDamageLikeBomb:
 POIN WaitForMotionEndProc
 
 ALIGN 4
-AlwaysEvent:
+BleedoutAlwaysEvent:
 ASMC CullPetrifiedUnits|1
+NoFade
+ENDA
 
 ALIGN 4
 StartOfTurnEvent:
-LABEL 0x1
-ASMC ASMC_HealLikeVulnerary|1
-BNE 0x0 0xC 0x1
+NoFade
+ENDA
+
+ALIGN 4
+KillEvent:
+SVAL 0x1 0xFFFF
+SVAL 0x6 0x255
 ASMC ASMC_SelfDamageLikeBomb|1
+NoFade
+ENDA
