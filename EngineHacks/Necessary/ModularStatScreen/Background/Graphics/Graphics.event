@@ -1,35 +1,140 @@
+/*
 // Scrolling background.
 ALIGN 4; SSS_MuralGfx:
 #incbin "Relief.dmp"
 ALIGN 4; SSS_MuralPal:
 #incbin "Relief_pal.dmp"
+*/
+
+ALIGN 4; SSS_MuralGfx:
+#incbin "StatScreenBackground.dmp"
+ALIGN 4; SSS_MuralPal:
+#incbin "StatScreenBackground_pal.dmp"
+
+ALIGN 4; RedCurtainNormal:
+#incbin "StatScreenBackground.dmp"
+ALIGN 4; RedCurtainNormalPal:
+#incbin "StatScreenBackground_pal.dmp"
+
+PUSH
+// some palette?
+ORG 0x86BF8
+POIN RedCurtainNormalPal
+
+// prep screen, soundroom screen
+ORG 0x86C44
+POIN RedCurtainNormal
+
+ORG 0x86C40
+POIN RedCurtainNormalPal
+
+// some palette?
+ORG 0x86C8C
+POIN RedCurtainNormalPal
+
+// some menu?
+ORG 0x86CDC
+POIN RedCurtainNormal
+
+ORG 0x86CD8
+POIN RedCurtainNormalPal
+
+// support screen, options screen
+ORG 0x86DB0
+POIN RedCurtainNormal
+
+ORG 0x86DAC
+POIN RedCurtainNormalPal
+
+// status background palette here for some reason???
+ORG 0x8E194
+POIN RedCurtainNormalPal
+
+// some menu?
+ORG 0xB0594
+POIN RedCurtainNormal
+
+ORG 0xB0590
+POIN RedCurtainNormalPal
+
+// some menu?
+ORG 0xB0D0C
+POIN RedCurtainNormal
+
+ORG 0xB0D08
+POIN RedCurtainNormalPal
+
+// shop
+ORG 0xB4E18
+POIN RedCurtainNormal
+
+ORG 0xB4E14
+POIN RedCurtainNormalPal
+
+// some menu?
+ORG 0xB6808
+POIN RedCurtainNormal
+
+ORG 0xB6804
+POIN RedCurtainNormalPal
+
+// some menu?
+ORG 0xC48DC
+POIN RedCurtainNormal
+
+ORG 0xC48D8
+POIN RedCurtainNormalPal
+
+// some menu?
+ORG 0x3840C
+POIN RedCurtainNormal
+
+ORG 0x38410
+POIN RedCurtainNormalPal
+/*
+// save menu (leave as is because TSA is fucked up)
+ORG 0xA8EB4
+POIN RedCurtainNormal
+
+ORG 0xA8EB0
+POIN RedCurtainNormalPal
+*/
+/*
+// chapter screen (leave as is because shine effect is fucked up)
+ORG 0x2008C
+POIN RedCurtainNormal
+
+ORG 0x20088
+POIN RedCurtainNormalPal
+*/
+POP
 
 // Page on the right.
   // Tiles. Indexed by window option.
   ALIGN 4; SSS_PageAndPortraitGfx1:
-  #incbin "Tiled/Tilesets/FE6/PageAndPortrait/Blue.dmp"
+  #incbin "Tiled/Tilesets/FE6/PageAndPortrait/Blue.dmp"			// more like purple
   ALIGN 4; SSS_PageAndPortraitGfx2:
-  #incbin "Tiled/Tilesets/FE6/PageAndPortrait/Orange.dmp"
+  #incbin "Tiled/Tilesets/FE6/PageAndPortrait/Orange.dmp"		// more like red
   ALIGN 4; SSS_PageAndPortraitGfx3:
-  #incbin "Tiled/Tilesets/FE6/PageAndPortrait/Green.dmp"
+  #incbin "Tiled/Tilesets/FE6/PageAndPortrait/Green.dmp"		// more like... well. green
   ALIGN 4; SSS_PageAndPortraitGfx4:
-  #incbin "Tiled/Tilesets/FE6/PageAndPortrait/Grey.dmp"
+  #incbin "Tiled/Tilesets/FE6/PageAndPortrait/Grey.dmp"			// more like PINK
   ALIGN 4; SSS_PageAndPortraitGfxTable:
-  POIN SSS_PageAndPortraitGfx1 SSS_PageAndPortraitGfx2
-  POIN SSS_PageAndPortraitGfx3 SSS_PageAndPortraitGfx4
+  POIN SSS_PageAndPortraitGfx4 SSS_PageAndPortraitGfx2
+  POIN SSS_PageAndPortraitGfx3 SSS_PageAndPortraitGfx1
 
   // Palettes. Indexed by window option.
   ALIGN 4; SSS_PageAndPortraitPal1:
-  #incbin "Tiled/Tilesets/FE6/PageAndPortrait/BluePal.dmp"
+  #incbin "Tiled/Tilesets/FE6/PageAndPortrait/BluePal.dmp"		// more like purple
   ALIGN 4; SSS_PageAndPortraitPal2:
-  #incbin "Tiled/Tilesets/FE6/PageAndPortrait/OrangePal.dmp"
+  #incbin "Tiled/Tilesets/FE6/PageAndPortrait/OrangePal.dmp"	// more like red
   ALIGN 4; SSS_PageAndPortraitPal3:
-  #incbin "Tiled/Tilesets/FE6/PageAndPortrait/GreenPal.dmp"
+  #incbin "Tiled/Tilesets/FE6/PageAndPortrait/GreenPal.dmp"		// more like... well. green
   ALIGN 4; SSS_PageAndPortraitPal4:
-  #incbin "Tiled/Tilesets/FE6/PageAndPortrait/GreyPal.dmp"
+  #incbin "Tiled/Tilesets/FE6/PageAndPortrait/GreyPal.dmp"		// more like PINK
   ALIGN 4; SSS_PageAndPortraitPalTable:
-  POIN SSS_PageAndPortraitPal1 SSS_PageAndPortraitPal2
-  POIN SSS_PageAndPortraitPal3 SSS_PageAndPortraitPal4
+  POIN SSS_PageAndPortraitPal4 SSS_PageAndPortraitPal2
+  POIN SSS_PageAndPortraitPal3 SSS_PageAndPortraitPal1
   
   // TSA. Indexed by pagenumber.
   ALIGN 4; SSS_PortraitBoxTSA:
@@ -41,22 +146,22 @@ ALIGN 4; SSS_MuralPal:
   ALIGN 4; SSS_PageWepSupportTSA:
   #incbin "Tiled/Tilemaps/FE6/Page/WepSupport.dmp"
   ALIGN 4; SSS_PageTSATable:
-  POIN SSS_PageTallTSA SSS_PageTallTSA SSS_PageWepSupportTSA SSS_PageShortTSA
+  POIN SSS_PageWepSupportTSA SSS_PageTallTSA SSS_PageWepSupportTSA SSS_PageShortTSA
   POIN SSS_PageTallTSA SSS_PageTallTSA SSS_PageTallTSA SSS_PageTallTSA              // Enough for eight pages.
 
 // Equipment-stats box.
   // Palettes. Indexed by window option.
   ALIGN 4; SSS_StatsBoxPal1:
-  #incbin "Tiled/Tilesets/FE6/EquipmentBox/MagentaPal.dmp"
+  #incbin "Tiled/Tilesets/FE6/EquipmentBox/MagentaPal.dmp"		// more like... well. magenta
   ALIGN 4; SSS_StatsBoxPal2:
-  #incbin "Tiled/Tilesets/FE6/EquipmentBox/CyanPal.dmp"
+  #incbin "Tiled/Tilesets/FE6/EquipmentBox/CyanPal.dmp"			// more like green
   ALIGN 4; SSS_StatsBoxPal3:
-  #incbin "Tiled/Tilesets/FE6/EquipmentBox/RedPal.dmp"
+  #incbin "Tiled/Tilesets/FE6/EquipmentBox/RedPal.dmp"			// more orange
   ALIGN 4; SSS_StatsBoxPal4:
-  #incbin "Tiled/Tilesets/FE6/EquipmentBox/YellowPal.dmp"
+  #incbin "Tiled/Tilesets/FE6/EquipmentBox/YellowPal.dmp"		// more like gray
   ALIGN 4; SSS_StatsBoxPalTable:
-  POIN SSS_StatsBoxPal1 SSS_StatsBoxPal2
-  POIN SSS_StatsBoxPal3 SSS_StatsBoxPal4
+  POIN SSS_StatsBoxPal4 SSS_StatsBoxPal2
+  POIN SSS_StatsBoxPal3 SSS_StatsBoxPal1
   
   // Other.
   ALIGN 4; SSS_StatsBoxGfx:

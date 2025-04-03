@@ -53,6 +53,7 @@ END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
+AFEV BleedoutFlag BleedoutAlwaysEvent 0x0
 END_MAIN
 
 Dunno1:
@@ -156,6 +157,7 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+ENUT 0x12B //bleedout flag
 ENUT 0x1 //no more boss quotes
 ENUT 0x2 //no more death quotes
 LOAD1 0x1 EnemyUnits
@@ -241,3 +243,7 @@ BYTE SteelAxe 0
 BYTE SkillScroll 20
 SHLI SteelLance SteelBow SteelSword HandAxe Javelin
 ALIGN 4
+
+BleedoutEvent:
+NoFade
+ENDA

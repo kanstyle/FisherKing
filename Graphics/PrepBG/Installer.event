@@ -1,0 +1,94 @@
+// Done with febuilder 
+// These images fit inline, so no need to copy the 
+// hex data and incbin them 
+
+ALIGN 4
+
+
+PUSH 
+
+ALIGN 4 
+ORG $A21658
+SaveScreenBG:
+#incbin "SaveScreenBG.dmp" 
+ALIGN 4 
+ORG $A25DCC
+SaveScreenBG_Pal:
+#incbin "SaveScreenBG_pal.dmp" 
+/*ALIGN 4 
+ORG $A25ECC
+SaveScreenBG_TSA:
+#incbin "SaveScreenBG_tsa.dmp"*/
+
+// There's like 11 palette shifted versions of this for some reason 
+ORG $B1756C
+#incbin "PrepBG_pal.dmp"
+ORG $B1758C
+#incbin "PrepBG_pal.dmp"
+ORG $B175AC
+#incbin "PrepBG_pal.dmp"
+ORG $B175CC
+#incbin "PrepBG_pal.dmp"
+ORG $B175EC
+#incbin "PrepBG_pal.dmp"
+ORG $B1760C
+#incbin "PrepBG_pal.dmp"
+ORG $B1762C
+#incbin "PrepBG_pal.dmp"
+ORG $B1764C
+#incbin "PrepBG_pal.dmp"
+ORG $B1766C
+#incbin "PrepBG_pal.dmp"
+ORG $B1768C
+#incbin "PrepBG_pal.dmp"
+ORG $B176AC
+#incbin "PrepBG_pal.dmp"
+
+
+
+/*ORG $02008C
+BYTE  $B4 $2D $B1 $08;
+ORG $020088
+BYTE  $4C $75 $B1 $08;
+*/
+
+ORG $B12DB4 //save screen bg?
+POIN SaveScreenBG
+
+ORG $B1754C //save screen pal?
+POIN SaveScreenBG_Pal
+
+
+//ORG $03840C
+//POIN SaveScreenBG
+//ORG $038414
+//POIN SaveScreenBG_TSA
+//ORG $038410
+//POIN SaveScreenBG_Pal
+
+POP 
+
+
+
+
+
+/*
+PUSH 
+ORG $02008C
+POIN PrepBG 
+ORG $020088
+POIN PrepPal // I think this breaks if the palette is repointed 
+POP 
+
+
+
+
+PrepBG:
+#incbin "PrepBG.dmp"
+
+PrepPal:
+#incbin "PrepBG_pal.dmp"
+*/ 
+
+
+
