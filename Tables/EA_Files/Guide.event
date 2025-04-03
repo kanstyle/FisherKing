@@ -1,0 +1,4 @@
+#define MainGuideEntry(sectionID, chapterID, entryName, entryContent, flagID, readFlagID) "BYTE sectionID chapterID; SHORT entryName entryContent flagID readFlagID 0"
+
+
+// Global Flags

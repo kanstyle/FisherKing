@@ -1,0 +1,26 @@
+#include "MovementCostTable.event"
+#include "ItemStatBoosts.event"
+#include "PromotionItemClassPointersTable.event"
+#include "WTEditor.event"
+#include "BossMusicTable.event"
+#include "InterludeUnitsTable.event"
+#include "SoundRoomInstaller.event"
+#include "Guide.event"
+#include "EndingsTables.event"
+
+ALIGN 4
+BattleQuoteTable:
+#include "Battle_Quote_Table.event"
+
+ALIGN 4
+DeathQuoteTable:
+#include "Death_Quote_Table.event"
+
+PUSH
+ORG $8472C
+POIN DeathQuoteTable
+
+ORG $846AC
+POIN BattleQuoteTable
+
+POP

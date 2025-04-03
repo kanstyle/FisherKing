@@ -1,0 +1,32 @@
+#define SoundRoomEntry(songid,length,name) "WORD songid length 0 name"
+#define SoundRoomTerminator "WORD 0xFFFFFFFF 0 0 0"
+
+// setup courtesy of joe gamer
+
+ALIGN 4 
+NewSoundRoom: // new entries here
+
+PUSH
+ORG 0x1BC14   
+POIN NewSoundRoom
+ORG 0x1BCC4
+POIN NewSoundRoom
+ORG 0xAECA8
+POIN NewSoundRoom
+ORG 0xAECD0
+POIN NewSoundRoom
+ORG 0xAED2C
+POIN NewSoundRoom
+ORG 0xAEEBC
+POIN NewSoundRoom
+ORG 0xAF438
+POIN NewSoundRoom
+ORG 0xAF830
+POIN NewSoundRoom
+ORG 0xAFE30
+POIN NewSoundRoom
+ORG 0xB0080
+POIN NewSoundRoom
+ORG 0xB042C
+POIN NewSoundRoom
+POP

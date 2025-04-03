@@ -92,11 +92,33 @@ void CullPetrifiedUnits(ProcPtr proc) {
 	}
 }
 
-void PetrifyDeathQuote(int unitID, ProcPtr proc) {
-	if (GetUnit(unitID)->statusIndex == 0xB) {
+void PetrifyDeathQuote(ProcPtr proc) {
+	if (GetUnit(gEventSlots[1])->statusIndex == 0xB) {
 		CallEvent(&KillEvent, 1);
 	}
 	else {
 		ReviveAndSetPetrify(proc);
 	}
+}
+
+void UnitKill(struct Unit* unit) {
+    if (UNIT_FACTION(unit) == FACTION_BLUE) {
+		if (unit->statusIndex == 0xB && unit->statusDuration == 1) {
+			unit->state &= ~US_DEAD;
+			unit->state &= ~US_HIDDEN;
+			unit->curHP = 1;
+			unit->state |= US_HAS_MOVED;
+			unit->statusIndex = 0xB;
+			unit->statusDuration = 0x3;
+			unit->supportBits |= 0x1; //set support flag
+			return;
+		}	
+        if (UNIT_IS_PHANTOM(unit))
+            unit->pCharacterData = NULL;
+        else {
+            unit->state |= US_DEAD | US_HIDDEN;
+            InitUnitsupports(unit);
+        }
+    } else
+        unit->pCharacterData = NULL;
 }
