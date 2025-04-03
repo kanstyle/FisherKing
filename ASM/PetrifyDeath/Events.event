@@ -1,0 +1,13 @@
+AlwaysEvent:
+GetSlot1UnitSupportFlagInSlot8ASMC
+BNE 0x0 0x8 0x0 //go to label 0 if slot 8 != 0
+	SET_ACTIVE 0xFFFD //slot 2 unit ID
+	UNCR 0xFFFF 0x5 //uncr hide, dead
+	SVAL 0x1 1 ; SET_HP 0xFFFF //set current unit hp to 1
+	UNCM 0xFFFF 0x2 //set already moved
+	CHECK_ACTIVE
+	SetUnitStatus(0xFFFF,BadStatus,0x3B) //set status to 3 turns petrify
+	SetUnitStatus(0xFFFF,SupportFlag,0x1) //set support flag to 0x1
+LABEL 0x0
+
+StartOfTurnEvent:

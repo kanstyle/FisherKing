@@ -5,3 +5,4 @@
 #include "UNCMv2/UNCMv2Installer.event" //credit to vesly
 #include "SummonRework/SummonReworkInstaller.event" //credit to hypergammaspaces
 #include "Revolution/Installer.event" //credit to Sme for battleroundparsing
+#include "PetrifyDeath/Installer.event"

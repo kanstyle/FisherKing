@@ -1,3 +1,17 @@
+#include "C_Code.lyn.event" 
 
-#include "InfSupport.lyn.event" 
+ALIGN 4
+ASMC_SelfDamageLikeBomb:
+#incbin "ASMC_SelfDamageLikeBomb.dmp"
+POIN WaitForMotionEndProc
 
+ALIGN 4
+AlwaysEvent:
+ASMC CullPetrifiedUnits|1
+
+ALIGN 4
+StartOfTurnEvent:
+LABEL 0x1
+ASMC ASMC_HealLikeVulnerary|1
+BNE 0x0 0xC 0x1
+ASMC ASMC_SelfDamageLikeBomb|1

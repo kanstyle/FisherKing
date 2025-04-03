@@ -1,0 +1,8 @@
+20080100	//LABEL[Conditional ID:0x1]
+400D0000919FB808	//[Assembler function:0x8B89F91 GetDyingPetrifiedUnitASMC@C_Code.lyn.event]is called[argument:0x0](ASMC)
+4005070001000000410C00000C000700	//Imm BNE (If Result != [Value:0x1], Then Jump to [Conditional ID:0x0], Else execute following)
+40050100FFFFFFFF4005060028000000400D0000899DB808	//Current unit [DamageValue:40], SelfDamage using Mine effect(ASMC_SelfDamageLikeBomb)
+20090100	//GOTO[Conditional ID:0x1]
+20080000	//LABEL[Conditional ID:0x0]
+29022800	//Flag ON[Flag:0x28 Hero Gender Flag](ENUT)
+2802070020010000	//Event end(also serves as a section to no fade)(EVBIT_T+ENDA)

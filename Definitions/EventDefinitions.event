@@ -1,0 +1,3 @@
+//Flags
+
+#define BleedoutFlag 0x12B

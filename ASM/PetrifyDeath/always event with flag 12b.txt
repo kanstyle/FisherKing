@@ -1,0 +1,17 @@
+400D00001D9FB808	//[Assembler function:0x8B89F1D GetSlot1UnitSupportFlagInSlot8ASMC@C_Code.lyn.event]is called[argument:0x0](ASMC)
+410C000008000000	//BNE (If [MemorySlotX:0x8 Slot8] != [MemorySlotY:0x0 Always 0 (write protected)], Then Jump to [Conditional ID:0x0], Else execute following)
+20090100	//GOTO[Conditional ID:0x1]
+231A000040050B00FFFFFFFF201BF500201D0000221B0000	//Display textbox (system message)[explanation text:0xF5 --](TUTORIALTEXTBOXSTART+TEXTEND+REMA)
+20080100	//LABEL[Conditional ID:0x1]
+2038FDFF	//Sets [Unit:0xFFFD Memory slot 2 UnitID] as currently active unit(SET_ACTIVE)
+40050100050000002934FFFF	//Reverses Current Unit condition[Condition:0x5 Hide,Dead](UNCR)
+40050100010000002534FFFF	//Set HP to[Current HP:1]for Unit[Character:0xFFFF Controlled Unit](SET_HP)
+40050100020000002734FFFF	//Causes Current Unit condition to be turned on[Condition:0x2 Already moved](UNCM)
+212E0000	//Get the unit ID of the active (visiting/current) unit(CHECK_ACTIVE)
+212E00002006C100410D003B51E21508	//Set the currently operating unit to bad status.[BadStatus and Turn:0x3B Stone]
+40050200010000004F0D00392DE11508	//Current Unit's [Status:0x39 Support Flag] to [NewValue:0x1]
+20080000	//LABEL[Conditional ID:0x0]
+20090200	//GOTO[Conditional ID:0x2]
+231A000040050B00FFFFFFFF201BF300201D0000221B0000	//Display textbox (system message)[explanation text:0xF3 Bomb](TUTORIALTEXTBOXSTART+TEXTEND+REMA)
+20080200	//LABEL[Conditional ID:0x2]
+2802070020010000	//Event end(also serves as a section to no fade)(EVBIT_T+ENDA)

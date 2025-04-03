@@ -128,3 +128,11 @@ SkullMugData: // LL
 #incbin "Dmp/Skull_palette.dmp"
 #incbin "Dmp/Skull_minimug.dmp"
 setMugEntry(SkullMug, SkullMugData, 2, 6, 2, 4)
+
+ALIGN 16
+EnvoyMugData: // LL
+#incbin "Dmp/Envoy_mug.dmp"
+#incbin "Dmp/Envoy_frames.dmp"
+#incbin "Dmp/Envoy_palette.dmp"
+#incbin "Dmp/Envoy_minimug.dmp"
+setMugEntry(EnvoyMug, EnvoyMugData, 2, 6, 2, 4)

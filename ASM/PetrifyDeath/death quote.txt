@@ -1,0 +1,9 @@
+4005010002000000	//SVAL[MemorySlot:0x1 Slot1][Value_to_store:0x2]
+400D00001D9FB808	//[Assembler function:0x8B89F1D GetSlot1UnitSupportFlagInSlot8ASMC@C_Code.lyn.event]is called[argument:0x0](ASMC)
+410C000008000000	//BNE (If [MemorySlotX:0x8 Slot8] != [MemorySlotY:0x0 Always 0 (write protected)], Then Jump to [Conditional ID:0x0], Else execute following)
+21022B01	//Flag OFF[Flag:0x12B Global flag 012B](ENUF)
+20090100	//GOTO[Conditional ID:0x1]
+20080000	//LABEL[Conditional ID:0x0]
+201A0000201BF400201D0000221B0000	//Dialog (conversation)[conversation text:0xF4 Death quote.](TEXTSTART+TEXTSHOW+TEXTEND+REMA)
+20080100	//LABEL[Conditional ID:0x1]
+2802070020010000	//Event end(also serves as a section to no fade)(EVBIT_T+ENDA)
