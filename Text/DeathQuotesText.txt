@@ -2,3 +2,18 @@
 
 [mr][LoadTeacher]
 Placeholder.[AN][X]
+
+## HeroDQ
+
+[mr][LoadHeroM]
+Placeholder.[AN][X]
+
+## DragonDQ
+
+[mr][LoadDragon]
+Placeholder.[AN][X]
+
+## PillowDQ
+
+[mr][LoadPillow]
+Placeholder.[AN][X]

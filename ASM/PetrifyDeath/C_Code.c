@@ -24,7 +24,7 @@ void TryAddUnitToHealTargetList(struct Unit* unit) {
     return;
 }
 
-bool GetDyingPetrifiedUnitASMC(ProcPtr proc) {
+bool GetDyingPetrifiedUnit(ProcPtr proc) {
 	int i;
 	
 	for (i = FACTION_BLUE + 1; i < FACTION_BLUE + 0x40; i++)
@@ -38,10 +38,13 @@ bool GetDyingPetrifiedUnitASMC(ProcPtr proc) {
             continue;
 
         if (unit->statusIndex == 0xB && unit->statusDuration == 1) {
+			gEventSlots[0xC] = 1;
 			gActiveUnit = unit;
 			return true;
 		}
 	}
+	gEventSlots[0xC] = 0;
+	gActiveUnit = 0;
 	return false;
 }
 
@@ -72,6 +75,7 @@ void GetSlot1UnitSupportFlagInSlot8ASMC(ProcPtr proc) {
 }
 
 void ReviveAndSetPetrify(ProcPtr proc) {
+	gEventSlots[1] = gActiveUnit->pCharacterData->number;
 	GetSlot1UnitSupportFlagInSlot8ASMC(proc);
 	if (gEventSlots[8] == 0) { //check support flag
 		u8 unitID = gEventSlots[1];
@@ -87,8 +91,8 @@ void ReviveAndSetPetrify(ProcPtr proc) {
 }
 
 void CullPetrifiedUnits(ProcPtr proc) {
-	while (GetDyingPetrifiedUnitASMC(proc) == true) {
-		//kill
+	while (GetDyingPetrifiedUnit(proc) == true) {
+		CallEvent(&KillEvent, 1);
 	}
 }
 
@@ -99,26 +103,4 @@ void PetrifyDeathQuote(ProcPtr proc) {
 	else {
 		ReviveAndSetPetrify(proc);
 	}
-}
-
-void UnitKill(struct Unit* unit) {
-    if (UNIT_FACTION(unit) == FACTION_BLUE) {
-		if (unit->statusIndex == 0xB && unit->statusDuration == 1) {
-			unit->state &= ~US_DEAD;
-			unit->state &= ~US_HIDDEN;
-			unit->curHP = 1;
-			unit->state |= US_HAS_MOVED;
-			unit->statusIndex = 0xB;
-			unit->statusDuration = 0x3;
-			unit->supportBits |= 0x1; //set support flag
-			return;
-		}	
-        if (UNIT_IS_PHANTOM(unit))
-            unit->pCharacterData = NULL;
-        else {
-            unit->state |= US_DEAD | US_HIDDEN;
-            InitUnitsupports(unit);
-        }
-    } else
-        unit->pCharacterData = NULL;
 }

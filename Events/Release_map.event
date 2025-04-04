@@ -36,6 +36,7 @@ POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventPlayer(0x0,BleedoutChapterTurnEvent,1,255)
 END_MAIN
 
 CharacterBasedEvents:
@@ -53,7 +54,7 @@ END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
-AFEV BleedoutFlag BleedoutAlwaysEvent 0x0
+AFEV BleedoutFlag BleedoutChapterAlwaysEvent 0x0
 END_MAIN
 
 Dunno1:
@@ -244,7 +245,13 @@ BYTE SkillScroll 20
 SHLI SteelLance SteelBow SteelSword HandAxe Javelin
 ALIGN 4
 
-BleedoutAlwaysEvent:
-ASMC GetDyingPetrifiedUnit|1
+BleedoutChapterAlwaysEvent:
+ASMC ReviveAndSetPetrify|1
+Text(HeroDQ)
+NoFade
+ENDA
+
+BleedoutChapterTurnEvent:
+CALL BleedoutTurnEvent
 NoFade
 ENDA
