@@ -1,11 +1,11 @@
 //DeathQuote(Character,Chapter,EventID,TextID)
-
-#define DeathQuote(Character,Chapter,EventID,TextID) "SHORT Character; BYTE 0xFF Chapter; SHORT EventID TextID 0 0"
+//eventID is FlagID
+#define DeathQuote(Character,Chapter,EventID,TextID) "SHORT Character; BYTE 0xFF Chapter; SHORT EventID TextID 0 0" 
 #define DeathQuote(Character,Chapter,EventID,TextID,Pointer) "SHORT Character; BYTE 0xFF Chapter; SHORT EventID TextID ; POIN Pointer"
 // Bosses
 
 // Player Units
-DeathQuote(Teacher,0xFF,TeacherDeathQuoteEvent,0x0)
+DeathQuote(Teacher,0xFF,0x0,0x0,TeacherDeathQuoteEvent)
 
 DeathQuote(0xFFFF,0,0,0) // terminator
 
@@ -14,5 +14,6 @@ DeathQuote(0xFFFF,0,0,0) // terminator
 ALIGN 4
 TeacherDeathQuoteEvent:
 Text(TeacherDQ)
+ENUF BleedoutFlag
 NoFade
 ENDA

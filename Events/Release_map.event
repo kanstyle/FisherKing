@@ -244,6 +244,7 @@ BYTE SkillScroll 20
 SHLI SteelLance SteelBow SteelSword HandAxe Javelin
 ALIGN 4
 
-BleedoutEvent:
+BleedoutAlwaysEvent:
+ASMC GetDyingPetrifiedUnit|1
 NoFade
 ENDA

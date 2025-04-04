@@ -6,6 +6,11 @@ ASMC_SelfDamageLikeBomb:
 POIN WaitForMotionEndProc
 
 ALIGN 4
+ASMC_GetDyingPetrifiedUnit:
+ASMC GetDyingPetrifiedUnit|1
+POIN WaitForMotionEndProc
+
+ALIGN 4
 BleedoutAlwaysEvent:
 ASMC CullPetrifiedUnits|1
 NoFade
