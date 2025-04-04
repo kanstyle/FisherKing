@@ -68,17 +68,17 @@ void ExecRestore(ProcPtr proc) {
     return;
 }
 
-void GetSlot1UnitSupportFlagInSlot8ASMC(ProcPtr proc) {
-	u8 unitID = gEventSlots[1];
+void GetSlot7UnitSupportFlagInSlot8ASMC(ProcPtr proc) {
+	u8 unitID = gEventSlots[7];
 	struct Unit* curUnit = GetUnitFromCharId(unitID);
 	gEventSlots[0x8] = curUnit->supportBits;
 }
 
 void ReviveAndSetPetrify(ProcPtr proc) {
-	gEventSlots[1] = gActiveUnit->pCharacterData->number;
-	GetSlot1UnitSupportFlagInSlot8ASMC(proc);
+	gEventSlots[7] = gActiveUnit->pCharacterData->number;
+	GetSlot7UnitSupportFlagInSlot8ASMC(proc);
 	if (gEventSlots[8] == 0) { //check support flag
-		u8 unitID = gEventSlots[1];
+		u8 unitID = gEventSlots[7];
 		struct Unit* curUnit = GetUnitFromCharId(unitID);
 		
 		curUnit->state &= ~(US_HIDDEN|US_DEAD);

@@ -5,11 +5,14 @@ ASMC_SelfDamageLikeBomb:
 #incbin "ASMC_SelfDamageLikeBomb.dmp"
 POIN WaitForMotionEndProc
 
-BleedoutAlwaysEvent:
-ASMC ReviveAndSetPetrify|1
-Text(HeroDQ)
-NoFade
-ENDA
+ALIGN 4
+ASMC_GetDyingPetrifiedUnit:
+ASMC GetDyingPetrifiedUnit|1
+
+ALIGN 4
+BleedoutDeathQuote:
+SVAL 0x1 0x2
+ASMC PetrifyDeathQuote|1
 
 ALIGN 4
 BleedoutTurnEvent:
