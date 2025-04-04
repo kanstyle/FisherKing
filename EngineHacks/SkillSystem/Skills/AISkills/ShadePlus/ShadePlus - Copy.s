@@ -17,26 +17,6 @@
 .equ SkillTester,EALiterals+0
 .equ ShadePlusID,EALiterals+4
 
-ldr r0,SkillTester
-mov r14,r0
-mov r0,r4
-ldr r1,ShadePlusID
-.short 0xF800
-cmp r0,#0
-bne DoNotTarget
-
-mov r1, #0x30 @ailment
-ldrb r0, [r4, r1]
-mov r1, #0xF
-and r0, r1
-cmp r0, #0xB @petrify status
-bne DoTarget
-
-DoNotTarget:
-ldr r1,=AITargetFalseReturn
-b GoBack
-
-DoTarget:
 cmp r4,#0
 beq DoNotTarget
 ldr r1,[r4]
@@ -56,7 +36,19 @@ mov r1,r0
 cmp r1,#0
 beq DoNotTarget
 
+ldr r0,SkillTester
+mov r14,r0
+mov r0,r4
+ldr r1,ShadePlusID
+.short 0xF800
+cmp r0,#0
+beq DoTarget
 
+DoNotTarget:
+ldr r1,=AITargetFalseReturn
+b GoBack
+
+DoTarget:
 ldr r1,=AITargetTrueReturn
 
 GoBack:

@@ -34,7 +34,7 @@ POIN IconDisplayList
 ALIGN 4
 IconDisplayList:
 //BYTE 0 // Any Unit ID 
-//BYTE 0 // Any Class 
+//BYTE 0 // Any Status 
 //SHORT 0 // Any flag 
 //BYTE 0xFF // Any chapter 
 //BYTE 0xFF // Default ObjTileID 
@@ -42,12 +42,12 @@ IconDisplayList:
 //BYTE 0 // Padding 
 
 /*
-BYTE 1 0; SHORT 0; 		BYTE 0xFF 0xFF 0 0 // Unit ID 1 to always display default icon for unit to defend 
+BYTE 0 0xB; SHORT 0; 		BYTE 0xFF 0xFF 0 0 // petrified units to always display default icon for unit to defend 
 BYTE 2 0; SHORT 0; 		BYTE 0xFF 0x76 0 0
 BYTE 3 0; SHORT 0; 		BYTE 0xFF 0x77 0 0
 BYTE 4 0; SHORT 0; 		BYTE 0xFF 0x4  0 0
 BYTE 5 0; SHORT 0; 		BYTE 0xFF 0x51 0 0
-BYTE 6 0; SHORT 0; 	BYTE 0xFF 3 0 0  // Any unit ID, class, any flag
+BYTE 6 0; SHORT 0; 	BYTE 0xFF 3 0 0  // Any unit ID, Status, any flag
 */
 WORD 0xFFFFFFFF 0xFFFFFFFF // terminator 
 
