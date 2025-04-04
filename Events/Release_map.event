@@ -247,7 +247,6 @@ ALIGN 4
 
 BleedoutChapterAlwaysEvent:
 ASMC ReviveAndSetPetrify|1
-Text(HeroDQ)
 NoFade
 ENDA
 

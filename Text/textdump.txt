@@ -4177,13 +4177,13 @@ Silence[.][X]
 Berserk[.][X]
 
 # 0x0518
-Sick[X]
+Special[X]
 
 # 0x0519
 Recovr[X]
 
 # 0x051A
-Petrify[.][X]
+Dying[.][X]
 
 # 0x051B
 Attack[X]
@@ -4386,8 +4386,8 @@ unit, be it friend or foe![X]
 Magic and staves are unusable.[X]
 
 # 0x0557
-Craaack! Turned...to...[.][NL]
-stone. Can't...move![X]
+Will expire if not Restored.[NL]
+Can't be attacked.[X]
 
 # 0x0558
 Attack power is increased,[NL]
@@ -5107,8 +5107,8 @@ a unit can enter:[.][NL]
 (Take continual damage)[.][NL]
 4. Berserk[NL]
 (Attack enemies and allies alike)[.][NL]
-5. Petrify[NL]
-(Turned to stone, cannot move)[NL]
+5. Dying[NL]
+(Will soon die, can't be attacked.)[NL]
 These conditions will continue for[NL]
 several turns. They can be[NL]
 reversed with a Restore staff.[X]

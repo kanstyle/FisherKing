@@ -158,136 +158,148 @@ __TEXTPROCESS05B:
 setText($5B, __TEXTPROCESS05B)
 
 __TEXTPROCESS05C:
-#incext ParseFile ".TextEntries/text_buildfileHeroName.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileHeroDQ.fetxt"
 setText($5C, __TEXTPROCESS05C)
 
 __TEXTPROCESS05D:
-#incext ParseFile ".TextEntries/text_buildfileHeroDesc.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileDragonDQ.fetxt"
 setText($5D, __TEXTPROCESS05D)
 
 __TEXTPROCESS05E:
-#incext ParseFile ".TextEntries/text_buildfileTeacherName.fetxt"
+#incext ParseFile ".TextEntries/text_buildfilePillowDQ.fetxt"
 setText($5E, __TEXTPROCESS05E)
 
 __TEXTPROCESS05F:
-#incext ParseFile ".TextEntries/text_buildfileTeacherDesc.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileHeroName.fetxt"
 setText($5F, __TEXTPROCESS05F)
 
 __TEXTPROCESS060:
-#incext ParseFile ".TextEntries/text_buildfileDragonName.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileHeroDesc.fetxt"
 setText($60, __TEXTPROCESS060)
 
 __TEXTPROCESS061:
-#incext ParseFile ".TextEntries/text_buildfileDragonDesc.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileTeacherName.fetxt"
 setText($61, __TEXTPROCESS061)
 
 __TEXTPROCESS062:
-#incext ParseFile ".TextEntries/text_buildfilePillowName.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileTeacherDesc.fetxt"
 setText($62, __TEXTPROCESS062)
 
 __TEXTPROCESS063:
-#incext ParseFile ".TextEntries/text_buildfilePillowDesc.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileDragonName.fetxt"
 setText($63, __TEXTPROCESS063)
 
 __TEXTPROCESS064:
-#incext ParseFile ".TextEntries/text_buildfileSigilCharName.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileDragonDesc.fetxt"
 setText($64, __TEXTPROCESS064)
 
 __TEXTPROCESS065:
-#incext ParseFile ".TextEntries/text_buildfileSigilCharDesc.fetxt"
+#incext ParseFile ".TextEntries/text_buildfilePillowName.fetxt"
 setText($65, __TEXTPROCESS065)
 
 __TEXTPROCESS066:
-#incext ParseFile ".TextEntries/text_buildfileUpstartMName.fetxt"
+#incext ParseFile ".TextEntries/text_buildfilePillowDesc.fetxt"
 setText($66, __TEXTPROCESS066)
 
 __TEXTPROCESS067:
-#incext ParseFile ".TextEntries/text_buildfileUpstartMDesc.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileSigilCharName.fetxt"
 setText($67, __TEXTPROCESS067)
 
 __TEXTPROCESS068:
-#incext ParseFile ".TextEntries/text_buildfileUpstartFName.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileSigilCharDesc.fetxt"
 setText($68, __TEXTPROCESS068)
 
 __TEXTPROCESS069:
-#incext ParseFile ".TextEntries/text_buildfileUpstartFDesc.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileUpstartMName.fetxt"
 setText($69, __TEXTPROCESS069)
 
 __TEXTPROCESS06A:
-#incext ParseFile ".TextEntries/text_buildfileLowVoiceName.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileUpstartMDesc.fetxt"
 setText($6A, __TEXTPROCESS06A)
 
 __TEXTPROCESS06B:
-#incext ParseFile ".TextEntries/text_buildfileLowVoiceDesc.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileUpstartFName.fetxt"
 setText($6B, __TEXTPROCESS06B)
 
 __TEXTPROCESS06C:
-#incext ParseFile ".TextEntries/text_buildfileHeadsmanName.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileUpstartFDesc.fetxt"
 setText($6C, __TEXTPROCESS06C)
 
 __TEXTPROCESS06D:
-#incext ParseFile ".TextEntries/text_buildfileHeadsmanDesc.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileLowVoiceName.fetxt"
 setText($6D, __TEXTPROCESS06D)
 
 __TEXTPROCESS06E:
-#incext ParseFile ".TextEntries/text_buildfileSigilClassName.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileLowVoiceDesc.fetxt"
 setText($6E, __TEXTPROCESS06E)
 
 __TEXTPROCESS06F:
-#incext ParseFile ".TextEntries/text_buildfileSigilClassDesc.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileHeadsmanName.fetxt"
 setText($6F, __TEXTPROCESS06F)
 
 __TEXTPROCESS070:
-#incext ParseFile ".TextEntries/text_buildfileBombName.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileHeadsmanDesc.fetxt"
 setText($70, __TEXTPROCESS070)
 
 __TEXTPROCESS071:
-#incext ParseFile ".TextEntries/text_buildfileBombDesc.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileSigilClassName.fetxt"
 setText($71, __TEXTPROCESS071)
 
 __TEXTPROCESS072:
-#incext ParseFile ".TextEntries/text_buildfileCh0ButterflyIntro.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileSigilClassDesc.fetxt"
 setText($72, __TEXTPROCESS072)
 
 __TEXTPROCESS073:
-#incext ParseFile ".TextEntries/text_buildfileCh0HighlandsLore.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileBombName.fetxt"
 setText($73, __TEXTPROCESS073)
 
 __TEXTPROCESS074:
-#incext ParseFile ".TextEntries/text_buildfileCh0OldPrinceBirthday.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileBombDesc.fetxt"
 setText($74, __TEXTPROCESS074)
 
 __TEXTPROCESS075:
-#incext ParseFile ".TextEntries/text_buildfileCh0LowlandLore.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileCh0ButterflyIntro.fetxt"
 setText($75, __TEXTPROCESS075)
 
 __TEXTPROCESS076:
-#incext ParseFile ".TextEntries/text_buildfileCh0LowlandsArrival.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileCh0HighlandsLore.fetxt"
 setText($76, __TEXTPROCESS076)
 
 __TEXTPROCESS077:
-#incext ParseFile ".TextEntries/text_buildfileCh0PrinceHeroIntro.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileCh0OldPrinceBirthday.fetxt"
 setText($77, __TEXTPROCESS077)
 
 __TEXTPROCESS078:
-#incext ParseFile ".TextEntries/text_buildfileBaseConvoPillowCat1.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileCh0LowlandLore.fetxt"
 setText($78, __TEXTPROCESS078)
 
 __TEXTPROCESS079:
-#incext ParseFile ".TextEntries/text_buildfileBaseConvoPillowCat2.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileCh0LowlandsArrival.fetxt"
 setText($79, __TEXTPROCESS079)
 
 __TEXTPROCESS07A:
-#incext ParseFile ".TextEntries/text_buildfileBaseConvoPillowCat3.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileCh0PrinceHeroIntro.fetxt"
 setText($7A, __TEXTPROCESS07A)
 
 __TEXTPROCESS07B:
-#incext ParseFile ".TextEntries/text_buildfileBaseConvoPillowFlashback.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileBaseConvoPillowCat1.fetxt"
 setText($7B, __TEXTPROCESS07B)
 
 __TEXTPROCESS07C:
-#incext ParseFile ".TextEntries/text_buildfileBaseConvoPillowCat4.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileBaseConvoPillowCat2.fetxt"
 setText($7C, __TEXTPROCESS07C)
+
+__TEXTPROCESS07D:
+#incext ParseFile ".TextEntries/text_buildfileBaseConvoPillowCat3.fetxt"
+setText($7D, __TEXTPROCESS07D)
+
+__TEXTPROCESS07E:
+#incext ParseFile ".TextEntries/text_buildfileBaseConvoPillowFlashback.fetxt"
+setText($7E, __TEXTPROCESS07E)
+
+__TEXTPROCESS07F:
+#incext ParseFile ".TextEntries/text_buildfileBaseConvoPillowCat4.fetxt"
+setText($7F, __TEXTPROCESS07F)
 
 __TEXTPROCESSD4C:
 #incext ParseFile ".TextEntries/text_buildfileLikesText.fetxt"
