@@ -6,11 +6,9 @@
 
 // Player Units
 DeathQuote(Teacher,0xFF,0x0,0x0,TeacherDeathQuoteEvent)
-/*
 DeathQuote(Hero,0xFF,0x0,0x0,HeroDeathQuoteEvent)
 DeathQuote(Dragon,0xFF,0x0,0x0,DragonDeathQuoteEvent)
 DeathQuote(Pillow,0xFF,0x0,0x0,PillowDeathQuoteEvent)
-*/
 
 DeathQuote(0xFFFF,0,0,0) // terminator
 
@@ -19,14 +17,15 @@ DeathQuote(0xFFFF,0,0,0) // terminator
 ALIGN 4
 TeacherDeathQuoteEvent:
 Text(TeacherDQ)
+SVAL 0x7 Teacher
 ENUF BleedoutFlag
 NoFade
 ENDA
 
-/*
 ALIGN 4
 HeroDeathQuoteEvent:
 Text(HeroDQ)
+SVAL 0x7 Hero
 ENUF BleedoutFlag
 NoFade
 ENDA
@@ -34,6 +33,7 @@ ENDA
 ALIGN 4
 DragonDeathQuoteEvent:
 Text(DragonDQ)
+SVAL 0x7 Dragon
 ENUF BleedoutFlag
 NoFade
 ENDA
@@ -41,7 +41,7 @@ ENDA
 ALIGN 4
 PillowDeathQuoteEvent:
 Text(PillowDQ)
+SVAL 0x7 Pillow
 ENUF BleedoutFlag
 NoFade
 ENDA
-*/

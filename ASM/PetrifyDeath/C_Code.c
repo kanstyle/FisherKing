@@ -75,7 +75,7 @@ void GetSlot7UnitSupportFlagInSlot8ASMC(ProcPtr proc) {
 }
 
 void ReviveAndSetPetrify(ProcPtr proc) {
-	gEventSlots[7] = gActiveUnit->pCharacterData->number;
+	//gEventSlots[7] = gActiveUnit->pCharacterData->number;
 	GetSlot7UnitSupportFlagInSlot8ASMC(proc);
 	if (gEventSlots[8] == 0) { //check support flag
 		u8 unitID = gEventSlots[7];
