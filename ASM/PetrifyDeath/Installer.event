@@ -11,12 +11,6 @@ ASMC GetDyingPetrifiedUnit|1
 POIN WaitForMotionEndProc
 
 ALIGN 4
-BleedoutAlwaysEvent:
-ASMC CullPetrifiedUnits|1
-NoFade
-ENDA
-
-ALIGN 4
 BleedoutDeathQuote:
 SVAL 0x1 0x2
 ASMC PetrifyDeathQuote|1
