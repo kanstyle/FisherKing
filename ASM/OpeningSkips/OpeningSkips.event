@@ -1,0 +1,37 @@
+PUSH
+// Skip Nintendo logo?
+ORG 0xC6714
+BYTE 0xC0 0x46
+
+// Skip IS logo?
+ORG 0xCBDF6
+BYTE 0xC0 0x46
+
+// Skip health and safety warning
+ORG 0xCC20C
+BYTE 0 0
+
+// Skip something?
+ORG 0xCBDE2
+BYTE 0 0 0 0 0 0 0 0
+
+// Skip class reel
+ORG 0xC63AD
+BYTE 0xE0
+
+// Skip new game cutscene
+ORG 0xC6714
+SHORT 0
+
+// Skip new game text
+ORG 0xC4928
+SHORT 0
+
+// Skip opening world map event
+ORG 0xA39768
+#incbin "SkipOpeningWorldmapEvent.bin"
+
+// Skip Difficulty selection (defaults to normal)
+ORG 0xAC3E0
+BYTE 0x01 0x22 0x00 0x23 0x2A 0x21 0x42 0x54 0x3D 0x21 0x43 0x54 0x70 0x47
+POP

@@ -133,21 +133,34 @@ int getDamage(NewBattleHit* round) {
 	return (round->damage);
 }
 
+int getTotalChange(NewBattleHit* round) {
+	return (round->totalChange);
+}
+
 bool CheckOHKO(struct Proc* proc) {	
 	
 	struct NewBattleHit* it;
 
     for (it = gBattleHitArray; !(it->info & BATTLE_HIT_INFO_END); ++it) {
+		gEventSlots[2] = getTotalChange(it);
+		gEventSlots[3] = abs(getDamage(it));
+		gEventSlots[4] = gBattleTarget.unit.maxHP;
+		gEventSlots[5] += 0x1;
         if (isDefenderRound(it)) { //if defender, break
+			gEventSlots[6] = 0x1;
 			break;
 		}
 		if (!roundHits(it)) { //if attack missed, break
+			gEventSlots[6] = 0x2;
 			break;
 		}
-		if (gBattleTarget.unit.maxHP > getDamage(it)) { //if hit dealt less damage than target's max HP, break
+		if (gBattleTarget.unit.maxHP > abs(getDamage(it))) { //if hit dealt less damage than target's max HP, break
+
+			gEventSlots[6] = 0x3;
 			break;
 		}
 		if (killsTarget(it)) { //if attacker, and not a miss, and end of battle
+			gEventSlots[6] = 0x4;
 			return true;
 		}
     }
@@ -163,7 +176,8 @@ void DoGaleforce(struct Proc* proc) {
 }
 
 void RevolutionEffect(struct Proc* proc) {
-	if (SkillTester(gActiveUnit, RevolutionID_Link) == 0) { 
+	if (SkillTester(gActiveUnit, RevolutionID_Link) == 0) {
+		gEventSlots[6] = 0x5;
 		return;
 	}
 	if (CheckOHKO(proc) == true) {

@@ -13,7 +13,7 @@ PointerList:
 	POIN BeginningScene EndingScene
 
 TurnBasedEvents:
-
+	TurnEventPlayer(0x0,BleedoutChapterTurnEvent,1,255)
 	END_MAIN
 
 ALIGN 32
@@ -23,6 +23,7 @@ CharacterBasedEvents:
 
 MiscBasedEvents:
 	CauseGameOverIfLordDies
+	AFEV BleedoutFlag BleedoutChapterAlwaysEvent 0x0
 	END_MAIN
 
 LocationBasedEvents:
@@ -69,5 +70,15 @@ BeginningScene:
 
 EndingScene:
 	MNC2 next_chapter
+	NoFade
+	ENDA
+
+BleedoutChapterAlwaysEvent:
+	ASMC ReviveAndSetPetrify|1
+	NoFade
+	ENDA
+
+BleedoutChapterTurnEvent:
+	CALL BleedoutTurnEvent
 	NoFade
 	ENDA

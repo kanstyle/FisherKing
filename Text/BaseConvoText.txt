@@ -1,0 +1,65 @@
+## DefaultBaseConvoName
+
+DefaultBaseConvoName[X]
+
+## DefaultBaseConvoContent
+
+[mr][LoadPillow]
+Placeholder.[AN][X]
+
+## DeploymentPrepName
+
+Pick Units[X]
+
+## DeploymentPrepDesc
+
+DeploymentPrepDesc[X]
+
+## ArmamentsPrepName
+
+Items[X]
+
+## ArmamentsPrepDesc
+
+ArmamentsPrepDesc[X]
+
+## BaseConvoCommandName
+
+Base[X]
+
+## BaseConvoCommandDesc
+
+See what your units are[NL]
+talking about.[X]
+
+## GuidePrepName
+
+Guide[X]
+
+## GuidePrepDesc
+
+GuidePrepDesc[X]
+
+## PrepScreenMenu_OnGuide
+
+PrepScreenMenu_OnGuide[X]
+
+## ArrangementPrepName
+
+ArrangementPrepName[X]
+
+## ArrangementPrepDesc
+
+ArrangementPrepDesc[X]
+
+## DocumentPrepName
+
+DocumentPrepName[X]
+
+## DocumentPrepDesc
+
+DocumentPrepDesc[X]
+
+## BaseConvoSelectConvoText
+
+BaseConvoSelectConvoText[X]

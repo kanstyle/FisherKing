@@ -7,3 +7,6 @@
 #include "Revolution/Installer.event" //credit to Sme for battleroundparsing
 #include "PetrifyDeath/Installer.event"
 #include "IconDisplay/Installer.event" //credit to vesly
+#include "OpeningSkips/OpeningSkips.event" //credit to dragz
+//#include "CBaseConvos/BaseConvos.event" //credit to snek
+//#include "BaseConversations/BaseConvos.event" //credit to snek

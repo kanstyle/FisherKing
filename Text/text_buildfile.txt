@@ -16,6 +16,8 @@ Learned  [X]
 
 #include "DeathQuotesText.txt"
 
+#include "BaseConvoText.txt"
+
 #include "CharClassItemsEtc/CharacterNamesDescs.txt"
 
 #include "CharClassItemsEtc/ClassNamesDescs.txt"
