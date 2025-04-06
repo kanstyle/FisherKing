@@ -141,7 +141,7 @@ bool CheckOHKO(struct Proc* proc) {
 	
 	struct NewBattleHit* it;
 
-    for (it = gBattleHitArray; !(it->info & BATTLE_HIT_INFO_END); ++it) {
+    for (it = NewBattleHitArray; !(it->info & BATTLE_HIT_INFO_END); ++it) {
 		gEventSlots[2] = getTotalChange(it);
 		gEventSlots[3] = abs(getDamage(it));
 		gEventSlots[4] = gBattleTarget.unit.maxHP;
@@ -193,4 +193,10 @@ void RevolutionEffect(struct Proc* proc) {
 	gEventSlots[slot] += gEventSlots[8];
 }*/
  
- 
+ bool IsThisFirstCrit(struct Proc* proc) {
+	struct NewBattleHit* it;
+
+    for (it = NewBattleHitArray; !(it->info & BATTLE_HIT_INFO_END); ++it) {
+		
+	}
+ }

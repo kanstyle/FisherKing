@@ -8,5 +8,7 @@
 #include "PetrifyDeath/Installer.event"
 #include "IconDisplay/Installer.event" //credit to vesly
 #include "OpeningSkips/OpeningSkips.event" //credit to dragz
+//#include "Formulas/Installer.event"
+
 //#include "CBaseConvos/BaseConvos.event" //credit to snek
 //#include "BaseConversations/BaseConvos.event" //credit to snek

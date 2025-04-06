@@ -17,7 +17,7 @@ Low-Voice[X]
 Placeholder.[X]
 
 ## HeadsmanName
-Headsman[X]
+Headswoman[X]
 
 ## HeadsmanDesc
 Placeholder.[X]
