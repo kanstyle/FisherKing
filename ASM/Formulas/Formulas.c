@@ -54,7 +54,7 @@ void BattleGenerateHitAttributes(struct BattleUnit* attacker, struct BattleUnit*
             gBattleHitIterator->attributes = gBattleHitIterator->attributes &~ BATTLE_HIT_ATTR_GREATSHLD;
         } else {
             gBattleHitIterator->attributes = gBattleHitIterator->attributes | BATTLE_HIT_ATTR_CRIT;
-            gBattleStats.damage = gBattleStats.damage * 3;
+            gBattleStats.damage = gBattleStats.damage * 2; //changed to 2
         }
     }
 
