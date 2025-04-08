@@ -61,6 +61,7 @@ POIN TowerShieldPlus WonderGuard
 // Dragonskin goes after anything effecting atk or def
 POIN Dragonskin MultiscaleEffect FlankEffect SwarmEffect
 POIN CustomCritBonuses
+POIN ItFindsYouEffect
 // Because of how killing machine works, critical check should always be done last
 POIN CriticalCheck
 #ifdef CANNOT_CRIT

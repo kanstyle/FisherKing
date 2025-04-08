@@ -12,6 +12,9 @@
 //Revolution
 #define RevolutionID 201
 
+//It Finds You
+#define ItFindsYouID 206
+
 //AI Skills
 
 //Provoke: Enemies are more likely to target this unit.
@@ -91,7 +94,7 @@
 
 //Lily's Poise: Adjacent allies gain +1/-3 damage dealt/received.
 //Author Unknown (Initial Commit)
-#define LilysPoiseID 206
+#define LilysPoiseID 255
 
 //Malefic Aura: Enemies within 2 tiles receive +2 magic damage.
 //Author Unknown (Initial Commit)

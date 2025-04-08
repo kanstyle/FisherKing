@@ -172,6 +172,7 @@ void DoGaleforce(struct Proc* proc) {
 		gActiveUnit->state &= ~0x40; //unset has_moved
 		gActiveUnit->state &= ~0x2; //unset unselectable
 		gActiveUnit->state |= 0x400; //set galeforce bit
+		gActiveUnit->supports[6] = 0x2;
 	}
 }
 
@@ -192,11 +193,3 @@ void RevolutionEffect(struct Proc* proc) {
 	gEventSlots[slot] = gEventSlots[7] << 16;
 	gEventSlots[slot] += gEventSlots[8];
 }*/
- 
- bool IsThisFirstCrit(struct Proc* proc) {
-	struct NewBattleHit* it;
-
-    for (it = NewBattleHitArray; !(it->info & BATTLE_HIT_INFO_END); ++it) {
-		
-	}
- }

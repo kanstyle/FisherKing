@@ -1,0 +1,223 @@
+//EventPointerTable(0x54, FlasubanVillageTileAnimations)
+#define tilesetAnimation(speed, size, pointer)    "BYTE speed 0; SHORT size; POIN pointer"
+
+EventPointerTable(FlasubanVillageTileAnimationsID, FlasubanVillageTileAnimations)
+
+ALIGN 4
+FlasubanVillageTileAnimations0:
+#incbin "TilesetAnimations/FlasubanVillage/snowvillageanims000.dmp"
+ALIGN 4
+FlasubanVillageTileAnimations1:
+#incbin "TilesetAnimations/FlasubanVillage/snowvillageanims001.dmp"
+ALIGN 4
+FlasubanVillageTileAnimations2:
+#incbin "TilesetAnimations/FlasubanVillage/snowvillageanims002.dmp"
+ALIGN 4
+FlasubanVillageTileAnimations3:
+#incbin "TilesetAnimations/FlasubanVillage/snowvillageanims003.dmp"
+ALIGN 4
+FlasubanVillageTileAnimations4:
+#incbin "TilesetAnimations/FlasubanVillage/snowvillageanims004.dmp"
+ALIGN 4
+FlasubanVillageTileAnimations5:
+#incbin "TilesetAnimations/FlasubanVillage/snowvillageanims005.dmp"
+ALIGN 4
+FlasubanVillageTileAnimations6:
+#incbin "TilesetAnimations/FlasubanVillage/snowvillageanims006.dmp"
+ALIGN 4
+FlasubanVillageTileAnimations7:
+#incbin "TilesetAnimations/FlasubanVillage/snowvillageanims007.dmp"
+
+ALIGN 4
+FlasubanVillageTileAnimations:
+tilesetAnimation(0x1C,0x1000,FlasubanVillageTileAnimations0)
+tilesetAnimation(0x1C,0x1000,FlasubanVillageTileAnimations1)
+tilesetAnimation(0x1C,0x1000,FlasubanVillageTileAnimations2)
+tilesetAnimation(0x1C,0x1000,FlasubanVillageTileAnimations3)
+tilesetAnimation(0x1C,0x1000,FlasubanVillageTileAnimations4)
+tilesetAnimation(0x1C,0x1000,FlasubanVillageTileAnimations5)
+tilesetAnimation(0x1C,0x1000,FlasubanVillageTileAnimations6)
+tilesetAnimation(0x1C,0x1000,FlasubanVillageTileAnimations7)
+WORD 0 0
+
+EventPointerTable(FF5CaveTileAnimationsID, FF5CaveTileAnimations)
+
+ALIGN 4
+FF5CaveTileAnimations0:
+#incbin "TilesetAnimations/FF5-Caves 01-Tile-Animations/FF5_Caves_TileAnimations.mapanime1_000.dmp"
+ALIGN 4
+FF5CaveTileAnimations1:
+#incbin "TilesetAnimations/FF5-Caves 01-Tile-Animations/FF5_Caves_TileAnimations.mapanime1_001.dmp"
+ALIGN 4
+FF5CaveTileAnimations2:
+#incbin "TilesetAnimations/FF5-Caves 01-Tile-Animations/FF5_Caves_TileAnimations.mapanime1_002.dmp"
+ALIGN 4
+FF5CaveTileAnimations3:
+#incbin "TilesetAnimations/FF5-Caves 01-Tile-Animations/FF5_Caves_TileAnimations.mapanime1_003.dmp"
+ALIGN 4
+FF5CaveTileAnimations4:
+#incbin "TilesetAnimations/FF5-Caves 01-Tile-Animations/FF5_Caves_TileAnimations.mapanime1_004.dmp"
+ALIGN 4
+FF5CaveTileAnimations5:
+#incbin "TilesetAnimations/FF5-Caves 01-Tile-Animations/FF5_Caves_TileAnimations.mapanime1_005.dmp"
+ALIGN 4
+FF5CaveTileAnimations6:
+#incbin "TilesetAnimations/FF5-Caves 01-Tile-Animations/FF5_Caves_TileAnimations.mapanime1_006.dmp"
+ALIGN 4
+FF5CaveTileAnimations7:
+#incbin "TilesetAnimations/FF5-Caves 01-Tile-Animations/FF5_Caves_TileAnimations.mapanime1_007.dmp"
+ALIGN 4
+FF5CaveTileAnimations8:
+#incbin "TilesetAnimations/FF5-Caves 01-Tile-Animations/FF5_Caves_TileAnimations.mapanime1_008.dmp"
+ALIGN 4
+FF5CaveTileAnimations9:
+#incbin "TilesetAnimations/FF5-Caves 01-Tile-Animations/FF5_Caves_TileAnimations.mapanime1_009.dmp"
+ALIGN 4
+FF5CaveTileAnimations10:
+#incbin "TilesetAnimations/FF5-Caves 01-Tile-Animations/FF5_Caves_TileAnimations.mapanime1_010.dmp"
+ALIGN 4
+FF5CaveTileAnimations11:
+#incbin "TilesetAnimations/FF5-Caves 01-Tile-Animations/FF5_Caves_TileAnimations.mapanime1_011.dmp"
+ALIGN 4
+FF5CaveTileAnimations12:
+#incbin "TilesetAnimations/FF5-Caves 01-Tile-Animations/FF5_Caves_TileAnimations.mapanime1_012.dmp"
+ALIGN 4
+FF5CaveTileAnimations13:
+#incbin "TilesetAnimations/FF5-Caves 01-Tile-Animations/FF5_Caves_TileAnimations.mapanime1_013.dmp"
+ALIGN 4
+FF5CaveTileAnimations14:
+#incbin "TilesetAnimations/FF5-Caves 01-Tile-Animations/FF5_Caves_TileAnimations.mapanime1_014.dmp"
+ALIGN 4
+FF5CaveTileAnimations15:
+#incbin "TilesetAnimations/FF5-Caves 01-Tile-Animations/FF5_Caves_TileAnimations.mapanime1_015.dmp"
+
+ALIGN 4
+FF5CaveTileAnimations:
+tilesetAnimation(0x1C,0x1000,FF5CaveTileAnimations0)
+tilesetAnimation(0x1C,0x1000,FF5CaveTileAnimations1)
+tilesetAnimation(0x1C,0x1000,FF5CaveTileAnimations2)
+tilesetAnimation(0x1C,0x1000,FF5CaveTileAnimations3)
+tilesetAnimation(0x1C,0x1000,FF5CaveTileAnimations4)
+tilesetAnimation(0x1C,0x1000,FF5CaveTileAnimations5)
+tilesetAnimation(0x1C,0x1000,FF5CaveTileAnimations6)
+tilesetAnimation(0x1C,0x1000,FF5CaveTileAnimations7)
+tilesetAnimation(0x1C,0x1000,FF5CaveTileAnimations8)
+tilesetAnimation(0x1C,0x1000,FF5CaveTileAnimations9)
+tilesetAnimation(0x1C,0x1000,FF5CaveTileAnimations10)
+tilesetAnimation(0x1C,0x1000,FF5CaveTileAnimations11)
+tilesetAnimation(0x1C,0x1000,FF5CaveTileAnimations12)
+tilesetAnimation(0x1C,0x1000,FF5CaveTileAnimations13)
+tilesetAnimation(0x1C,0x1000,FF5CaveTileAnimations14)
+tilesetAnimation(0x1C,0x1000,FF5CaveTileAnimations15)
+WORD 0 0
+
+EventPointerTable(SnowyBernAnimationsID, SnowyBernAnimations)
+
+ALIGN 4
+BernAnim0:
+#incbin "TilesetAnimations/SnowyBern/Frame0.dmp"
+ALIGN 4
+BernAnim1:
+#incbin "TilesetAnimations/SnowyBern/Frame1.dmp"
+ALIGN 4
+BernAnim2:
+#incbin "TilesetAnimations/SnowyBern/Frame2.dmp"
+ALIGN 4
+BernAnim3:
+#incbin "TilesetAnimations/SnowyBern/Frame3.dmp"
+ALIGN 4
+BernAnim4:
+#incbin "TilesetAnimations/SnowyBern/Frame4.dmp"
+ALIGN 4
+BernAnim5:
+#incbin "TilesetAnimations/SnowyBern/Frame5.dmp"
+ALIGN 4
+BernAnim6:
+#incbin "TilesetAnimations/SnowyBern/Frame6.dmp"
+ALIGN 4
+BernAnim7:
+#incbin "TilesetAnimations/SnowyBern/Frame7.dmp"
+ALIGN 4
+BernAnim8:
+#incbin "TilesetAnimations/SnowyBern/Frame8.dmp"
+ALIGN 4
+BernAnim9:
+#incbin "TilesetAnimations/SnowyBern/Frame9.dmp"
+ALIGN 4
+BernAnim10:
+#incbin "TilesetAnimations/SnowyBern/Frame10.dmp"
+ALIGN 4
+BernAnim11:
+#incbin "TilesetAnimations/SnowyBern/Frame11.dmp"
+ALIGN 4
+BernAnim12:
+#incbin "TilesetAnimations/SnowyBern/Frame12.dmp"
+ALIGN 4
+BernAnim13:
+#incbin "TilesetAnimations/SnowyBern/Frame13.dmp"
+ALIGN 4
+BernAnim14:
+#incbin "TilesetAnimations/SnowyBern/Frame14.dmp"
+ALIGN 4
+BernAnim15:
+#incbin "TilesetAnimations/SnowyBern/Frame15.dmp"
+ALIGN 4
+
+SnowyBernAnimations:
+tilesetAnimation(0x1C,0x1000,BernAnim0)
+tilesetAnimation(0x1C,0x1000,BernAnim1)
+tilesetAnimation(0x1C,0x1000,BernAnim2)
+tilesetAnimation(0x1C,0x1000,BernAnim3)
+tilesetAnimation(0x1C,0x1000,BernAnim4)
+tilesetAnimation(0x1C,0x1000,BernAnim5)
+tilesetAnimation(0x1C,0x1000,BernAnim6)
+tilesetAnimation(0x1C,0x1000,BernAnim7)
+tilesetAnimation(0x1C,0x1000,BernAnim8)
+tilesetAnimation(0x1C,0x1000,BernAnim9)
+tilesetAnimation(0x1C,0x1000,BernAnim10)
+tilesetAnimation(0x1C,0x1000,BernAnim11)
+tilesetAnimation(0x1C,0x1000,BernAnim12)
+tilesetAnimation(0x1C,0x1000,BernAnim13)
+tilesetAnimation(0x1C,0x1000,BernAnim14)
+tilesetAnimation(0x1C,0x1000,BernAnim15)
+WORD 0 0
+
+EventPointerTable(FlasubanFrontierAnimationsID, FlasubanFrontierAnimations)
+
+ALIGN 4
+FlasubanFrontierTileAnim0:
+#incbin "TilesetAnimations/Frontier/frontieranims.mapanime_1_000.dmp"
+ALIGN 4
+FlasubanFrontierTileAnim1:
+#incbin "TilesetAnimations/Frontier/frontieranims.mapanime_1_001.dmp"
+ALIGN 4
+FlasubanFrontierTileAnim2:
+#incbin "TilesetAnimations/Frontier/frontieranims.mapanime_1_002.dmp"
+ALIGN 4
+FlasubanFrontierTileAnim3:
+#incbin "TilesetAnimations/Frontier/frontieranims.mapanime_1_003.dmp"
+ALIGN 4
+FlasubanFrontierTileAnim4:
+#incbin "TilesetAnimations/Frontier/frontieranims.mapanime_1_004.dmp"
+ALIGN 4
+FlasubanFrontierTileAnim5:
+#incbin "TilesetAnimations/Frontier/frontieranims.mapanime_1_005.dmp"
+ALIGN 4
+FlasubanFrontierTileAnim6:
+#incbin "TilesetAnimations/Frontier/frontieranims.mapanime_1_006.dmp"
+ALIGN 4
+FlasubanFrontierTileAnim7:
+#incbin "TilesetAnimations/Frontier/frontieranims.mapanime_1_007.dmp"
+
+ALIGN 4
+FlasubanFrontierAnimations:
+tilesetAnimation(0x1C,0x1000,FlasubanFrontierTileAnim0)
+tilesetAnimation(0x1C,0x1000,FlasubanFrontierTileAnim1)
+tilesetAnimation(0x1C,0x1000,FlasubanFrontierTileAnim2)
+tilesetAnimation(0x1C,0x1000,FlasubanFrontierTileAnim3)
+tilesetAnimation(0x1C,0x1000,FlasubanFrontierTileAnim4)
+tilesetAnimation(0x1C,0x1000,FlasubanFrontierTileAnim5)
+tilesetAnimation(0x1C,0x1000,FlasubanFrontierTileAnim6)
+tilesetAnimation(0x1C,0x1000,FlasubanFrontierTileAnim7)
+WORD 0 0
+

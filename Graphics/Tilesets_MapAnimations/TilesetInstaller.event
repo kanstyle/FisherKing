@@ -1,0 +1,184 @@
+// Jungle Mountainous
+    ALIGN 4
+    FlasubanVillageSkyObject:
+    #incbin "Dmp/Object/FlasubanVillageSky.dmp"
+
+    ALIGN 4
+    FlasubanVillageSkyPalette:
+    #incbin "Dmp/Palette/FlasubanVillageSky_pal.dmp"
+
+    ALIGN 4
+    FlasubanVillageSkyMapchipConfig:
+    #incbin "Dmp/Config/FlasubanVillageSky_comp.dmp"
+	
+	ALIGN 4
+    DesertBastionNightSkyObject:
+    #incbin "Dmp/Object/DesertBastionNightSky.dmp"
+	
+	ALIGN 4
+    DesertBastionNightSkyPalette:
+    #incbin "Dmp/Palette/DesertBastionNightSky_pal.dmp"
+	
+	ALIGN 4
+    DesertBastionNightSkyMapchipConfig:
+    #incbin "Dmp/Config/DesertBastionNightSky_comp.dmp"
+
+    ALIGN 4
+    DesertBastionVillageObject:
+    #incbin "Dmp/Object/DesertBastionVillage.dmp"
+
+    ALIGN 4
+    DesertBastionVillagePalette:
+    #incbin "Dmp/Palette/DesertBastionVillage_pal.dmp"
+
+    ALIGN 4
+    DesertBastionVillageMapchipConfig:
+    #incbin "Dmp/Config/DesertBastionVillage_comp.dmp"
+
+    ALIGN 4
+    FF5CaveObject:
+    #incbin "Dmp/Object/FF5Cave(Wave).dmp"
+
+    ALIGN 4
+    FF5CavePalette:
+    #incbin "Dmp/Palette/FF5Cave(Wave)_pal.dmp"
+
+    ALIGN 4
+    FF5CaveMapchipConfig:
+    //#incbin "Dmp/Config/FF5Cave(Wave)_comp.dmp"
+    #incbin "Dmp/Config/FF5Cave(Wave)_edit_comp.dmp" // Edited mapchip to count barrel bottoms as floor
+
+    ALIGN 4
+    FF5CaveExpandedObject:
+    #incbin "Dmp/Object/FF5CaveExpanded.dmp"
+
+    ALIGN 4
+    FF5CaveExpandedPalette:
+    #incbin "Dmp/Palette/FF5CaveExpanded_pal.dmp"
+
+    ALIGN 4
+    FF5CaveExpandedMapchipConfig:
+    #incbin "Dmp/Config/pirate_cave_with_boat_comp.dmp"
+
+    ALIGN 4
+    FlasubanOurpleVillagePalette:
+    #incbin "Dmp/Palette/FlasubanVillageSkyOurple_pal.dmp"
+
+    ALIGN 4
+    N426ImprovedCastleObject:
+    #incbin "Dmp/Object/Improved Castle Object_Palette 4.dmp"
+
+    ALIGN 4
+    N426ImprovedCastlePalette:
+    #incbin "Dmp/Palette/Improved Castle Object_Palette 4_pal.dmp"
+
+    ALIGN 4
+    N426ImprovedCastleConfig:
+    #incbin "Dmp/Config/Castle Update Config_comp.dmp"
+	
+	ALIGN 4
+	ZoramineImprovedStrongholdObject:
+	#incbin "Dmp/Object/Stronghold.dmp"
+	
+	ALIGN 4
+	ZoramineImprovedStrongholdPalette:
+	#incbin "Dmp/Palette/Stronghold_pal.dmp"
+	
+	ALIGN 4
+	ZoramineImprovedStrongholdConfig:
+	#incbin "Dmp/Config/Stronghold Config_comp.dmp"
+
+    ALIGN 4
+	SnowyBernObject:
+	#incbin "Dmp/Object/SnowyBern.dmp"
+	
+	ALIGN 4
+	SnowyBernPalette:
+	#incbin "Dmp/Palette/SnowyBern_pal.dmp"
+	
+	ALIGN 4
+	SnowyBernConfig:
+	#incbin "Dmp/Config/SnowyBern_comp.dmp"
+
+    ALIGN 4
+    FlasubanFrontierObject:
+    #incbin "Dmp/Object/frontier.dmp"
+
+    ALIGN 4
+    FlasubanFrontierPalette:
+    #incbin "Dmp/Palette/frontier_pal.dmp"
+
+    ALIGN 4
+    FlasubanFrontierConfig:
+    #incbin "Dmp/Config/frontier_comp.dmp"
+
+    // Mapchip changes
+    ALIGN 4
+    MountainousConfig:
+    #incbin "Dmp/Config/mountainous_v2_comp.dmp"
+
+    ALIGN 4
+    SunsetTempleObject:
+    #incbin "Dmp/Object/sunset_temple.dmp"
+
+    ALIGN 4
+    SunsetTemplePalette:
+    #incbin "Dmp/Palette/sunset_temple_pal.dmp"
+
+    ALIGN 4
+    SunsetTempleConfig:
+    #incbin "Dmp/Config/sunset_temple_comp.dmp"
+
+    ALIGN 4
+    SnowyBernObjectCloudy:
+    #incbin "Dmp/Object/SnowyBernImageCloudy.dmp"
+
+    ALIGN 4
+    SnowyBernConfigCloudy:
+    #incbin "Dmp/Config/SnowyBernCloudyConfig_comp.dmp"
+
+    EventPointerTable(FlasubanVillageSkyObjectID,FlasubanVillageSkyObject)
+    EventPointerTable(FlasubanVillageSkyPaletteID,FlasubanVillageSkyPalette)
+    EventPointerTable(FlasubanVillageSkyConfigID,FlasubanVillageSkyMapchipConfig)
+    EventPointerTable(FlasubanVillageOurplePaletteID,FlasubanOurpleVillagePalette)
+
+	EventPointerTable(DesertBastionNightSkyObjectID,DesertBastionNightSkyObject)
+    EventPointerTable(DesertBastionNightSkyPaletteID,DesertBastionNightSkyPalette)
+    EventPointerTable(DesertBastionNightSkyConfigID,DesertBastionNightSkyMapchipConfig)
+
+    EventPointerTable(DesertBastionVillageObjectID,DesertBastionVillageObject)
+    EventPointerTable(DesertBastionVillagePaletteID,DesertBastionVillagePalette)
+    EventPointerTable(DesertBastionVillageConfigID,DesertBastionVillageMapchipConfig)
+
+    EventPointerTable(FF5CaveObjectID,FF5CaveObject)
+    EventPointerTable(FF5CavePaletteID,FF5CavePalette)
+    EventPointerTable(FF5CaveConfigID,FF5CaveMapchipConfig)
+
+    EventPointerTable(FF5CaveExpandedObjectID, FF5CaveExpandedObject)
+    EventPointerTable(FF5CaveExpandedPaletteID, FF5CaveExpandedPalette)
+    EventPointerTable(FF5CaveExpandedConfigID, FF5CaveExpandedMapchipConfig)
+
+    EventPointerTable(N426ImprovedCastleObjectID, N426ImprovedCastleObject)
+    EventPointerTable(N426ImprovedCastlePaletteID, N426ImprovedCastlePalette)
+    EventPointerTable(N426ImprovedCastleConfigID, N426ImprovedCastleConfig)
+    
+	EventPointerTable(ZoramineImprovedStrongholdObjectID, ZoramineImprovedStrongholdObject)
+	EventPointerTable(ZoramineImprovedStrongholdPaletteID, ZoramineImprovedStrongholdPalette)
+	EventPointerTable(ZoramineImprovedStrongholdConfigID, ZoramineImprovedStrongholdConfig)
+
+    EventPointerTable(SnowyBernObjectID, SnowyBernObject)
+    EventPointerTable(SnowyBernObjectCloudyID, SnowyBernObjectCloudy)
+    EventPointerTable(SnowyBernPaletteID, SnowyBernPalette)
+    EventPointerTable(SnowyBernConfigID, SnowyBernConfig)
+    EventPointerTable(SnowyBernConfigCloudyID, SnowyBernConfigCloudy)
+
+    EventPointerTable(FlasubanFrontierObjectID, FlasubanFrontierObject)
+    EventPointerTable(FlasubanFrontierPaletteID, FlasubanFrontierPalette)
+    EventPointerTable(FlasubanFrontierConfigID, FlasubanFrontierConfig)
+
+    EventPointerTable(SunsetTempleObjectID, SunsetTempleObject)
+    EventPointerTable(SunsetTemplePaletteID, SunsetTemplePalette)
+    EventPointerTable(SunsetTempleConfigID, SunsetTempleConfig)
+
+    // Fix mapchip for this tileset
+    EventPointerTable(0x6e, MountainousConfig)

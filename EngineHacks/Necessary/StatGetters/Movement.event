@@ -6,7 +6,7 @@ ALIGN 4
 pMovModifiers: // Movement
 	POIN prAddUnitBaseMov prAddUnitMovBonus prGetItemMovBonus 
 	POIN prDebuffMov SpeedBoost
-	POIN prItemPassiveMov prRallyMov prSkillCelerity prSkillPoise prArmorMarchCheck
+	POIN prItemPassiveMov prRallyMov prSkillCelerity prSkillPoise prArmorMarchCheck SupportSixGaleforceMove
 	#ifdef STAIRS_ASM
 	POIN StairsMoveDebuff
 	#endif
@@ -58,3 +58,7 @@ prItemPassiveMov:
 #endif // DONT_STACK_BOOSTS
 
 #endif // MODULAR_GETTER_MOVEMENT_EVENT
+
+ALIGN 4
+SupportSixGaleforceMove:
+#incbin SupportSixGaleforceMove.dmp
