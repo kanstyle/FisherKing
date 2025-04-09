@@ -1,1 +1,71 @@
-#define Ch0 0x0
+//CHAPTER IDs
+#define BossRush 0
+#define Ch0 1
+#define Ch1 2
+
+//CHAPTER MAP/MAPCHANGES/EVENTS IDs
+#define Ch1MapID 0x4
+#define Ch1MapChangesID 0x6
+#define Ch1EventsID 0x7
+
+//TILESET IDs (START FROM 0x88 when replacing stuff)
+#define FlasubanVillageObjectID 0x88
+#define FlasubanVillagePaletteID 0x89
+#define FlasubanVillageConfigID 0x8A
+#define FlasubanVillageTileAnimationsID 0x8B
+#define FlasubanVillageOurplePaletteID 0x97
+
+#define DesertBastionNightSkyObjectID 0x8C
+#define DesertBastionNightSkyPaletteID 0x8D
+#define DesertBastionNightSkyConfigID 0x8E
+#define DesertBastionNightSkyTileAnimationsID 0x8F
+
+#define FF5CaveObjectID 0x90
+#define FF5CavePaletteID 0x91
+#define FF5CaveConfigID 0x92
+#define FF5CaveTileAnimationsID 0x93
+
+#define MountainousObjectID 0x6C
+#define MountainousPaletteID 0x6D
+#define MountainousLagdouPaletteID 0xA3
+#define MountainousConfigID 0x6E
+#define MountainousTileAnimationsID 0x5
+
+#define FF5CaveExpandedObjectID 0x94
+#define FF5CaveExpandedPaletteID 0x95
+#define FF5CaveExpandedConfigID 0x96
+#define FF5CaveExpandedTileAnimationsID FF5CaveTileAnimationsID
+
+#define N426ImprovedCastleObjectID 0x9B
+#define N426ImprovedCastlePaletteID 0x9C
+#define N426ImprovedCastleConfigID 0x9D
+
+#define ZoramineImprovedStrongholdObjectID 0x9E
+#define ZoramineImprovedStrongholdPaletteID 0x9F
+#define ZoramineImprovedStrongholdConfigID 0xA0
+
+#define DesertBastionVillageObjectID 0xA1
+#define DesertBastionVillagePaletteID 0xA2
+// note that 0xA3 is vanilla mountainous lagdou palette, used in B-2
+#define DesertBastionVillageConfigID 0xA4
+
+#define DesertBastionObjectID 0xA5
+#define DesertBastionPaletteID 0xA6
+#define DesertBastionConfigID 0xA7
+
+#define SnowyBernObjectID 0xA8
+#define SnowyBernPaletteID 0xA9
+#define SnowyBernConfigID 0xAA
+#define SnowyBernAnimationsID 0xAB
+
+#define FlasubanFrontierObjectID 0xAC
+#define FlasubanFrontierPaletteID 0xAD
+#define FlasubanFrontierConfigID 0xAE
+#define FlasubanFrontierAnimationsID 0xB1
+
+#define SunsetTempleObjectID 0xB2
+#define SunsetTemplePaletteID 0xB3
+#define SunsetTempleConfigID 0xB4
+
+#define SnowyBernObjectCloudyID 0xB5
+#define SnowyBernConfigCloudyID 0xB6

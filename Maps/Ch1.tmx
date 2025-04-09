@@ -9,18 +9,23 @@
   <property name="PaletteID" value="VillageV2PaletteID"/>
   <property name="TileConfig" value="VillageV2MapchipConfigID"/>
  </properties>
- <tileset firstgid="1" name="0D000411" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
-  <image source="0D000411.png" trans="ffffff" width="512" height="512"/>
- </tileset>
+ <tileset firstgid="1" source="Tilesets/FlasubanVillage.tsx"/>
  <layer id="1" name="Tile Layer 1" width="15" height="10">
   <properties>
+   <property name="Anims1" value="FlasubanVillageTileAnimationsID"/>
+   <property name="ChapterID" value="Ch1"/>
    <property name="Main" value=""/>
+   <property name="MapChangesID" value="Ch1MapChangesID"/>
+   <property name="MapID" value="Ch1MapID"/>
+   <property name="ObjectType" value="FlasubanVillageObjectID"/>
+   <property name="PaletteID" value="FlasubanVillagePaletteID"/>
+   <property name="TileConfig" value="FlasubanVillageConfigID"/>
   </properties>
   <data>
    <tile gid="174"/>
    <tile gid="290"/>
    <tile gid="194"/>
-   <tile gid="121"/>
+   <tile gid="123"/>
    <tile gid="127"/>
    <tile gid="128"/>
    <tile gid="100"/>
@@ -31,7 +36,7 @@
    <tile gid="193"/>
    <tile gid="100"/>
    <tile gid="123"/>
-   <tile gid="122"/>
+   <tile gid="32"/>
    <tile gid="578"/>
    <tile gid="420"/>
    <tile gid="194"/>
@@ -126,7 +131,7 @@
    <tile gid="297"/>
    <tile gid="210"/>
    <tile gid="194"/>
-   <tile gid="121"/>
+   <tile gid="123"/>
    <tile gid="127"/>
    <tile gid="128"/>
    <tile gid="123"/>
@@ -342,7 +347,7 @@
    <tile/>
    <tile/>
    <tile/>
-   <tile gid="121"/>
+   <tile gid="123"/>
    <tile gid="32"/>
    <tile gid="128"/>
    <tile/>
@@ -770,7 +775,7 @@
    <tile/>
    <tile/>
    <tile/>
-   <tile gid="121"/>
+   <tile gid="123"/>
    <tile gid="32"/>
    <tile gid="128"/>
    <tile/>
