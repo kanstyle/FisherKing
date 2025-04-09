@@ -22,6 +22,30 @@ Headswoman[X]
 ## HeadsmanDesc
 Placeholder.[X]
 
+## PriestName
+Priest[X]
+
+## PriestDesc
+Placeholder.[X]
+
+## BowArmorName
+Bow Armor[X]
+
+## BowArmorDesc
+Placeholder.[X]
+
+## SkyRatName
+Sky-Rat[X]
+
+## SkyRatDesc
+Placeholder.[X]
+
+## BunnyRecruitName
+Recruit[X]
+
+## BunnyRecruitDesc
+Placeholder.[X]
+
 ## SigilClassName
 Sigil[X]
 

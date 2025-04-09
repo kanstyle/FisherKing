@@ -10,6 +10,6 @@ WORD SpecialStatusID
 
 ALIGN 4 
 ExtendedDestructionEvent: 
-PlaySfx(0xF9);
+SOUN 0xF9
 NoFade
 ENDA

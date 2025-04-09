@@ -43,7 +43,7 @@ int ExtendedDestructionAction(struct Proc* proc) {
 } 
 
 u8 ExtendedDestructionMovBuff(u8 stat, struct Unit* unit) {
-	if (unit->statusIndex == SpecialStatusID_Link) {
+	if (unit->statusIndex & SpecialStatusID_Link) {
 		if (SkillTester(unit, ExtendedDestructionID_Link) != 0) {
 			stat += 2;
 		}
@@ -52,10 +52,42 @@ u8 ExtendedDestructionMovBuff(u8 stat, struct Unit* unit) {
 }
 
 void ExtendedDestructionAtkBuff(struct BattleUnit* bunitA, struct BattleUnit* bunitB) {
-	if (bunitA->unit->statusIndex == SpecialStatusID_Link) {
+	if (bunitA->unit.statusIndex & SpecialStatusID_Link) {
 		if (SkillTester(bunitA, ExtendedDestructionID_Link) != 0) {
 			bunitA->battleAttack += 5;
 		}
 	}
 	return;
+}
+
+void ExecStandardHeal(ProcPtr proc) {
+    int amount;
+
+    BattleInitItemEffect(GetUnit(gActionData.subjectIndex),
+        gActionData.itemSlotIndex);
+
+    BattleInitItemEffectTarget(GetUnit(gActionData.targetIndex));
+
+    amount = GetUnitItemHealAmount(
+        GetUnit(gActionData.subjectIndex),
+        GetUnit(gActionData.subjectIndex)->items[gActionData.itemSlotIndex]
+    );
+
+    AddUnitHp(GetUnit(gActionData.targetIndex), amount);
+
+    gBattleHitIterator->hpChange = gBattleTarget.unit.curHP - GetUnitCurrentHp(GetUnit(gActionData.targetIndex));
+
+    gBattleTarget.unit.curHP = GetUnitCurrentHp(GetUnit(gActionData.targetIndex));
+
+    BattleApplyItemEffect(proc);
+    BeginBattleAnimations();
+	
+	if (GetUnit(gActionData.targetIndex)->statusIndex & SpecialStatusID_Link) {
+		if (SkillTester(GetUnit(gActionData.targetIndex), ExtendedDestructionID_Link) != 0) {
+			GetUnit(gActionData.targetIndex)->statusIndex = 0;
+			GetUnit(gActionData.targetIndex)->statusDuration = 0;
+		}
+	}
+
+    return;
 }

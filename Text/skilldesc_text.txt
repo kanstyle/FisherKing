@@ -1,6 +1,6 @@
 ## SD_ExtendedDestruction
-Extended Destruction!!!: Gain +2 Move[N]
-and +5 Attack at 1 range.[N]
+Extended Destruction!!!: Activate to gain[N]
++2 Move and +5 Attack at 1 range.[N]
 Lose buff if healed.[X]
 
 ## SD_ItFindsYou

@@ -17,6 +17,13 @@
 #define UnarmedAnim(Animation) "BYTE Disarmed 0x01 ; SHORT Animation"
 #define SpecialAnim(Animation,Weapon) "BYTE Weapon 0x00 ; SHORT Animation"
 
+#include "Animations/RecruitPonytail/Lance Installer.event"
+ALIGN 4
+BunnyRecruitAnim:
+SpearAnim(0xCD)
+UnarmedAnim(0xCD)
+WORD 0x0 // Seperator
+
 #include "Animations/PillowUnpromo/LowVoice Installer.event"
 ALIGN 4
 LowVoiceAnim:

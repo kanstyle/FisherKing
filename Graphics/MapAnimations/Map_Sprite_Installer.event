@@ -1,4 +1,12 @@
 ALIGN 4
+BunnyRecruitStanding:
+#incbin "Dmp/RecruitPonytail-stand.dmp"
+
+ALIGN 4
+BunnyRecruitMoving:
+#incbin "Dmp/RecruitPonytail-walk.dmp"
+
+ALIGN 4
 SigilStanding:
 #incbin "Dmp/sigil idle.dmp"
 

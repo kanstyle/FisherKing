@@ -16,12 +16,20 @@
 #define HunterMug 0x10
 #define PillowCivMug 0x11
 #define EnvoyMug 0x12
+#define BunnyMug 0x13
 
 // Characters
 #define HeroChar 0x1
 #define Teacher 0x2
 #define Pillow 0x3
 #define Dragon 0x4
+#define Brother 0x5
+#define Hunter 0x6
+#define Pigeon 0x7
+#define Bunny 0x8
+#define YoungPrince 0x20
+#define YoungTeacher 0x21
+#define OldPrince 0x22
 #define Sigil 0x3B
 
 // Classes
@@ -29,6 +37,7 @@
 #define UpstartM EphraimLord
 #define LowVoice Knight_F
 #define Headsman General_F
+#define BunnyRecruit Cavalier_F
 #define SigilClass 0x77
 
 // Items

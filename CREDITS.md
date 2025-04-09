@@ -46,4 +46,4 @@ adding yourself!
 - Dragz: Divinely Inspiring
 - Feier: Mage Slayer, Liquid Ooze 
 - circleseverywhere: Skill Animations
-
+- tatutachang: Ponytail Recruit map sprite

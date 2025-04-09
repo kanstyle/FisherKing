@@ -22,6 +22,30 @@ Pillow[X]
 ## PillowDesc
 Pillowy.[X]
 
+## BrotherName
+Brother[X]
+
+## BrotherDesc
+Placeholder.[X]
+
+## HunterName
+Hunter[X]
+
+## HunterDesc
+Placeholder.[X]
+
+## PigeonName
+Pigeon[X]
+
+## PigeonDesc
+Placeholder.[X]
+
+## BunnyName
+Bunny[X]
+
+## BunnyDesc
+Placeholder.[X]
+
 ## SigilCharName
 Sigil[X]
 
