@@ -1,3 +1,8 @@
+## SD_ExtendedDestruction
+Extended Destruction!!!: Gain +2 Move[N]
+and +5 Attack at 1 range.[N]
+Lose buff if healed.[X]
+
 ## SD_ItFindsYou
 It Finds You: If you have over 70[N]
 Hit in battle, set Hit to 100.[X]

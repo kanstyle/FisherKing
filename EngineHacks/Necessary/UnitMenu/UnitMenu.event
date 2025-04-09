@@ -125,6 +125,9 @@ UnitMenuTable:
 	
   //CallPillow
 	MenuCommand(UM_CallPillow, UM_CallPillowDesc, NormalText, CallPillow_Usability, CallPillowAction, $22c31, $22c99)
+	
+	//ExtendedDestruction
+	MenuCommand(UM_ExtendedDestruction, UM_ExtendedDestructionDesc, NormalText, ExtendedDestruction_Usability, ExtendedDestructionAction, $22c31, $22c99)
 
   #endif // COMBAT_ARTS
 

@@ -1,3 +1,10 @@
+## UM_ExtendedDestruction
+ Destroy![X]
+ 
+## UM_ExtendedDestructionDesc
+Gain Extended Destruction
+buff until healed.[X]
+
 ## UM_CallPillow
  Call[X]
 

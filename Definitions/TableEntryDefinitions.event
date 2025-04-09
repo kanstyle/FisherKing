@@ -49,3 +49,6 @@
 
 //Flags
 #define HeroGenderswapFlag 0x28
+
+//Statuses
+#define SpecialStatusID 5

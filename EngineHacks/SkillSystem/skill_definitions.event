@@ -3,6 +3,9 @@
 //Skills are categorized broadly by where their effect is applied, in no particular order within each category.
 
 //My Skills
+//ExtendedDestruction
+#define ExtendedDestructionID 210
+
 //Genderswap
 #define GenderswapID 189
 
@@ -126,7 +129,7 @@
 
 //Voice of Peace: Enemies within 2 tiles deal -2 damage.
 //Author Unknown (Initial Commit)
-#define VoiceOfPeaceID 210
+#define VoiceOfPeaceID 255
 
 //White Pool: Atk and AS +5 to adjacent allies.
 //By Sme

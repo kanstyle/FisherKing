@@ -1,0 +1,15 @@
+#include "ExtendedDestruction.lyn.event" 
+
+ALIGN 4 
+ExtendedDestructionID_Link: 
+WORD ExtendedDestructionID
+
+ALIGN 4 
+SpecialStatusID_Link: 
+WORD SpecialStatusID
+
+ALIGN 4 
+ExtendedDestructionEvent: 
+PlaySfx(0xF9);
+NoFade
+ENDA
