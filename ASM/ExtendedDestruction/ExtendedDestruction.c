@@ -2,7 +2,8 @@
 #include "ExtendedDestruction.h"
  
  // skill sys 
-extern int SkillTester(struct Unit* unit, int id); 
+extern int SkillTester(struct BattleUnit* unit, int id); 
+//extern int SkillTester(struct Unit* unit, int id); 
 extern int ExtendedDestructionID_Link;
 extern int SpecialStatusID_Link;
 extern void* ExtendedDestructionEvent;
@@ -52,7 +53,7 @@ u8 ExtendedDestructionMovBuff(u8 stat, struct Unit* unit) {
 
 void ExtendedDestructionAtkBuff(struct BattleUnit* bunitA, struct BattleUnit* bunitB) {
 	if (bunitA->unit->statusIndex == SpecialStatusID_Link) {
-		if (SkillTester(bunitA->unit, ExtendedDestructionID_Link) != 0) {
+		if (SkillTester(bunitA, ExtendedDestructionID_Link) != 0) {
 			bunitA->battleAttack += 5;
 		}
 	}
