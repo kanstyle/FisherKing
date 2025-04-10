@@ -2,6 +2,12 @@
 
 #define ValueToCrit 50 //if crit is equal or greater than this number, crit happens
 
+#define CritDamageMult 2 //crit damage multiplier
+
+ALIGN 4
+CritDamageMult_Link:
+WORD CritDamageMult
+
 ALIGN 4
 ValueToCrit_Link:
 WORD ValueToCrit

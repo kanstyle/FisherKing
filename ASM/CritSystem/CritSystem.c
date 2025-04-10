@@ -40,6 +40,33 @@ int getTotalChange(NewBattleHit* round) {
 	return (round->totalChange);
 }
 
+bool IsFirstCrit(struct BattleUnit* attacker) {
+	struct NewBattleHit* it;
+
+    for (it = NewBattleHitArray; !(it->info & BATTLE_HIT_INFO_END); ++it) {
+		gEventSlots[5] += 0x1;
+		if (attacker == &gBattleActor) {
+			if (isDefenderRound(it) == false) {
+			gEventSlots[2] += 0x1;//if defender, break
+				if (roundCrits(it) == false) {
+					gEventSlots[3] += 0x1;
+					return false;
+				}
+			}
+		}
+		else { //if they aren't gBattleActor
+			if (isDefenderRound(it) == true) {
+			gEventSlots[2] += 0x1;//if defender, break
+				if (roundCrits(it) == false) {
+					gEventSlots[3] += 0x1;
+					return false;
+				}
+			}
+		}
+    }
+	return true;
+}
+
 void BattleGenerateHitAttributes(struct BattleUnit* attacker, struct BattleUnit* defender) {
     short attack, defense;
 
@@ -70,7 +97,7 @@ void BattleGenerateHitAttributes(struct BattleUnit* attacker, struct BattleUnit*
     if (gBattleHitIterator->attributes & BATTLE_HIT_ATTR_GREATSHLD)
         gBattleStats.damage = 0;
 
-    if ((gBattleStats.critRate >= ValueToCrit_Link) && (isFirstCrit(attacker))) {
+    if ((gBattleStats.critRate >= ValueToCrit_Link) && (IsFirstCrit(attacker))) {
         if (BattleCheckSilencer(attacker, defender)) {
             gBattleHitIterator->attributes |= BATTLE_HIT_ATTR_SILENCER;
 
@@ -93,22 +120,6 @@ void BattleGenerateHitAttributes(struct BattleUnit* attacker, struct BattleUnit*
 
     if (gBattleStats.damage != 0)
         attacker->nonZeroDamage = TRUE;
-}
-
-bool IsFirstCrit(struct BattleUnit* attacker) {
-	struct NewBattleHit* it;
-
-    for (it = NewBattleHitArray; !(it->info & BATTLE_HIT_INFO_END); ++it) {
-		gEventSlots[5] += 0x1;
-        if (isDefenderRound(it) == false) {
-			gEventSlots[2] += 0x1;//if defender, break
-			if (roundCrits(it) == false) {
-				gEventSlots[3] += 0x1;
-				return false;
-			}
-		}
-    }
-	return true;
 }
 
 
