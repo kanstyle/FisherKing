@@ -15,7 +15,7 @@ void NewComputeBattleUnitDodgeRate(struct BattleUnit* bu) {
     bu->battleDodgeRate = 0;
 }
 
-void BattleGenerateHitAttributes(struct BattleUnit* attacker, struct BattleUnit* defender) {
+/*void BattleGenerateHitAttributes(struct BattleUnit* attacker, struct BattleUnit* defender) {
     short attack, defense;
 
     gBattleStats.damage = 0;
@@ -68,4 +68,4 @@ void BattleGenerateHitAttributes(struct BattleUnit* attacker, struct BattleUnit*
 
     if (gBattleStats.damage != 0)
         attacker->nonZeroDamage = TRUE;
-}
+}*/

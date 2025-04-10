@@ -26,6 +26,7 @@
 
 #include "RangeCalcLoop/RangeCalcLoop.event"
 
+
 ALIGN 4
 CustomCritBonuses:
 #incbin "CustomCritBonuses.dmp"

@@ -1,0 +1,23 @@
+#include "CritSystem.lyn.event" 
+
+#define ValueToCrit 50 //if crit is equal or greater than this number, crit happens
+
+ALIGN 4
+ValueToCrit_Link:
+WORD ValueToCrit
+
+ALIGN 4
+CustomCritBonuses:
+#incbin "CustomCritBonuses.dmp"
+ALIGN 4
+WORD ValueToCrit
+
+ChangeColorIfFoeCanCrit:
+#incbin "ChangeColorIfFoeCanCrit.dmp"
+ALIGN 4
+WORD ValueToCrit
+
+ChangeColorIfPlayerCanCrit:
+#incbin "ChangeColorIfPlayerCanCrit.dmp"
+ALIGN 4
+WORD ValueToCrit
