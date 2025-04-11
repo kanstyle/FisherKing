@@ -4,6 +4,6 @@
 #include "Palette Definitions.txt"
 #include "Palette Installer.event"
 
-/*// EdgarLord
-	setPalette(0x70,EdgarLord)
-	setCBSP(0x70,Edgar,0x1,0x1)*/
+// BunnyRecruit
+	setPalette(0x6D,BunnyRecruit)
+	setCBSP(0x6D,Bunny,0x1,0x1)

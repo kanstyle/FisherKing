@@ -3,6 +3,6 @@
 
 ALIGN 4
 
-/*EdgarLord:
-	#incbin "./_palettes/EdgarLord.lzpal" */
+BunnyRecruit:
+	#incbin "./_palettes/BunnyRecruit.lzpal" 
 
