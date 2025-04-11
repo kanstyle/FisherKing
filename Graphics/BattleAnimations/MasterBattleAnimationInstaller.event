@@ -17,6 +17,20 @@
 #define UnarmedAnim(Animation) "BYTE Disarmed 0x01 ; SHORT Animation"
 #define SpecialAnim(Animation,Weapon) "BYTE Weapon 0x00 ; SHORT Animation"
 
+#include "Animations/herof_sword Installer.event" //credit to Nuramon
+ALIGN 4
+HeroFAnim:
+SwordAnim(0xCF)
+UnarmedAnim(0xCF)
+WORD 0x0 // Seperator
+
+#include "Animations/herom_bow Installer.event" //credit to Der
+ALIGN 4
+HeroMAnim:
+BowAnim(0xCE)
+UnarmedAnim(0xCE)
+WORD 0x0 // Seperator
+
 #include "Animations/RecruitPonytail/Lance Installer.event"
 ALIGN 4
 BunnyRecruitAnim:
