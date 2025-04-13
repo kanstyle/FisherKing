@@ -1,14 +1,21 @@
 //CHAPTER IDs
 #define BossRush 0
-#define Ch0 1
-#define Ch1 2
+#define Ch0 0x1
+#define Ch1 0x2
 
 //CHAPTER MAP/MAPCHANGES/EVENTS IDs
-#define Ch1MapID 0x4
-#define Ch1MapChangesID 0x6
-#define Ch1EventsID 0x7
+#define BossRushMapID 0x4
+#define BossRushMapChanges 0x6
+
+#define Ch1MapID 0x10
+#define Ch1MapChangesID 0x11
+#define Ch1EventsID 0x12
 
 //TILESET IDs (START FROM 0x88 when replacing stuff)
+#define VanillaFieldsObjectID 0x1
+#define VanillaFieldsPaletteID 0x2
+#define VanillaFieldsConfigID 0x3
+
 #define FlasubanVillageObjectID 0x88
 #define FlasubanVillagePaletteID 0x89
 #define FlasubanVillageConfigID 0x8A

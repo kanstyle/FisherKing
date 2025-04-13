@@ -38,6 +38,7 @@
 #define LowVoice Knight_F
 #define Headsman General_F
 #define BunnyRecruit Cavalier_F
+#define BowArmor Mercenary_F
 #define SigilClass 0x77
 
 // Items

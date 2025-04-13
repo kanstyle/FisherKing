@@ -1,0 +1,91 @@
+EventPointerTable(Ch1EventsID, PointerList)
+
+setText(0x160, NewChName)
+
+ALIGN 4
+NewChName:
+String("Ch. 1: Hero")
+BYTE 0
+
+PointerList:
+	POIN TurnBasedEvents
+	POIN CharacterBasedEvents
+	POIN LocationBasedEvents
+	POIN MiscBasedEvents
+	POIN Dunno1 Dunno2 Dunno3 Tutorial
+	POIN Traps1 Traps2
+	POIN Units1 Units1  //This unit group determines the number and position of deployment slots when there is a prep screen
+	POIN $0 $0 $0
+	POIN $0 $0 $0
+	POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+	TurnEventPlayer(0x0,BleedoutChapterTurnEvent,1,255)
+	END_MAIN
+
+ALIGN 32
+CharacterBasedEvents:
+
+	END_MAIN
+
+MiscBasedEvents:
+	CauseGameOverIfLordDies
+	AFEV BleedoutFlag BleedoutChapterAlwaysEvent 0x0
+	END_MAIN
+
+LocationBasedEvents:
+
+	END_MAIN
+
+Dunno1:
+
+	END_MAIN
+
+Dunno2:
+
+	END_MAIN
+
+Dunno3:
+
+	END_MAIN
+
+Tutorial:
+
+	END_MAIN
+
+Units1:
+
+	UNIT
+
+EnemyUnits:
+
+	UNIT
+
+Traps1:
+	ENDTRAP
+	ALIGN 4
+
+Traps2:
+	ENDTRAP
+	ALIGN 4
+
+BeginningScene:
+	LOAD1 0x1 EnemyUnits
+	ENUN
+	GotoPrepScreen
+	ENDA
+
+EndingScene:
+	MNC2 next_chapter
+	NoFade
+	ENDA
+
+BleedoutChapterAlwaysEvent:
+	ASMC ReviveAndSetPetrify|1
+	NoFade
+	ENDA
+
+BleedoutChapterTurnEvent:
+	CALL BleedoutTurnEvent
+	NoFade
+	ENDA
