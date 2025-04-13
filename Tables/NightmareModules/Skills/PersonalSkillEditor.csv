@@ -1,13 +1,13 @@
 INLINE PersonalSkillTable,Skill
 None,0x0
 Hero,GenderswapID
-Teacher,ExtendedDestructionID
+Teacher,0x0
 Pillow,SummonID
 Dragon,RevolutionID
-Moulder,0x0
-Vanessa,CallPillowID
-Ross,ItFindsYouID
-Neimi,0x0
+Brother,0x0
+Hunter,CallPillowID
+Pigeon,ItFindsYouID
+Bunny,ExtendedDestructionID
 Colm,0x0
 Garcia,0x0
 Innes,0x0
