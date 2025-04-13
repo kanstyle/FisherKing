@@ -192,7 +192,7 @@ ldrsh r1, [r7, r1]
 lsl r2, r1, #1
 cmp r0,#0
 bne StoreDamage
-add r2, r1 @damagex3
+@add r2, r1 @damagex3
 StoreDamage:
 strh r2, [r7, #4] @final damage
 
@@ -213,7 +213,7 @@ End:
 pop {r4-r7}
 pop {r15}
 
-/*IsThisFirstCrit:
+IsThisFirstCrit:
 push	{r4-r7,r14}
 //r4 has current unit we are checking crits for
 //we check if the attacker landed any hits or crits at all
@@ -260,7 +260,7 @@ mov     r0,#0x01
 EndFirstStrikeCheck:
 pop		{r4-r7}
 pop		{r1}
-bx      r1*/
+bx      r1
 
 @.equ ExpertiseID, SkillTester+4
 @.ltorg

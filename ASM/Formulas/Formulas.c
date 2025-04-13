@@ -4,7 +4,7 @@
  // skill sys 
 //extern int SkillTester(struct Unit* unit, int id); 
 
-void ComputeBattleUnitCritRate(struct BattleUnit* bu) {
+void NewComputeBattleUnitCritRate(struct BattleUnit* bu) {
     bu->battleCritRate = GetItemCrit(bu->weapon);
 
     if (UNIT_CATTRIBUTES(&bu->unit) & CA_CRITBONUS)
@@ -13,6 +13,28 @@ void ComputeBattleUnitCritRate(struct BattleUnit* bu) {
 
 void NewComputeBattleUnitDodgeRate(struct BattleUnit* bu) {
     bu->battleDodgeRate = 0;
+}
+
+void NewComputeBattleUnitStatusBonuses(struct BattleUnit* bu) {
+    switch (bu->unit.statusIndex) {
+
+    case UNIT_STATUS_ATTACK:
+        bu->battleAttack += 0;
+        break;
+
+    case UNIT_STATUS_DEFENSE:
+        bu->battleDefense += 10;
+        break;
+
+    case UNIT_STATUS_CRIT:
+        bu->battleCritRate += 10;
+        break;
+
+    case UNIT_STATUS_AVOID:
+        bu->battleAvoidRate += 10;
+        break;
+
+    } // switch (bu->unit.statusIndex)
 }
 
 /*void BattleGenerateHitAttributes(struct BattleUnit* attacker, struct BattleUnit* defender) {

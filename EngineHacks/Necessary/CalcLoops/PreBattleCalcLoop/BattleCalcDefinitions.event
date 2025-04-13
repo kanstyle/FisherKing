@@ -5,8 +5,8 @@
 #define BC_ASpd $2ab74
 #define BC_Hit $2abac
 #define BC_Avo $2abe4
-#define BC_Crit $2ac18
+#define BC_Crit NewComputeBattleUnitCritRate  //$2ac18
 #define BC_Dodge NewComputeBattleUnitDodgeRate
 #define BC_Support $2a9d0
 #define BC_WRank $2ad54
-#define BC_Status $2ad90
+#define BC_Status NewComputeBattleUnitStatusBonuses //$2ad90
