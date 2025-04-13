@@ -1,4 +1,4 @@
-## HeroName
+#0x1000 HeroName
 Hero[X]
 
 ## HeroDesc

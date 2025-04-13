@@ -14,19 +14,6 @@ Learned  [X]
 
 #include "statscreen_text.txt"
 
-#include "DeathQuotesText.txt"
-
-#include "BaseConvoText.txt"
-
-#include "CharClassItemsEtc/CharacterNamesDescs.txt"
-
-#include "CharClassItemsEtc/ClassNamesDescs.txt"
-
-#include "CharClassItemsEtc/ItemNamesDescs.txt"
-
-#include "ChapterText/Ch0.txt"
-#include "ChapterText/Ch3.txt"
-
 #0xd4c LikesText
 //first text ID in the free block
 Likes:[X]
@@ -132,3 +119,16 @@ a skill when used.[X]
 #include "skilldesc_text.txt"
 
 #include "unitinfo_text.txt"
+
+#include "DeathQuotesText.txt"
+
+#include "BaseConvoText.txt"
+
+#include "CharClassItemsEtc/CharacterNamesDescs.txt"
+
+#include "CharClassItemsEtc/ClassNamesDescs.txt"
+
+#include "CharClassItemsEtc/ItemNamesDescs.txt"
+
+#include "ChapterText/Ch0.txt"
+#include "ChapterText/Ch3.txt"
