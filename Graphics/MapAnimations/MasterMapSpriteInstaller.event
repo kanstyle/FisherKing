@@ -36,6 +36,9 @@ MovingMapSprite(SigilClass,NormalAP,SigilMoving)
 StandingMapSprite(0x74,0,BunnyRecruitStanding)
 MovingMapSprite(BunnyRecruit,NormalAP,BunnyRecruitMoving)
 
+StandingMapSprite(0x75,0,BowArmorStanding)
+MovingMapSprite(BowArmor,NormalAP,BowArmorMoving)
+
 /*
 StandingMapSprite(0x0,0,BluEliwoodStanding)
 StandingMapSprite(0x2,1,MasterKnight_Standing)

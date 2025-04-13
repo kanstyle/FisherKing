@@ -3,6 +3,18 @@
 
 ALIGN 4
 
-BunnyRecruit:
-	#incbin "./_palettes/BunnyRecruit.lzpal" 
+BunnyRecruitPal:
+	#incbin "./_palettes/BunnyRecruitPal.lzpal" 
+
+TeacherPal:
+	#incbin "./_palettes/TeacherPal.lzpal" 
+
+HeroFUpstartPal:
+	#incbin "./_palettes/HeroFUpstartPal.lzpal" 
+
+HeroMUpstartPal:
+	#incbin "./_palettes/HeroMUpstartPal.lzpal" 
+
+HunterBowArmorPal:
+	#incbin "./_palettes/HunterBowArmorPal.lzpal" 
 

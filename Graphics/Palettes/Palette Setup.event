@@ -4,6 +4,22 @@
 #include "Palette Definitions.txt"
 #include "Palette Installer.event"
 
-// BunnyRecruit
-	setPalette(0x6D,BunnyRecruit)
-	setCBSP(0x6D,Bunny,0x1,0x1)
+// BunnyRecruitPal
+	setPalette(0x6C,BunnyRecruitPal)
+	setCBSP(0x6C,Bunny,0x1,BunnyRecruit)
+
+// TeacherPal
+	setPalette(0x6D,TeacherPal)
+	setCBSP(0x6D,Teacher,0x1,Paladin)
+
+// HeroFUpstartPal
+	setPalette(0x6E,HeroFUpstartPal)
+	setCBSP(0x6E,HeroChar,0x1,UpstartF)
+
+// HeroMUpstartPal
+	setPalette(0x6F,HeroMUpstartPal)
+	setCBSP(0x6F,HeroChar,0x2,UpstartM)
+
+// HunterBowArmorPal
+	setPalette(0x70,HunterBowArmorPal)
+	setCBSP(0x70,Hunter,0x1,BowArmor)

@@ -1,4 +1,12 @@
 ALIGN 4
+BowArmorMoving:
+#incbin "Dmp/bowarmor-walk.dmp"
+
+ALIGN 4
+BowArmorStanding:
+#incbin "Dmp/bowarmor-stand.dmp"
+
+ALIGN 4
 BunnyRecruitStanding:
 #incbin "Dmp/RecruitPonytail-stand.dmp"
 
