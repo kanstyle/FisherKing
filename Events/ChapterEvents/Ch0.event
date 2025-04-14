@@ -1,4 +1,4 @@
-EventPointerTable(Ch1EventsID, PointerList)
+EventPointerTable(Ch0EventsID, PointerList)
 
 PointerList:
 	POIN TurnBasedEvents
@@ -73,7 +73,7 @@ BeginningScene:
 	ENDA
 
 EndingScene:
-	MNC2 Ch0
+	MNC2 Ch1
 	NoFade
 	ENDA
 

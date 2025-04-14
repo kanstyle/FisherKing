@@ -131,4 +131,5 @@ a skill when used.[X]
 #include "CharClassItemsEtc/ItemNamesDescs.txt"
 
 #include "ChapterText/Ch0.txt"
+#include "ChapterText/Ch1.txt"
 #include "ChapterText/Ch3.txt"

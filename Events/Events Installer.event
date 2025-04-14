@@ -20,7 +20,6 @@ POP
 
 ALIGN 4
 Load2AlwaysTable:
-BYTE KwameReal EliasReal BoroReal TrajanReal//Add units here
 BYTE 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 // separator
 
 
@@ -48,15 +47,3 @@ ALIGN 4
 PrepShop1:
 SHLI IronSword IronAxe IronBow IronLance Fire Thunder Lightning Flux Heal Torch
 BYTE 0x0 0x0
-
-ALIGN 4
-PrepShop2:
-SHLI IronSword IronAxe IronBow IronLance Fire Thunder Lightning Flux Heal Torch SlimArch 
-BYTE 0x0 0x0
-ALIGN 4
-
-ALIGN 4
-PrepShop3:
-SHLI IronSword IronAxe IronBow IronLance Fire Thunder Lightning Flux Heal Torch SlimArch KnightProof
-BYTE 0x0 0x0
-ALIGN 4

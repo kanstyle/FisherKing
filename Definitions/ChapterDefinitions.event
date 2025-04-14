@@ -1,15 +1,18 @@
 //CHAPTER IDs
-#define BossRush 0
-#define Ch0 0x1
-#define Ch1 0x2
+#define Ch0 0x0
+#define Ch1 0x1
 
 //CHAPTER MAP/MAPCHANGES/EVENTS IDs
 #define BossRushMapID 0x4
 #define BossRushMapChanges 0x6
 
-#define Ch1MapID 0x10
-#define Ch1MapChangesID 0x11
-#define Ch1EventsID 0x12
+#define Ch0MapID 0x10
+#define Ch0MapChangesID 0x11
+#define Ch0EventsID 0x12
+
+#define Ch1MapID 0x13
+#define Ch1MapChangesID 0x14
+#define Ch1EventsID 0x15
 
 //TILESET IDs (START FROM 0x88 when replacing stuff)
 #define VanillaFieldsObjectID 0x1
@@ -76,3 +79,7 @@
 
 #define SnowyBernObjectCloudyID 0xB5
 #define SnowyBernConfigCloudyID 0xB6
+
+#define SuperFieldsObjectID 0xB7
+#define SuperFieldsPaletteID 0xB8
+#define SuperFieldsConfigID 0xB9

@@ -1,5 +1,17 @@
 // Jungle Mountainous
     ALIGN 4
+    SuperFieldsObject:
+    #incbin "Dmp/Object/SuperFields.dmp"
+	
+	ALIGN 4
+    SuperFieldsPalette:
+    #incbin "Dmp/Palette/SuperFields_pal.dmp"
+	
+	ALIGN 4
+    SuperFieldsConfig:
+    #incbin "Dmp/Config/SuperFields_comp.dmp"
+	
+	ALIGN 4
     FlasubanVillageObject:
     #incbin "Dmp/Object/FlasubanVillage.dmp"
 
