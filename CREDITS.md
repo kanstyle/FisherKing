@@ -47,3 +47,6 @@ adding yourself!
 - Feier: Mage Slayer, Liquid Ooze 
 - circleseverywhere: Skill Animations
 - tatutachang: Ponytail Recruit map sprite
+- Agro, Blademaster: Bow Armor map sprite
+- Nuramon: Villager battle animation
+- Der: Bandana Archer battle animation
