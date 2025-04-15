@@ -2,8 +2,8 @@
 #include GraphicsDefinitions.event
 #include ChapterDefinitions.event
 #include EventDefinitions.event
+#include MusicDefinitions.event
 
 /*#include MacroDefinitions.event
-#include MusicDefinitions.event
 #include ExtraSkillDefinitions.event
 #include FlagDefinitions.event*/ //should include these probably

@@ -52,3 +52,9 @@ Sigil[X]
 ## SigilClassDesc
 A sigil conjured by Pillow.[N]
 Cannot be attacked.[X]
+
+## NobleClassName
+Noble[X]
+
+## NobleClassDesc
+Placeholder.[X]

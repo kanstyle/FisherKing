@@ -19,3 +19,7 @@
 #define DemonKingAP     $81FD028
 
 #define SigilCard 0x77
+
+//Backgrounds
+#define ButterflyInverted 0x38
+#define FogMountains 0x39

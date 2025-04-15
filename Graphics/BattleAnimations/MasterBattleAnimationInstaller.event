@@ -18,6 +18,15 @@
 #define SpecialAnim(Animation,Weapon) "BYTE Weapon 0x00 ; SHORT Animation"
 
 {
+#include "Animations/EliwoodRepal Installer.event"
+}
+ALIGN 4
+NobleAnim:
+SwordAnim(0xD1)
+UnarmedAnim(0xD1)
+WORD 0x0 // Seperator
+
+{
 #include "Animations/bow_armor installer.event"
 }
 ALIGN 4

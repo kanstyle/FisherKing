@@ -2,7 +2,9 @@
 #define LootOnlyThenEscapeAI [0x6,0x5,0x4,0x0]
 #define StationaryBossAI [0x3, 0x3, 0x0, 0x20]
 #define AttackInPlaceAI [0x3,0x3,0x4,0x0]
-#define RemoveBackground "CALL $9EEC24"
+#define RemoveBackground "FADI 6; CLEAN"
+#define RemoveBackgroundSlow "FADI 3; CLEAN"
+#define SetBackgroundSlow(bgID) "REMOVEPORTRAITS; BACG bgID; FADU 3"
 #define MoveUnit(UnitID, X, Y) "MOVE 0 UnitID [X, Y]; ENUN" // these two are kind of useless but I'm using them anyway
 #define MoveUnitWithSpeed(UnitID, X, Y, Speed) "MOVE Speed UnitID [X, Y]; ENUN"
 #define NormalSpeed 0

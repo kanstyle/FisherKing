@@ -48,10 +48,7 @@ Tutorial:
 
 Units1:
 
-	UNIT Teacher Paladin 0x40 Level(20,Ally,False)     [11,9] 0b 0x0 0x0 0x0 [IronLance, SteelBlade] [0x0,0x0,0x0,0x0]
-	UNIT HeroChar UpstartM 0x40 Level(3,Ally,False)     [9,9] 0b 0x0 0x0 0x0 [IronBow, IronSword, Bomb, Restore] [0x0,0x0,0x0,0x0]
-	UNIT Dragon Headsman 0x40 Level(3,Ally,False)     [10,8] 0b 0x0 0x0 0x0 [IronAxe, Bomb, Vulnerary] [0x0,0x0,0x0,0x0]
-	UNIT Pillow LowVoice 0x40 Level(3,Ally,False)     [11,8] 0b 0x0 0x0 0x0 [Flux] [0x0,0x0,0x0,0x0]
+	UNIT YoungPrince Noble 0x40 Level(1,Ally,False)     [5,13] 0b 0x0 0x0 0x0 [Rapier] [0x0,0x0,0x0,0x0]
 
 EnemyUnits:
 
@@ -66,6 +63,36 @@ Traps2:
 	ALIGN 4
 
 BeginningScene:
+	FadeOutMusic
+	SetBackgroundSlow(ButterflyInverted)
+	STAL 60
+	CenterTextbox(Ch0ButterflyIntro)
+	RemoveBackgroundSlow
+	
+	MusicChange(PMD_MtThunderID)
+	SetBackgroundSlow(FogMountains)
+	STAL 60
+	CenterTextbox(Ch0HighlandsLore)
+	RemoveBackgroundSlow
+	
+	SetBackgroundSlow(Castle_Room)
+	BROWNBOXTEXT Ch0OldPrinceBirthdayBrownBox [8,8]
+	Text(Ch0OldPrinceBirthday)
+	RemoveBackgroundSlow
+	
+	SetBackground(0x35)
+	CenterTextbox(Ch0LowlandLore)
+	RemoveBackgroundSlow
+	
+	FADU 4
+	BROWNBOXTEXT Ch0LowlandBrownBox [8,8]
+	CameraCursorLocation(2,13,60)
+	
+	SetBackground(Fort)
+	Text(Ch0LowlandsArrival)
+	RemoveBackgroundSlow
+	FADU 4
+	
 	LOAD1 0x1 EnemyUnits
 	ENUN
 	LOAD1 0x1 Units1

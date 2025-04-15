@@ -1,4 +1,12 @@
 ALIGN 4
+NobleMoving:
+#incbin "Dmp/Noble-walk.dmp"
+
+ALIGN 4
+NobleStanding:
+#incbin "Dmp/Noble-stand.dmp"
+
+ALIGN 4
 BowArmorMoving:
 #incbin "Dmp/bowarmor-walk.dmp"
 

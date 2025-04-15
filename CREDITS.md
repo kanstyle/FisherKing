@@ -50,3 +50,4 @@ adding yourself!
 - Agro, Blademaster: Bow Armor map sprite
 - Nuramon: Villager battle animation
 - Der: Bandana Archer battle animation
+- Dominus Vobiscum: Noble map sprite

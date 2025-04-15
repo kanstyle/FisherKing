@@ -5,11 +5,11 @@
  </tileset>
  <layer id="1" name="Tile Layer 1" width="15" height="16">
   <properties>
-   <property name="Anims1" value="1"/>
+   <property name="Anims1" value="VanillaFieldsTileAnimationsID"/>
    <property name="Anims2" value="0"/>
-   <property name="ChapterID" value="0"/>
+   <property name="ChapterID" value="Ch0"/>
    <property name="Main" value=""/>
-   <property name="MapChangesID" value="0"/>
+   <property name="MapChangesID" value="Ch0MapChangesID"/>
    <property name="MapID" value="Ch0MapID"/>
    <property name="ObjectType" value="SuperFieldsObjectID"/>
    <property name="PaletteID" value="SuperFieldsPaletteID"/>

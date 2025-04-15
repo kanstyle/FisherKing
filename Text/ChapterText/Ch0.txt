@@ -1,3 +1,6 @@
+## Ch0Title
+The Elder Prince[X]
+
 ## Ch0ButterflyIntro
 
 Imagine a butterfly.[AN]
@@ -9,8 +12,7 @@ black. The Lowlands. A feared place.[AN]
 The butterfly can never see the backs[n]
 of its wings. It can only hear of them,[n]
 think of them, and imagine what they[n]
-are.[AN][X]
-
+are.[A][X]
 
 ## Ch0HighlandsLore
 
@@ -26,8 +28,10 @@ in the east, but we would not yield.[AN]
 I served under our sixth ruler.[n]
 As he neared the end of[n]
 his life, a semblance of peace[n]
-had finally come to us.[AN][X]
+had finally come to us.[A][X]
 
+## Ch0OldPrinceBirthdayBrownBox
+Highland Palace[X]
 
 ## Ch0OldPrinceBirthday
 
@@ -87,45 +91,45 @@ Yes.[....] It's just...[....] weeks.[....][AN]
 I can't imagine my restlessness,[n]
 if it were me.[A]
 
-[mr]
+[mr][ToggleSmile]
 Restless?[....] You?[....] Hahaha![AN]
 
-[ml]
+[ml][ToggleSmile]
 What's so funny?[AN]
 
-[mr]
+[mr][ToggleSmile]
 How long have you served me, fool?[....][n]
 O, Silver General?[....] Thirty years?[AN]
 
-[ml]
+[ml][ToggleSmile]
 Forty, nearly.[....] Since I was a boy.[....] Why?[AN]
 
-[mr]
+[mr][ToggleSmile]
 Why haven't you left me, then, if[n]
 you're so restless?[AN]
 
-[ml]
+[ml][ToggleSmile]
 Why haven't I left you?[....] What's this,[n]
 all of a sudden?[AN]
 Loyalty, milord. I could never desert the[n]
 men.[....] Your son.[....] You.[AN]
 
-[mr]
+[mr][ToggleSmile]
 Heh.[....] That's a coward's answer.[AN]
 
-[ml]
+[ml][ToggleSmile]
 Harsh words![AN]
 
-[mr]
+[mr][ToggleSmile]
 By royal decree, I hereby command you...[n]
 to think on it.[AN]
 Write, even. Start a journal, why don't[n]
 you?[AN]
 
-[ml]
+[ml][ToggleSmile]
 ...I can't tell if I'm meant to laugh or--[AN]
 
-[mr]
+[mr][ToggleSmile]
 I'm serious![....] You have your orders,[n]
 soldier; off to the study with you![AN][CloseSpeechSlow]
 
@@ -133,7 +137,7 @@ soldier; off to the study with you![AN][CloseSpeechSlow]
 Alright, alright![AN]
 
 [mr]
-Wait![Beat] One last order for you.[AN][CloseSpeechSlow]
+Wait![....] One last order for you.[AN][CloseSpeechSlow]
 
 [fl][MoveMidLeft][ml]
 What is it?[AN]
@@ -144,15 +148,18 @@ me to the Lowlands.[....][n]
 I'd like to see them, at the end of my life.[AN]
 
 [ml]
-What?[....] What's to be seen[n]
+What?[....] What's to be seen[N]
 in a place like that?[AN]
 
 [mr]
 I dream about that place.[AN]
-A truth about myself shall be[n]
-revealed, I feel.[A]
-Whatever it is, I want you and my son[n]
+A truth about myself shall be[N]
+revealed, I feel.[AN]
+Whatever it is, I want you and my son[N]
 to see it, too.[A][X]
+
+## Ch0LowlandBrownBox
+Lowlands Edge[X]
 
 
 ## Ch0LowlandLore
@@ -170,7 +177,7 @@ passages to the land of the dead.[AN]
 We knew only that the Lowlands were[n]
 an ancient place, inhabited by things[n]
 seen only in dreams. Fearsome things.[AN]
-And humans were not welcome there.[AN][X]
+And humans were not welcome there.[A][X]
 
 
 ## Ch0LowlandsArrival
@@ -219,7 +226,7 @@ Exactly.[....] And that's why you must go![....][n]
 I won't have you die restless, my friend.[AN]
 I want you to feel how I feel now, when[n]
 the end comes.[AN]
-Let it be the final debt I owe to you.[AN][X]
+Let it be the final debt I owe to you.[A][X]
 
 
 ## Ch0PrinceHeroIntro
@@ -250,4 +257,4 @@ we've still got some peace and quiet.[AN]
 
 [mr]
 Hey![....] You two wanna[n]
-give us a hand?[AN][X]
+give us a hand?[A][X]

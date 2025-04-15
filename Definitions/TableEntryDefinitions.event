@@ -1,3 +1,5 @@
+#define ClassTable NewClassTable
+
 // Mugs
 #define HeroMug 0x2
 #define FHeroMug 0x3
@@ -39,6 +41,7 @@
 #define Headsman General_F
 #define BunnyRecruit Cavalier_F
 #define BowArmor Mercenary_F
+#define Noble 0x76
 #define SigilClass 0x77
 
 // Items

@@ -9,15 +9,15 @@
  <tileset firstgid="1025" source="Tilesets/FlasubanVillage.tsx"/>
  <layer id="1" name="Tile Layer 1" width="20" height="35">
   <properties>
-   <property name="Anims1" value="0"/>
+   <property name="Anims1" value="VanillaFieldsTileAnimationsID"/>
    <property name="Anims2" value="0"/>
-   <property name="ChapterID" value="0"/>
+   <property name="ChapterID" value="BossRush"/>
    <property name="Main" value=""/>
-   <property name="MapChangesID" value="6"/>
-   <property name="MapID" value="4"/>
-   <property name="ObjectType" value="1"/>
-   <property name="PaletteID" value="2"/>
-   <property name="TileConfig" value="3"/>
+   <property name="MapChangesID" value="BossRushMapChanges"/>
+   <property name="MapID" value="BossRushMapID"/>
+   <property name="ObjectType" value="VanillaFieldsObjectID"/>
+   <property name="PaletteID" value="VanillaFieldsPaletteID"/>
+   <property name="TileConfig" value="VanillaFieldsConfigID"/>
   </properties>
   <data encoding="base64" compression="zlib">
    eJx1ls1rlUcUxt+5L6n2A++N1VhtVi2S2BZzaypoNLtajYofuSBou7zaWOyXl5IurKAgBj+iJvgHiEnFtmI16lbERXQhoia31oXQQqmrFto0SStCn4fzDO+5V138mJl3Zp45M+fMmfdoLkn6wZdpklRAEQwnSXIH386i7AYb8G0j2ATKaOdRfoX+ZtALOsEZfJ+hedQ6AdqkWZDmp+A78Bnan4MvpLddJcdQdw/YAs4lpjWG+qsoJ1AOoBxMbQ7X2oUx/agfA8edTlm2xPrWnJVzMOYv1Eso76FsRzmS2p6GnS2jYADcAMvActALxgJsRLk0Z23axPkXwW7ZWpFtL2PsK8H0ToDOYNxHvRnlymC6D8G4oG2NmD87tb1PyMYlqdnxr+yaBlNOkzxC+zWnNS5fxbOgNvW4725836sxC0I2nprTaP+J8h7Kjjq9fmmtwvwL4K72Xz/OswJ8Dd6kH8A8rqm+FlACi53PaHMT6tucRrOzkRonwTp8+x7lD+DvYHOK0lwrvVv0ufMDz+dnjpEf5ifmp5so/5D/V6PskybnfAwq4Ef249tm8AGYBd4G74Db8vFM1HeAxSG7K2d1N0qyKe6z7NrUoU2cPwNcAq1ai/r5NJtzXnoV519ScL6erZimTa2yJ2oUFFv5NBvX5myJ44qKOx9Dn0gnr1zhY5WxEOO/mGa5oCJKuiOsv6v2EqcRfd/o4r5N9323xmzWXbuYZveuXXd6MK09p2h3QbE6pvwx4u583Fe0gXuY43IX+xvd+gXltorGxPMrprX+zOtMShrXpjXjHrs1vii9qL/ezS+mtf4t6tugtHy/3/cF9TOOD9XZ9AD+u5s8fUbrElvb67zv5jWkdg+Ogy43n/niCTSP1MX2Qd1p6h5NrP+Ui/lfUD8NjimW+5RbeL/3BLPzsWLtW43r09ot2tevucyO/Tlrn9N9pWYPmJRmR7A8txT1iWB3ssXBd+k3MJyzHM81Y5u2U/cwqDpN8k1i48sac0brHsG3N6QZsIdr8jtzCs/hBdSHcpaPqk5vPvqrYGFqOSWe1++JvUUxjw2JguLG+7jJ6S3H+JFgb8agfB/HMje85PLUkGKsFSwCbykW+A7Et+InMBCMEfmI+z+QWm5YCA6H2hy3Bn1dYG1quZbv2NUke2+iHpl0+4t2dil/x2890NnJ9cB/TqvevgHZxznjOtfrsOlFncca5XC+9Y9k79xg/mgK5ovpOhsvKzavBHsvRtXH+buUw99Tzi7Lprmh9j2kjZ2h1k7Cd4o+mXR79edA+zj3vtP6B3wUnj5Hz5OQaQw5vzB2uNYUeD2Ylo/vBc/RZczwPD+UNv3fqHzEs2Gcxv+Q6jPuTId0p53t8ZwvS7NB+XNKvulIMvuqz9F9Fpw/Dzr7cpYX/wfxJF4Q

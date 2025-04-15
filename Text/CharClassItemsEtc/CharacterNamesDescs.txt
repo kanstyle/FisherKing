@@ -46,6 +46,18 @@ Bunny[X]
 ## BunnyDesc
 Placeholder.[X]
 
+## YoungPrinceName
+Princeling[X]
+
+## YoungPrinceDesc
+Placeholder.[X]
+
+## SoldierName
+Soldier[X]
+
+## SoldierDesc
+Placeholder.[X]
+
 ## SigilCharName
 Sigil[X]
 

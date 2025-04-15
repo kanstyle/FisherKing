@@ -191,6 +191,10 @@
     EventPointerTable(SunsetTempleObjectID, SunsetTempleObject)
     EventPointerTable(SunsetTemplePaletteID, SunsetTemplePalette)
     EventPointerTable(SunsetTempleConfigID, SunsetTempleConfig)
+	
+	EventPointerTable(SuperFieldsObjectID, SuperFieldsObject)
+    EventPointerTable(SuperFieldsPaletteID, SuperFieldsPalette)
+    EventPointerTable(SuperFieldsConfigID, SuperFieldsConfig)
 
     // Fix mapchip for this tileset
     EventPointerTable(0x6e, MountainousConfig)

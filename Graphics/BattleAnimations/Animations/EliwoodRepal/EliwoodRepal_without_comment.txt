@@ -1,0 +1,248 @@
+/// - Mode 1
+C03
+C07
+1 p- EliwoodRepal_000.png
+2 p- EliwoodRepal_001.png
+2 p- EliwoodRepal_002.png
+6 p- EliwoodRepal_003.png
+C43
+10 p- EliwoodRepal_004.png
+C22
+2 p- EliwoodRepal_005.png
+C04
+C1A
+C20
+1 p- EliwoodRepal_006.png
+C01
+4 p- EliwoodRepal_007.png
+3 p- EliwoodRepal_008.png
+2 p- EliwoodRepal_009.png
+4 p- EliwoodRepal_010.png
+3 p- EliwoodRepal_011.png
+2 p- EliwoodRepal_012.png
+C22
+2 p- EliwoodRepal_013.png
+2 p- EliwoodRepal_014.png
+1 p- EliwoodRepal_015.png
+1 p- EliwoodRepal_016.png
+1 p- EliwoodRepal_017.png
+1 p- EliwoodRepal_018.png
+2 p- EliwoodRepal_019.png
+C25
+1 p- EliwoodRepal_020.png
+2 p- EliwoodRepal_021.png
+2 p- EliwoodRepal_022.png
+C34
+3 p- EliwoodRepal_023.png
+1 p- EliwoodRepal_024.png
+1 p- EliwoodRepal_025.png
+C06
+4 p- EliwoodRepal_026.png
+3 p- EliwoodRepal_027.png
+C0D
+~~~
+/// - Mode 3
+C03
+C07
+1 p- EliwoodRepal_000.png
+2 p- EliwoodRepal_028.png
+2 p- EliwoodRepal_029.png
+2 p- EliwoodRepal_030.png
+2 p- EliwoodRepal_031.png
+10 p- EliwoodRepal_032.png
+2 p- EliwoodRepal_033.png
+2 p- EliwoodRepal_034.png
+2 p- EliwoodRepal_035.png
+2 p- EliwoodRepal_036.png
+2 p- EliwoodRepal_032.png
+C44
+2 p- EliwoodRepal_037.png
+1 p- EliwoodRepal_032.png
+1 p- EliwoodRepal_036.png
+20 p- EliwoodRepal_032.png
+2 p- EliwoodRepal_038.png
+2 p- EliwoodRepal_039.png
+4 p- EliwoodRepal_040.png
+C23
+3 p- EliwoodRepal_041.png
+2 p- EliwoodRepal_042.png
+1 p- EliwoodRepal_043.png
+1 p- EliwoodRepal_044.png
+1 p- EliwoodRepal_045.png
+3 p- EliwoodRepal_046.png
+7 p- EliwoodRepal_047.png
+C23
+2 p- EliwoodRepal_048.png
+2 p- EliwoodRepal_049.png
+6 p- EliwoodRepal_050.png
+5 p- EliwoodRepal_051.png
+4 p- EliwoodRepal_052.png
+3 p- EliwoodRepal_053.png
+24 p- EliwoodRepal_054.png
+C43
+2 p- EliwoodRepal_055.png
+6 p- EliwoodRepal_056.png
+4 p- EliwoodRepal_057.png
+3 p- EliwoodRepal_058.png
+3 p- EliwoodRepal_059.png
+C22
+3 p- EliwoodRepal_005.png
+C04
+C09
+C20
+1 p- EliwoodRepal_006.png
+C01
+5 p- EliwoodRepal_007.png
+3 p- EliwoodRepal_008.png
+3 p- EliwoodRepal_009.png
+4 p- EliwoodRepal_060.png
+C25
+3 p- EliwoodRepal_061.png
+1 p- EliwoodRepal_062.png
+2 p- EliwoodRepal_063.png
+2 p- EliwoodRepal_064.png
+2 p- EliwoodRepal_065.png
+2 p- EliwoodRepal_066.png
+2 p- EliwoodRepal_067.png
+2 p- EliwoodRepal_068.png
+2 p- EliwoodRepal_069.png
+1 p- EliwoodRepal_070.png
+1 p- EliwoodRepal_071.png
+1 p- EliwoodRepal_072.png
+1 p- EliwoodRepal_073.png
+1 p- EliwoodRepal_074.png
+1 p- EliwoodRepal_075.png
+1 p- EliwoodRepal_076.png
+C34
+5 p- EliwoodRepal_077.png
+4 p- EliwoodRepal_078.png
+3 p- EliwoodRepal_079.png
+C25
+2 p- EliwoodRepal_080.png
+2 p- EliwoodRepal_081.png
+2 p- EliwoodRepal_082.png
+5 p- EliwoodRepal_083.png
+4 p- EliwoodRepal_084.png
+C06
+3 p- EliwoodRepal_085.png
+2 p- EliwoodRepal_086.png
+C0D
+~~~
+/// - Mode 5
+C03
+C07
+1 p- EliwoodRepal_000.png
+1 p- EliwoodRepal_028.png
+1 p- EliwoodRepal_029.png
+1 p- EliwoodRepal_030.png
+1 p- EliwoodRepal_031.png
+C05
+1 p- EliwoodRepal_032.png
+C01
+2 p- EliwoodRepal_031.png
+C06
+2 p- EliwoodRepal_030.png
+2 p- EliwoodRepal_029.png
+2 p- EliwoodRepal_028.png
+C0D
+~~~
+/// - Mode 6
+C03
+C07
+1 p- EliwoodRepal_000.png
+1 p- EliwoodRepal_028.png
+1 p- EliwoodRepal_029.png
+1 p- EliwoodRepal_030.png
+1 p- EliwoodRepal_031.png
+1 p- EliwoodRepal_032.png
+2 p- EliwoodRepal_087.png
+3 p- EliwoodRepal_032.png
+1 p- EliwoodRepal_087.png
+2 p- EliwoodRepal_032.png
+3 p- EliwoodRepal_087.png
+2 p- EliwoodRepal_032.png
+2 p- EliwoodRepal_087.png
+C05
+1 p- EliwoodRepal_032.png
+C01
+2 p- EliwoodRepal_031.png
+C06
+2 p- EliwoodRepal_030.png
+2 p- EliwoodRepal_029.png
+2 p- EliwoodRepal_028.png
+C0D
+~~~
+/// - Mode 7
+C02
+1 p- EliwoodRepal_000.png
+C0E
+3 p- EliwoodRepal_088.png
+1 p- EliwoodRepal_089.png
+C01
+3 p- EliwoodRepal_088.png
+C0D
+~~~
+/// - Mode 8
+C02
+1 p- EliwoodRepal_000.png
+C0E
+3 p- EliwoodRepal_088.png
+1 p- EliwoodRepal_089.png
+C01
+3 p- EliwoodRepal_088.png
+C0D
+~~~
+/// - Mode 9
+1 p- EliwoodRepal_000.png
+C01
+~~~
+/// - Mode 10
+1 p- EliwoodRepal_000.png
+C01
+~~~
+/// - Mode 11
+1 p- EliwoodRepal_000.png
+C01
+~~~
+/// - Mode 12
+C03
+C07
+1 p- EliwoodRepal_000.png
+2 p- EliwoodRepal_001.png
+2 p- EliwoodRepal_002.png
+6 p- EliwoodRepal_003.png
+C43
+10 p- EliwoodRepal_004.png
+C22
+2 p- EliwoodRepal_005.png
+C04
+1 p- EliwoodRepal_090.png
+C01
+4 p- EliwoodRepal_091.png
+3 p- EliwoodRepal_092.png
+2 p- EliwoodRepal_093.png
+4 p- EliwoodRepal_094.png
+3 p- EliwoodRepal_011.png
+2 p- EliwoodRepal_012.png
+C22
+2 p- EliwoodRepal_013.png
+2 p- EliwoodRepal_014.png
+1 p- EliwoodRepal_015.png
+1 p- EliwoodRepal_016.png
+1 p- EliwoodRepal_017.png
+1 p- EliwoodRepal_018.png
+2 p- EliwoodRepal_019.png
+C25
+1 p- EliwoodRepal_020.png
+2 p- EliwoodRepal_021.png
+2 p- EliwoodRepal_022.png
+C34
+3 p- EliwoodRepal_023.png
+1 p- EliwoodRepal_024.png
+1 p- EliwoodRepal_025.png
+C06
+4 p- EliwoodRepal_026.png
+3 p- EliwoodRepal_027.png
+C0D
+~~~
+/// - End of animation

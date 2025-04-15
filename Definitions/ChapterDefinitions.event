@@ -1,6 +1,11 @@
 //CHAPTER IDs
 #define Ch0 0x0
 #define Ch1 0x1
+#ifdef USE_TEST_MAP
+	#define BossRush 0x0
+#else
+	#define BossRush 0x3B
+#endif
 
 //CHAPTER MAP/MAPCHANGES/EVENTS IDs
 #define BossRushMapID 0x4
@@ -18,6 +23,7 @@
 #define VanillaFieldsObjectID 0x1
 #define VanillaFieldsPaletteID 0x2
 #define VanillaFieldsConfigID 0x3
+#define VanillaFieldsTileAnimationsID 0x5
 
 #define FlasubanVillageObjectID 0x88
 #define FlasubanVillagePaletteID 0x89
