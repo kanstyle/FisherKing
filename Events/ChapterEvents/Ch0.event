@@ -1,5 +1,19 @@
 EventPointerTable(Ch0EventsID, PointerList)
 
+TutorialEventCompletionFlag := 0x10
+Stage1SoldierBattled := 0x7
+Stage1SoldierBattledLabel := 0x1
+
+Stage2CompleteFlag := 0x11
+Stage2BeganCheckLabel := 0x11
+Stage2StartLabel := 0x2
+
+Stage2SoldierBattled := 0x8
+StageEndLabel := 0x3
+
+TurnOffCompletionFlagAndEndLabel := 0x8
+EndLabel := 0x0
+
 PointerList:
 	POIN TurnBasedEvents
 	POIN CharacterBasedEvents
@@ -24,6 +38,7 @@ CharacterBasedEvents:
 MiscBasedEvents:
 	CauseGameOverIfLordDies
 	AFEV BleedoutFlag BleedoutChapterAlwaysEvent 0x0
+	AFEV TutorialEventCompletionFlag TutorialEvent 0x0
 	END_MAIN
 
 LocationBasedEvents:
@@ -48,11 +63,32 @@ Tutorial:
 
 Units1:
 
-	UNIT YoungPrince Noble 0x40 Level(1,Ally,False)     [5,13] 0b 0x0 0x0 0x0 [Rapier] [0x0,0x0,0x0,0x0]
+	UNIT YoungPrince Noble 0x40 Level(1,Ally,False)     [5,14] 0b 0x0 0x0 0x0 [Rapier] [0x0,0x0,0x0,0x0]
+	
+TeacherUnit:
+	UNIT Teacher Paladin 0x40 Level(20,Ally,False)     [2,13] 0b 0x0 0x1 REDA3R14 [IronLance,SteelBlade] [0x0,0x0,0x0,0x0]
+	
+GreenSoldiers:
+	UNIT 0x81 Fighter 0x40 Level(1,NPC,True)     [6,12] 0b 0x0 0x0 0x0 [IronAxe] DoNothingStationaryAI
+	UNIT 0x82 Mercenary 0x40 Level(1,NPC,True)     [4,12] 0b 0x0 0x0 0x0 [IronSword] DoNothingStationaryAI
+	
+	UNIT 0x80 Warrior 0x40 Level(1,NPC,True)     [5,10] 0b 0x0 0x0 0x0 [SteelAxe,IronBow] DoNothingAI
+	UNIT 0x80 Fighter 0x40 Level(1,NPC,True)     [3,10] 0b 0x0 0x0 0x0 [IronAxe] DoNothingAI
+	UNIT 0x80 Fighter 0x40 Level(1,NPC,True)     [11,10] 0b 0x0 0x0 0x0 [IronAxe] DoNothingAI
+	UNIT 0x80 Sniper 0x40 Level(1,NPC,True)     [1,8] 0b 0x0 0x0 0x0 [SteelBow] DoNothingAI
+	UNIT 0x80 Sniper 0x40 Level(1,NPC,True)     [12,7] 0b 0x0 0x0 0x0 [SteelBow] DoNothingAI
+	UNIT 0x80 Soldier 0x40 Level(1,NPC,True)     [6,9] 0b 0x0 0x0 0x0 [IronLance] DoNothingAI
+	UNIT 0x80 Soldier 0x40 Level(1,NPC,True)     [8,9] 0b 0x0 0x0 0x0 [IronLance] DoNothingAI
+	UNIT 0x80 Knight 0x40 Level(1,NPC,True)     [2,9] 0b 0x0 0x0 0x0 [IronLance] DoNothingAI
+	UNIT 0x80 Knight 0x40 Level(1,NPC,True)     [12,9] 0b 0x0 0x0 0x0 [IronLance] DoNothingAI
+	
+	//UNIT 0x80 Fighter 0x40 Level(1,NPC,True)     [12,9] 0b 0x0 0x0 0x0 [IronLance] DoNothingAI
+	//Young Hero
+	
+OldPrinceUnit:
+	UNIT OldPrince Peer 0x40 Level(1,NPC,True)     [2,13] 0b 0x0 0x0 0x1 REDA4R13 [IronLance] DoNothingAI
 
 EnemyUnits:
-
-	UNIT 0x7F Soldier 0x40 Level(3,Enemy,True)     [5,8] 0b 0x0 0x0 0x0 [IronLance] [0x0,0x3,0x0,0x0]
 
 Traps1:
 	ENDTRAP
@@ -91,16 +127,124 @@ BeginningScene:
 	SetBackground(Fort)
 	Text(Ch0LowlandsArrival)
 	RemoveBackgroundSlow
+	LOAD1 0x1 GreenSoldiers
+	ENUN
 	FADU 4
 	
-	LOAD1 0x1 EnemyUnits
-	ENUN
+	STAL 60
 	LOAD1 0x1 Units1
 	ENUN
+	STAL 15
+	Highlight(YoungPrince,60)
+	Text(Ch0PrinceMonologue)
+	
+	STAL 30
+	LOAD1 0x1 TeacherUnit
+	ENUN
+	STAL 15
+	Highlight(YoungTeacher,60)
+	Text(Ch0TutorialStart)
+	CameraCursorLocation(4,12,60)
+	CUSE 0x81
+	STAL 15
+	CenterTextbox(Ch0TutorialStage1ScrollText)
+	STAL 15
+	MOVE 5 YoungTeacher [3,12]; ENUN
+	UNCM YoungTeacer 0x2
+	STAL 15
+	CenterTextbox(Ch0TutorialStage1FlankingScrollText)
 	ENDA
+	
+TutorialEvent:
+	FlagIsNotSet(Stage1SoldierBattled, Stage1SoldierBattledLabel)
+		Highlight(YoungTeacher,60)
+		Text(Ch0TutorialComeBack) //come back!
+		CAMERA [5,14]
+		SET_ACTIVE 0x0
+		UNCM YoungPrince 0x1
+		MOVE 5 YoungPrince [5,14]
+		UNCR YoungPrince 0x2
+		UNCR YoungPrince 0x1
+		UNCM YoungTeacher 0x2
+		GOTO TurnOffCompletionFlagAndEndLabel
+		
+	LABEL Stage2StartLabel
+	FlagIsNotSet(Stage2CompleteFlag, Stage2BeganCheckLabel)
+		UNCR YoungPrince 0x2 //stage 2 begins
+		SET_ACTIVE 0x0
+		Highlight(YoungTeacher,60)
+		Text(Ch0TutorialStage2)
+		CameraCursorLocation(6,12,60)
+		CUSN 0x81
+		CUSE 0x82
+		STAL 15
+		CenterTextbox(Ch0TutorialStage2ScrollText)
+		SetFlag(Stage2CompleteFlag)
+		GOTO TurnOffCompletionFlagAndEndLabel
+		LABEL Stage2StartLabel
+		
+	FlagIsNotSet(Stage2SoldierBattled, StageEndLabel)
+	FlagIsSet(Stage1SoldierBattled, TurnOffCompletionFlagAndEndLabel)
+		Highlight(YoungTeacher,60)
+		Text(Ch0TutorialComeBack) //come back!
+		CAMERA [5,14]
+		SET_ACTIVE 0x0
+		UNCM YoungPrince 0x1
+		MOVE 5 YoungPrince [5,14]
+		UNCR YoungPrince 0x2
+		UNCR YoungPrince 0x1
+		UNCM YoungTeacher 0x2
+		GOTO TurnOffCompletionFlagAndEndLabel
+		LABEL StageEndLabel
+		
+	FlagIsNotSet(Stage2SoldierBattled, TurnOffCompletionFlagAndEndLabel)
+		UNCR YoungPrince 0x2
+		STAL 45
+		LOAD1 OldPrinceUnit
+		ENUN
+		Highlight(OldPrince,60)
+		Text(Ch0OldPrinceYoungPrinceTalk)
+		CUSA 0x81
+		SetUnitFullHP(0x81)
+		CUSA 0x82
+		SetUnitFullHP(0x82)
+		
+		//set the boys to allies
+		SCOORD sB [5,10]
+		CUSA UnitAtCoordsSlotB
+		SCOORD sB [3,10]
+		CUSA UnitAtCoordsSlotB
+		SCOORD sB [11,10]
+		CUSA UnitAtCoordsSlotB
+		SCOORD sB [1,8]
+		CUSA UnitAtCoordsSlotB
+		SCOORD sB [12,7]
+		CUSA UnitAtCoordsSlotB
+		SCOORD sB [6,9]
+		CUSA UnitAtCoordsSlotB
+		SCOORD sB [8,9]
+		CUSA UnitAtCoordsSlotB
+		SCOORD sB [2,9]
+		CUSA UnitAtCoordsSlotB
+		SCOORD sB [12,9]
+		CUSA UnitAtCoordsSlotB
+		SetFlag(Stage2CompleteFlag)
+		CenterTextbox(Ch0DefendAlertScrollText)
+		
+		GOTO EndLabel
+		LABEL TurnOffCompletionFlagAndEndLabel
+		UnsetFlag(TutorialEventCompletionFlag)
+		
+		LABEL EndLabel
+
+//Add a bleedout tutorial where a soldier eats some bad food and dies, and needs to be Restored by a priest
 
 EndingScene:
+	DISA YoungTeacher
+	DISA YoungPrince
+	
 	MNC2 Ch1
+	
 	NoFade
 	ENDA
 

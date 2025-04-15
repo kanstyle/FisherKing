@@ -10,6 +10,9 @@ Teacher[X]
 ## TeacherDesc
 Placeholder.[X]
 
+## YoungTeacherDesc
+Placeholder.[X]
+
 ## DragonName
 Dragon[X]
 
@@ -56,6 +59,18 @@ Placeholder.[X]
 Soldier[X]
 
 ## SoldierDesc
+Placeholder.[X]
+
+## OldPrinceName
+Elder Prince[X]
+
+## OldPrinceDesc
+Placeholder.[X]
+
+## YoungTeacherName
+Teacher[X]
+
+## YoungTeacherDesc
 Placeholder.[X]
 
 ## SigilCharName

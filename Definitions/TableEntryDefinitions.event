@@ -43,6 +43,7 @@
 #define BowArmor Mercenary_F
 #define Noble 0x76
 #define SigilClass 0x77
+#define Peer 0x73
 
 // Items
 #define LowTalon PoisonSword
@@ -59,9 +60,6 @@
 #define PowderKeg 0xC8
 #define RedHornet 0xC9
 #define GoldHornet 0xD0
-
-//Flags
-#define HeroGenderswapFlag 0x28
 
 //Statuses
 #define SpecialStatusID 5

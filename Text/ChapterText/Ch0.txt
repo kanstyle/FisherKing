@@ -1,5 +1,5 @@
 ## Ch0Title
-The Elder Prince[X]
+Prologue: The Elder Prince[X]
 
 ## Ch0ButterflyIntro
 
@@ -227,6 +227,70 @@ I won't have you die restless, my friend.[AN]
 I want you to feel how I feel now, when[n]
 the end comes.[AN]
 Let it be the final debt I owe to you.[A][X]
+
+## Ch0PrinceMonologue
+
+[mr][LoadYoungPrince]
+Placeholder.[A][X]
+
+## Ch0TutorialStart
+
+[ml][LoadYoungPrince]
+[mr][LoadYoungTeacher]
+Tutorial start.[A][X]
+
+## Ch0TutorialStage1ScrollText
+
+Stage 1 tutorial placeholder.[A][X]
+
+## Ch0TutorialStage1FlankingScrollText
+
+Stage 1 tutorial placeholder.[A][X]
+
+## Ch0TutorialComeBack
+
+[mr][LoadYoungTeacher]
+What're you doing?[A][X]
+
+## Ch0TutorialStage2
+
+[mr][LoadYoungTeacher]
+Continue tutorial.[A][X]
+
+## Ch0TutorialStage2ScrollText
+
+Stage 2 tutorial placeholder.[A][X]
+
+## Ch0TutorialStage3
+
+[mr][LoadYoungTeacher]
+Tutorial stage 3.[A][X]
+
+## Ch0TutorialStage3ComeBack
+
+[mr][LoadYoungTeacher]
+Tutorial stage 3[N]
+come back.[A][X]
+
+## Ch0TutorialStage3ScrollText
+
+Stage 3 tutorial placeholder.[A][X]
+
+## Ch0OldPrinceYoungPrinceTalk
+
+[mr][LoadYoungPrince]
+[ml][LoadOldPrince]
+Placeholder.[A][X]
+
+## Ch0DefendAlertScrollText
+
+The Lowland beasts will arrive
+next turn. Position your troops well
+to weather the assault.[A][X]
+
+
+
+
 
 
 ## Ch0PrinceHeroIntro

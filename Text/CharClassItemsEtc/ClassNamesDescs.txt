@@ -58,3 +58,9 @@ Noble[X]
 
 ## NobleClassDesc
 Placeholder.[X]
+
+## PeerClassName
+Prince[X]
+
+## PeerClassDesc
+Placeholder.[X]
