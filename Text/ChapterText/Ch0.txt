@@ -290,9 +290,6 @@ to weather the assault.[A][X]
 
 
 
-
-
-
 ## Ch0PrinceHeroIntro
 
 [ml][LoadYoungHero]

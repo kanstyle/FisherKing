@@ -6,3 +6,12 @@
 //AI
 
 #define DoNothingStationaryAI [0x6,0x3,0x4,0x20]
+
+
+//UNCM
+
+#define Hide 0x1
+#define AlreadyMoved 0x2
+#define Dead 0x4
+#define NotDeployed 0x8
+#define Cantoing 0x40

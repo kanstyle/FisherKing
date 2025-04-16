@@ -22,6 +22,8 @@
     #include "EngineHacks/_MasterHackInstaller.event"
     MESSAGE Used hax space ends at currentOffset
 
+	//ASM
+	#include "ASM/MasterASMInstaller.event"
 	
     //Events
 	#ifdef USE_TEST_MAP
@@ -34,9 +36,6 @@
 	
 	//Graphics
 	#include "Graphics/MasterGraphicsInstaller.event"
-	
-	//ASM
-	#include "ASM/MasterASMInstaller.event"
 
     //Maps
     #include "Maps/MasterMapInstaller.event"

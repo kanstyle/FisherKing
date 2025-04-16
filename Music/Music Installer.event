@@ -60,8 +60,6 @@ SongTable(FF6AwakeningID,FF6Awakening,MapMusicGroup)
 SongTable(FF4RedWingsID,RedWings,MapMusicGroup)
 #include "MusicEvents/Final Fantasy Tactics - Anxiety (Alusq).event"
 SongTable(FFTAnxiety,FFT_Anxiety,MapMusicGroup)
-#include "MusicEvents/Lagoon - Battle with Thimale (RandomWizard).event"
-SongTable(BattleWithThimale,Battle_With_Thimale,MapMusicGroup)
 #include "MusicEvents/Ogre Battle 64 - Wall of Defense (Alusq).event"
 SongTable(WallOfDefense,obwalltest,MapMusicGroup)
 #include "MusicEvents/Romancing Saga - Battle 1 {DrGreen3339, Leche}.event"

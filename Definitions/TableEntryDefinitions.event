@@ -31,7 +31,7 @@
 #define Bunny 0x8
 #define YoungPrince 0x20
 #define YoungTeacher 0x21
-#define OldPrince 0x22
+#define OldPrince 0x22 
 #define Sigil 0x3B
 
 // Classes

@@ -13,6 +13,7 @@
 #include "SupportSixGaleforceMove/Installer.event"
 #include "EmotionBubble/Show_map_emotion_Install.event"
 #include "ExtendedDestruction/Installer.event"
+#include "ASMCCheckSuite/ASMC Check Installer.event"
 //#include "CritSystem/Installer.event"
 
 //#include "CBaseConvos/BaseConvos.event" //credit to snek
